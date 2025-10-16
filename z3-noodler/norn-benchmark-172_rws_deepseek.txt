@@ -1,0 +1,52 @@
+(define-fun param_delim () String
+    "&")
+  (define-fun path_delim () String
+    "/")
+  (define-fun port () String
+    "a")
+  (define-fun host_port () String
+    "\u{0}")
+  (define-fun host () String
+    "\u{0}")
+  (define-fun full_url () String
+    "https://example.com:8080/api/users?name=john&age=30")
+  (define-fun query_delim () String
+    "?")
+  (define-fun first_path_seg () String
+    "")
+  (define-fun query () String
+    "a")
+  (define-fun port_delim () String
+    ":")
+  (define-fun path () String
+    "")
+  (define-fun protocol () String
+    "ftp")
+  (define-fun protocol_delim () String
+    "://")
+  (define-fun path_query () String
+    "")
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "https://example.com:8080/api/users?name=john&age=30")
+              (= x!1 "://"))
+      true
+    (ite (and (= x!0 "\u{0}") (= x!1 ".")) true
+      false)))
+  (define-fun str.prefixof ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun str.len ((x!0 String)) Int
+    (ite (= x!0 "") (- 14136)
+    (ite (= x!0 "a") 0
+      6)))
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    "\u{0}")
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")

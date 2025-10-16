@@ -1,0 +1,24 @@
+(define-fun field3_2 () String
+    "\u{0}")
+  (define-fun field3_1 () String
+    "\u{0}")
+  (define-fun id3 () String
+    "\u{0}")
+  (define-fun amount2 () String
+    "0")
+  (define-fun csv_line2 () String
+    "a")
+  (define-fun id2 () String
+    "\u{0}")
+  (define-fun csv_line3 () String
+    "a")
+  (define-fun amount1 () String
+    "0")
+  (define-fun rest2 () String
+    "")
+  (define-fun id1 () String
+    "\u{0}")
+  (define-fun csv_line1 () String
+    "a")
+  (define-fun rest1 () String
+    "")

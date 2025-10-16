@@ -1,0 +1,9 @@
+; cardinality of var3939 is 1
+; rep: (as @var3939_0 var3939)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3939_getVersion/530152056 () String "")

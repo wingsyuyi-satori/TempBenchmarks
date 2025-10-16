@@ -1,0 +1,10 @@
+(define-fun s () String
+    "aaaaaaaaaaa")
+  (define-fun p () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun s_part1 () String
+    "")
+  (define-fun s_part0 () String
+    "")
+  (define-fun s_rest () String
+    "")

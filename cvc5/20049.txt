@@ -1,0 +1,20 @@
+; cardinality of var1017 is 2
+; rep: (as @var1017_0 var1017)
+; rep: (as @var1017_1 var1017)
+; cardinality of var1839 is 1
+; rep: (as @var1839_0 var1839)
+; cardinality of var3598 is 1
+; rep: (as @var3598_0 var3598)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun put/-1127386829 ((BOUND_VARIABLE_690 var1017) (BOUND_VARIABLE_691 var3598) (BOUND_VARIABLE_692 var3598)) var3598 (as @var3598_0 var3598))
+(define-fun cast-from-String-to-var3598 ((BOUND_VARIABLE_695 String)) var3598 (as @var3598_0 var3598))
+(define-fun cast-from-var3598-to-String ((BOUND_VARIABLE_698 var3598)) String "")
+(define-fun null-var1017 () var1017 (as @var1017_0 var1017))
+(define-fun null-String () String "A")
+(define-fun var2918 () var1017 (as @var1017_1 var1017))
+(define-fun var2380 () String "")

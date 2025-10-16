@@ -1,0 +1,72 @@
+(define-fun colon () String
+    ":")
+  (define-fun expected_sig_part1 () String
+    (split_at secret "_" 0))
+  (define-fun api_key_part2 () String
+    (split_at (split_rest api_key ":" 1) ":" 0))
+  (define-fun comma () String
+    ",")
+  (define-fun api_key_sec1 () String
+    (split_at api_key "_" 0))
+  (define-fun api_key_part1 () String
+    (split_at api_key ":" 0))
+  (define-fun jwt_header () String
+    (split_at jwt "." 0))
+  (define-fun secret_part2 () String
+    (split_rest secret ":" 1))
+  (define-fun auth_type () String
+    (split_at auth_header " " 0))
+  (define-fun api_key () String
+    "\u{0}")
+  (define-fun auth_token () String
+    (split_rest auth_header " " 1))
+  (define-fun dot () String
+    ".")
+  (define-fun expected_sig_part2 () String
+    (split_rest secret "_" 1))
+  (define-fun sig_component1 () String
+    (split_at (split_rest (split_rest jwt "." 1) "." 1) "-" 0))
+  (define-fun jwt_signature () String
+    (split_rest (split_rest jwt "." 1) "." 1))
+  (define-fun secret_part1 () String
+    (split_at secret ":" 0))
+  (define-fun jwt_payload () String
+    (split_at (split_rest jwt "." 1) "." 0))
+  (define-fun api_key_sec2 () String
+    (split_at (split_rest api_key "_" 1) "_" 0))
+  (define-fun jwt () String
+    "a")
+  (define-fun payload_segment1 () String
+    (split_at (split_at (split_rest jwt "." 1) "." 0) "_" 0))
+  (define-fun space () String
+    " ")
+  (define-fun underscore () String
+    "_")
+  (define-fun api_key_comp1 () String
+    (split_at api_key "-" 0))
+  (define-fun dash () String
+    "-")
+  (define-fun sig_component2 () String
+    (split_rest (split_rest (split_rest jwt "." 1) "." 1) "-" 1))
+  (define-fun api_key_sec3 () String
+    (split_at (split_rest (split_rest api_key "_" 1) "_" 1) "_" 0))
+  (define-fun expected_sig () String
+    (str.++ (split_at jwt "." 0)
+        "."
+        (split_at (split_rest jwt "." 1) "." 0)
+        (split_at secret "_" 0)
+        (split_rest secret "_" 1)))
+  (define-fun secret () String
+    "aaaaaaaaaaaaaaaa")
+  (define-fun payload_segment2 () String
+    (split_rest (split_at (split_rest jwt "." 1) "." 0) "_" 1))
+  (define-fun api_key_comp3 () String
+    (split_rest (split_rest api_key "-" 1) "-" 1))
+  (define-fun api_key_comp2 () String
+    (split_at (split_rest api_key "-" 1) "-" 0))
+  (define-fun header_payload () String
+    (str.++ (split_at jwt "." 0) "." (split_at (split_rest jwt "." 1) "." 0)))
+  (define-fun api_key_sec4 () String
+    (split_rest (split_rest (split_rest api_key "_" 1) "_" 1) "_" 1))
+  (define-fun auth_header () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}Bearer ")

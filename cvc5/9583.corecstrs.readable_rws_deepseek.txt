@@ -1,0 +1,7 @@
+(define-fun csv_row () String "AAAAA")
+(define-fun tsv_row () String "AAAAA")
+(define-fun pipe_row () String "AAAAA")
+(define-fun csv_field1 () String "AAAAA")
+(define-fun csv_field2 () String "0")
+(define-fun csv_field3 () String "")
+(define-fun tsv_last_field () String "")

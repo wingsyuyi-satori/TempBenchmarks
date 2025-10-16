@@ -1,0 +1,5 @@
+(define-fun e () String "@")
+(define-fun lp () String "")
+(define-fun dp () String "")
+(define-fun subdomain () String "@")
+(define-fun main_domain () String "@")

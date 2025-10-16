@@ -1,0 +1,7 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_47381 () String "")
+(define-fun input_parts () (Array Int String) (store (store ((as const (Array Int String)) "") 0 "/:") 1 ";"))
+(define-fun protocol () String "http")
+(define-fun path () String "A")
+(define-fun path_segments () (Array Int String) (store (store ((as const (Array Int String)) "A") 0 "file:") 1 "com"))
+(define-fun params () (Array Int String) (store (store ((as const (Array Int String)) "B") 0 "AAAAAAAAAAAA=") 1 ""))

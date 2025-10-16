@@ -1,0 +1,27 @@
+; cardinality of var2539 is 2
+; rep: (as @var2539_0 var2539)
+; rep: (as @var2539_1 var2539)
+; cardinality of var318 is 2
+; rep: (as @var318_0 var318)
+; rep: (as @var318_1 var318)
+; cardinality of var127 is 1
+; rep: (as @var127_0 var127)
+; cardinality of var105 is 1
+; rep: (as @var105_0 var105)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun this$0/1762336425 ((BOUND_VARIABLE_629 var2539)) var127 (as @var127_0 var127))
+(define-fun getText/-791554220 ((BOUND_VARIABLE_632 var127) (BOUND_VARIABLE_633 var318)) String "")
+(define-fun doc/-1930180878 ((BOUND_VARIABLE_636 var127)) var105 (as @var105_0 var105))
+(define-fun getLineHeight/1985812787 ((BOUND_VARIABLE_639 var105)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun nodeHeightPaddingAbove/-1930180878 ((BOUND_VARIABLE_643 var127)) Int 0)
+(define-fun cast-from-Int-to-Float64 ((BOUND_VARIABLE_646 Int)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun nodeHeightPaddingBelow/-1930180878 ((BOUND_VARIABLE_649 var127)) Int 0)
+(define-fun null-var2539 () var2539 (as @var2539_0 var2539))
+(define-fun null-var318 () var318 (as @var318_0 var318))
+(define-fun var1488 () var2539 (as @var2539_1 var2539))
+(define-fun var151 () var318 (as @var318_1 var318))

@@ -1,0 +1,7 @@
+(define-fun data_row () String ",")
+(define-fun delimiter () String ",")
+(define-fun num_fields () Int 5)
+(define-fun id_field () String "0")
+(define-fun date_field () String "AAAA-AA-BA")
+(define-fun amount_field () String "")
+(define-fun last_field () String ",")

@@ -1,0 +1,3 @@
+(define-fun jwt () String ".")
+(define-fun api_key () String ".")
+(define-fun secret () String "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")

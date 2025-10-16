@@ -1,0 +1,5 @@
+(define-fun csv_comma () String "AAAAA")
+(define-fun csv_tab () String "AAAAA")
+(define-fun csv_pipe () String "AAAAA")
+(define-fun escaped_line () String "\u{5c}""")
+(define-fun mixed_line () String ",")

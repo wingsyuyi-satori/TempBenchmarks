@@ -1,0 +1,14 @@
+; cardinality of var1300 is 3
+; rep: (as @var1300_0 var1300)
+; rep: (as @var1300_1 var1300)
+; rep: (as @var1300_2 var1300)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun surfaceForm/46288021 ((BOUND_VARIABLE_542 var1300)) String "")
+(define-fun null-var1300 () var1300 (as @var1300_0 var1300))
+(define-fun var319 () var1300 (as @var1300_1 var1300))
+(define-fun var3702 () var1300 (as @var1300_2 var1300))

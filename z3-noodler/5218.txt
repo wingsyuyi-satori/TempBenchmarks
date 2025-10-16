@@ -1,0 +1,88 @@
+;; universe for var292:
+  ;;   var292!val!0 var292!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var292!val!0 () var292)
+  (declare-fun var292!val!1 () var292)
+  ;; cardinality constraint:
+  (forall ((x var292)) (or (= x var292!val!0) (= x var292!val!1)))
+  ;; -----------
+  (define-fun var2722 () String
+    (let ((a!1 (and (> (- 1) 0)
+                (= 0 (- (- 1) 1))
+                (>= (num_splits (var130_getSieves/-107895238 var2909)
+                                (var130_getCurrentSieveForTrain/-1427544085
+                                  var2909))
+                    (- 1)))))
+(let ((a!2 (trim-left (ite a!1
+                           (split_rest (var130_getSieves/-107895238 var2909)
+                                       (var130_getCurrentSieveForTrain/-1427544085
+                                         var2909)
+                                       (- (- 1) 1))
+                           (split_at (var130_getSieves/-107895238 var2909)
+                                     (var130_getCurrentSieveForTrain/-1427544085
+                                       var2909)
+                                     0)))))
+  (trim-right a!2))))
+  (define-fun var3817 () Int
+    (let ((a!1 (and (> (- 1) 0)
+                (= 0 (- (- 1) 1))
+                (>= (num_splits (var130_getSieves/-107895238 var2909)
+                                (var130_getCurrentSieveForTrain/-1427544085
+                                  var2909))
+                    (- 1)))))
+(let ((a!2 (trim-left (ite a!1
+                           (split_rest (var130_getSieves/-107895238 var2909)
+                                       (var130_getCurrentSieveForTrain/-1427544085
+                                         var2909)
+                                       (- (- 1) 1))
+                           (split_at (var130_getSieves/-107895238 var2909)
+                                     (var130_getCurrentSieveForTrain/-1427544085
+                                       var2909)
+                                     0)))))
+(let ((a!3 (ite (< (num_splits (trim-right a!2) ",\s*") (- 1))
+                (num_splits (trim-right a!2) ",\s*")
+                (- 1))))
+  (ite (> (- 1) 0) a!3 (num_splits (trim-right a!2) ",\s*"))))))
+  (define-fun var966 () String
+    (let ((a!1 (and (> (- 1) 0)
+                (= 0 (- (- 1) 1))
+                (>= (num_splits (var130_getSieves/-107895238 var2909)
+                                (var130_getCurrentSieveForTrain/-1427544085
+                                  var2909))
+                    (- 1)))))
+  (ite a!1
+       (split_rest (var130_getSieves/-107895238 var2909)
+                   (var130_getCurrentSieveForTrain/-1427544085 var2909)
+                   (- (- 1) 1))
+       (split_at (var130_getSieves/-107895238 var2909)
+                 (var130_getCurrentSieveForTrain/-1427544085 var2909)
+                 0))))
+  (define-fun null-var292 () var292
+    var292!val!1)
+  (define-fun var2909 () var292
+    var292!val!0)
+  (define-fun var1642 () String
+    (var130_getCurrentSieveForTrain/-1427544085 var2909))
+  (define-fun var1452 () String
+    (var130_getSieves/-107895238 var2909))
+  (define-fun var1073 () (Array Int String)
+    var1817)
+  (define-fun var1308 () var3722
+    var3722-init)
+  (define-fun null-String () String
+    "\u{0}")
+  (define-fun var386 () Int
+    0)
+  (define-fun var3722-init () var3722
+    var3722!val!0)
+  (define-fun var1308!1 () var3722
+    var3722!val!0)
+  (define-fun var1817 () (Array Int String)
+    ((as const (Array Int String)) ""))
+  (define-fun var130_getCurrentSieveForTrain/-1427544085 ((x!0 var292)) String
+    "")
+  (define-fun var130_getSieves/-107895238 ((x!0 var292)) String
+    "")
+  (define-fun <init>/-325640736 ((x!0 var3722)) void
+    void!val!0)

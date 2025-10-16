@@ -1,0 +1,3 @@
+(define-fun x () String "vvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLww")
+(define-fun y () String "A")
+(define-fun num_0_6442 () Int 2)

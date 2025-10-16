@@ -1,0 +1,6 @@
+(define-fun s3 () String
+    "\u{0}\u{0}\u{0}\u{0}")
+  (define-fun s1 () String
+    "")
+  (define-fun s2 () String
+    "\u{0}\u{0}\u{0}\u{0}")

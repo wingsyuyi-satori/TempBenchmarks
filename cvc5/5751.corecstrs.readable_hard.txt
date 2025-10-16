@@ -1,0 +1,7 @@
+(define-fun T_1 () Bool false)
+(define-fun T_2 () Bool true)
+(define-fun T_3 () Bool false)
+(define-fun T_4 () Bool true)
+(define-fun var_0xINPUT_118656 () String "A")
+(define-fun part_0_1685 () String "c")
+(define-fun num_0_7112 () Int 2)

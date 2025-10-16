@@ -1,0 +1,18 @@
+(define-fun jwt_header () String
+    (split_at jwt "." 0))
+  (define-fun jwt_payload () String
+    (split_at jwt "." 1))
+  (define-fun apikey_rest () String
+    (split_rest apikey "-" 1))
+  (define-fun jwt () String
+    "a")
+  (define-fun apikey_prefix () String
+    (split_at apikey "-" 0))
+  (define-fun apikey_user () String
+    (split_at (split_rest apikey "-" 1) ":" 0))
+  (define-fun apikey () String
+    "a")
+  (define-fun apikey_signature () String
+    (split_at (split_rest apikey "-" 1) ":" 1))
+  (define-fun jwt_signature () String
+    (split_at jwt "." 2))

@@ -1,0 +1,15 @@
+; cardinality of var2706 is 1
+; rep: (as @var2706_0 var2706)
+; cardinality of var223 is 1
+; rep: (as @var223_0 var223)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var223_slurpFile/458402865 ((BOUND_VARIABLE_659 String)) String "")
+(define-fun arr-__Array__Int__Float64__-init () (Array Int (Array Int (_ FloatingPoint 11 53))) ((as const (Array Int (Array Int (_ FloatingPoint 11 53)))) ((as const (Array Int (_ FloatingPoint 11 53))) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))))
+(define-fun getLength-Arr-Float64-2 ((_arg_1 (Array Int (Array Int (_ FloatingPoint 11 53))))) Int 0)
+(define-fun null-String () String "A")
+(define-fun var3162 () String "")

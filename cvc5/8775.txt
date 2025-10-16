@@ -1,0 +1,41 @@
+; cardinality of var3173 is 2
+; rep: (as @var3173_0 var3173)
+; rep: (as @var3173_1 var3173)
+; cardinality of var3355 is 1
+; rep: (as @var3355_0 var3355)
+; cardinality of var1425 is 2
+; rep: (as @var1425_0 var1425)
+; rep: (as @var1425_1 var1425)
+; cardinality of var1376 is 1
+; rep: (as @var1376_0 var1376)
+; cardinality of var1468 is 1
+; rep: (as @var1468_0 var1468)
+; cardinality of var335 is 1
+; rep: (as @var335_0 var335)
+; cardinality of var3950 is 1
+; rep: (as @var3950_0 var3950)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-Int-init () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun var1376-init () var1376 (as @var1376_0 var1376))
+(define-fun <init>/-55681307 ((BOUND_VARIABLE_859 var1376) (BOUND_VARIABLE_860 (Array Int Int)) (BOUND_VARIABLE_861 Int)) void (as @void_0 void))
+(define-fun var1425_write/-459365051 ((BOUND_VARIABLE_864 var1425) (BOUND_VARIABLE_865 var1376)) void (as @void_0 void))
+(define-fun var3173_hasEntryCaseInsensitive/-240204854 ((_arg_1 var3173) (_arg_2 String)) Bool false)
+(define-fun getWriteIndex/-178493442 ((BOUND_VARIABLE_868 var1376)) Int 0)
+(define-fun var335_bootstrap$/-1224113051 ((BOUND_VARIABLE_871 (Array Int Int))) var1468 (as @var1468_0 var1468))
+(define-fun var3173_createDocument/-450016166 ((BOUND_VARIABLE_874 var3173) (BOUND_VARIABLE_875 String) (BOUND_VARIABLE_876 Int) (BOUND_VARIABLE_877 var1468)) var3950 (as @var3950_0 var3950))
+(define-fun null-var3173 () var3173 (as @var3173_0 var3173))
+(define-fun null-String () String "A")
+(define-fun null-var1425 () var1425 (as @var1425_0 var1425))
+(define-fun var1404 () var3173 (as @var3173_1 var3173))
+(define-fun var1012 () String "")
+(define-fun var1827 () var1425 (as @var1425_1 var1425))
+(define-fun var740!1 () var1376 (as @var1376_0 var1376))
+(define-fun var2635!1 () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun var543 () Int 0)
+(define-fun var1827!1 () var1425 (as @var1425_0 var1425))
+(define-fun var740!2 () var1376 (as @var1376_0 var1376))

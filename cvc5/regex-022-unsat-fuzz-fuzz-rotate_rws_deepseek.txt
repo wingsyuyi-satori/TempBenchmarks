@@ -1,0 +1,6 @@
+(define-fun email () String "")
+(define-fun local () String "@")
+(define-fun domain () String ".")
+(define-fun domain_seg1 () String "@")
+(define-fun domain_seg2 () String "@")
+(define-fun last_dot_pos () Int (- 1))

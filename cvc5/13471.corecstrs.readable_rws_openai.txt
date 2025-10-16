@@ -1,0 +1,5 @@
+(define-fun config_line () String "user:admin")
+(define-fun section_header () String "[main]")
+(define-fun key () String "AAAAAAAA")
+(define-fun value () String "=")
+(define-fun section_name () String "main")

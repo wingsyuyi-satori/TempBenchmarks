@@ -1,0 +1,2 @@
+(define-fun log_entry () String "2024-06-22 15:47:03 | [INFO] Application started")
+(define-fun log_entry_badlevel () String "2024-06-22 15:47:03 | [TRACE] Something happened")

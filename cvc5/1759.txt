@@ -1,0 +1,12 @@
+; cardinality of var3350 is 1
+; rep: (as @var3350_0 var3350)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-String-init () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun arr-Int-init () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun null-String () String "A")
+(define-fun var717 () String "")

@@ -1,0 +1,6 @@
+(define-fun conf_line () String "username=admin")
+(define-fun section_line () String "[Network]")
+(define-fun conf_colon () String "path:/usr/bin")
+(define-fun ini_file () String "[User]\u{5c}nname=alice\u{5c}nrole=admin")
+(define-fun bad_section () String "[]")
+(define-fun bad_kv () String "port=")

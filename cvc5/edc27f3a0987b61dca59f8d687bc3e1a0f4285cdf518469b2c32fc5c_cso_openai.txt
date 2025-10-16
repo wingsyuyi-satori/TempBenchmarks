@@ -1,0 +1,7 @@
+(define-fun key2 () String "cache-control")
+(define-fun value2 () String "\u{b}\u{9}")
+(define-fun header () String "")
+(define-fun field1 () String "AAAAAAAAAAAAAA\u{b}\u{9}")
+(define-fun rest_fields () String "A")
+(define-fun rest1_first () String "AAAAAAAAAAAAAA\u{b}\u{9}")
+(define-fun rest1_rest () String "\u{b}\u{9}")

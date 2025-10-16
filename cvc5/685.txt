@@ -1,0 +1,40 @@
+; cardinality of var1897 is 2
+; rep: (as @var1897_0 var1897)
+; rep: (as @var1897_1 var1897)
+; cardinality of var2730 is 1
+; rep: (as @var2730_0 var2730)
+; cardinality of var2615 is 1
+; rep: (as @var2615_0 var2615)
+; cardinality of var3458 is 1
+; rep: (as @var3458_0 var3458)
+; cardinality of var1560 is 1
+; rep: (as @var1560_0 var1560)
+; cardinality of var3151 is 1
+; rep: (as @var3151_0 var3151)
+; cardinality of var1476 is 1
+; rep: (as @var1476_0 var1476)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1476!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var2615-init () var2615 (as @var2615_0 var2615))
+(define-fun <init>/-325640736 ((BOUND_VARIABLE_730 var2615)) void (as @void_0 void))
+(define-fun flags/769901519 ((BOUND_VARIABLE_733 var1897)) var3458 (as @var3458_0 var3458))
+(define-fun backgroundSymbol/-179725236 ((BOUND_VARIABLE_736 var3458)) String "")
+(define-fun entitySubclassification/-179725236 ((BOUND_VARIABLE_739 var3458)) String "")
+(define-fun intern/-179725236 ((BOUND_VARIABLE_742 var3458)) Bool false)
+(define-fun var1560_entitySubclassify/209045334 ((BOUND_VARIABLE_745 var3151) (BOUND_VARIABLE_746 ClassObject) (BOUND_VARIABLE_747 String) (BOUND_VARIABLE_748 String) (BOUND_VARIABLE_749 Bool)) void (as @void_0 void))
+(define-fun cast-from-var2615-to-var3151 ((BOUND_VARIABLE_752 var2615)) var3151 (as @var3151_0 var3151))
+(define-fun null-var1897 () var1897 (as @var1897_0 var1897))
+(define-fun null-String () String "A")
+(define-fun var1451 () var1897 (as @var1897_1 var1897))
+(define-fun var740 () String "")
+(define-fun var3377!1 () var2615 (as @var2615_0 var2615))
+(define-fun var3377!2 () var2615 (as @var2615_0 var2615))
+(define-fun var1501 () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var3194!1 () String "")
+(define-fun var1342!1 () String "")
+(define-fun var2057!1 () Bool false)

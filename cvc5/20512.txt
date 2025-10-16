@@ -1,0 +1,26 @@
+; cardinality of var3763 is 2
+; rep: (as @var3763_0 var3763)
+; rep: (as @var3763_1 var3763)
+; cardinality of var1099 is 1
+; rep: (as @var1099_0 var1099)
+; cardinality of var2182 is 1
+; rep: (as @var2182_0 var2182)
+; cardinality of var3356 is 1
+; rep: (as @var3356_0 var3356)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2182!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var3356!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var1099_fillOptions/-926000568 ((BOUND_VARIABLE_688 ClassObject) (BOUND_VARIABLE_689 var3763)) void (as @void_0 void))
+(define-fun null-var3763 () var3763 (as @var3763_0 var3763))
+(define-fun var2182-ignoreRels () String "")
+(define-fun var2182-allowedTagsForTrigger () String "")
+(define-fun var2374 () var3763 (as @var3763_1 var3763))
+(define-fun var3951 () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var2374!1 () var3763 (as @var3763_0 var3763))
+(define-fun var941 () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var2374!2 () var3763 (as @var3763_0 var3763))

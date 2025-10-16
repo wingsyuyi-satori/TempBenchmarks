@@ -1,0 +1,66 @@
+; cardinality of var1877 is 2
+; rep: (as @var1877_0 var1877)
+; rep: (as @var1877_1 var1877)
+; cardinality of var1321 is 1
+; rep: (as @var1321_0 var1321)
+; cardinality of var527 is 1
+; rep: (as @var527_0 var527)
+; cardinality of var3561 is 1
+; rep: (as @var3561_0 var3561)
+; cardinality of var996 is 1
+; rep: (as @var996_0 var996)
+; cardinality of var900 is 1
+; rep: (as @var900_0 var900)
+; cardinality of var3296 is 1
+; rep: (as @var3296_0 var3296)
+; cardinality of var1295 is 1
+; rep: (as @var1295_0 var1295)
+; cardinality of var363 is 1
+; rep: (as @var363_0 var363)
+; cardinality of var1901 is 1
+; rep: (as @var1901_0 var1901)
+; cardinality of var3082 is 1
+; rep: (as @var3082_0 var3082)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-String-init () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var527_arraycopy/-325913181 ((BOUND_VARIABLE_852 var3561) (BOUND_VARIABLE_853 Int) (BOUND_VARIABLE_854 var3561) (BOUND_VARIABLE_855 Int) (BOUND_VARIABLE_856 Int)) void (as @void_0 void))
+(define-fun cast-from-__Array__Int__String__-to-var3561 ((BOUND_VARIABLE_859 (Array Int String))) var3561 (as @var3561_0 var3561))
+(define-fun getLength-Arr-String-1 ((_arg_1 (Array Int String))) Int 0)
+(define-fun var900_getEncoding/-422666462 ((BOUND_VARIABLE_862 var1877)) String "")
+(define-fun var900_getTagSeparator/-1758988662 ((BOUND_VARIABLE_865 var1877)) String "")
+(define-fun var900-init () var900 (as @var900_0 var900))
+(define-fun <init>/921971027 ((BOUND_VARIABLE_868 var900) (BOUND_VARIABLE_869 String) (BOUND_VARIABLE_870 var996) (BOUND_VARIABLE_871 String) (BOUND_VARIABLE_872 String) (BOUND_VARIABLE_873 var3296) (BOUND_VARIABLE_874 var1295) (BOUND_VARIABLE_875 var363) (BOUND_VARIABLE_876 var1901) (BOUND_VARIABLE_877 var3082) (BOUND_VARIABLE_878 Int) (BOUND_VARIABLE_879 Int) (BOUND_VARIABLE_880 Bool)) void (as @void_0 void))
+(define-fun null-var1877 () var1877 (as @var1877_0 var1877))
+(define-fun null-String () String "A")
+(define-fun var996-TEXT () var996 (as @var996_0 var996))
+(define-fun null-var3296 () var3296 (as @var3296_0 var3296))
+(define-fun null-var1295 () var1295 (as @var1295_0 var1295))
+(define-fun null-var363 () var363 (as @var363_0 var363))
+(define-fun null-var1901 () var1901 (as @var1901_0 var1901))
+(define-fun null-var3082 () var3082 (as @var3082_0 var3082))
+(define-fun null-Int () Int 0)
+(define-fun var2055 () var1877 (as @var1877_1 var1877))
+(define-fun var3045 () String "")
+(define-fun var2247!1 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1091 () Int 0)
+(define-fun var1116!1 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1091!1 () Int 0)
+(define-fun var720!1 () Int 0)
+(define-fun var2653!1 () var900 (as @var900_0 var900))
+(define-fun var2242!1 () String "")
+(define-fun var3442!1 () var996 (as @var996_0 var996))
+(define-fun var2745!1 () String "")
+(define-fun var2489!1 () String "")
+(define-fun var993!1 () var3296 (as @var3296_0 var3296))
+(define-fun var3090!1 () var1295 (as @var1295_0 var1295))
+(define-fun var1571!1 () var363 (as @var363_0 var363))
+(define-fun var1075!1 () var1901 (as @var1901_0 var1901))
+(define-fun var209!1 () var3082 (as @var3082_0 var3082))
+(define-fun var1060!1 () Int 0)
+(define-fun var3474!1 () Int 0)
+(define-fun var1919!1 () Bool false)

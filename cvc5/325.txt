@@ -1,0 +1,12 @@
+; cardinality of var1908 is 1
+; rep: (as @var1908_0 var1908)
+; cardinality of var367 is 1
+; rep: (as @var367_0 var367)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1908_getProperty/258823597 ((_arg_1 String)) String "")
+(define-fun null-String () String "A")

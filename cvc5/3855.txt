@@ -1,0 +1,10 @@
+; cardinality of var3611 is 1
+; rep: (as @var3611_0 var3611)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun null-String () String "A")
+(define-fun var3553 () String "")

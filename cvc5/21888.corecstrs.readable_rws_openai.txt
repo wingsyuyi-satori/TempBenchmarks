@@ -1,0 +1,4 @@
+(define-fun url () String "https://www.example.com/foo/bar")
+(define-fun bad_url1 () String "ftp://example.com/foo/bar")
+(define-fun bad_url2 () String "https://localhost/foo/bar")
+(define-fun bad_url3 () String "https://example.com/foo")

@@ -1,0 +1,36 @@
+(define-fun name_field () String
+    "\u{0}\u{0}")
+  (define-fun id_field () String
+    "\u{0}\u{0}")
+  (define-fun extra_data () String
+    "")
+  (define-fun csv_line () String
+    "")
+  (define-fun email_field () String
+    "\u{0}\u{0}\u{0}@")
+  (define-fun key_field () String
+    "\u{0}")
+  (define-fun pipe_data () String
+    "\u{0}")
+  (define-fun age_field () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun tsv_record () String
+    "\u{0}")
+  (define-fun semicolon_record () String
+    "a")
+  (define-fun price_field () String
+    "\u{0}")
+  (define-fun status_field () String
+    "active")
+  (define-fun quantity_field () String
+    "\u{0}")
+  (define-fun description_field () String
+    "\u{0}")
+  (define-fun header_line () String
+    "a")
+  (define-fun value_field () String
+    "\u{0}")
+  (define-fun category_field () String
+    "\u{0}")
+  (define-fun converted_data () String
+    "")

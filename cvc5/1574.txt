@@ -1,0 +1,28 @@
+; cardinality of var1383 is 3
+; rep: (as @var1383_0 var1383)
+; rep: (as @var1383_1 var1383)
+; rep: (as @var1383_2 var1383)
+; cardinality of var3968 is 1
+; rep: (as @var3968_0 var3968)
+; cardinality of var1095 is 1
+; rep: (as @var1095_0 var1095)
+; cardinality of var3067 is 1
+; rep: (as @var3067_0 var3067)
+; cardinality of var251 is 1
+; rep: (as @var251_0 var251)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun tlp/-1510366313 ((_arg_1 var3067)) var1095 (as @var1095_0 var1095))
+(define-fun cast-from-var1383-to-var3067 ((_arg_1 var1383)) var3067 (as @var3067_0 var3067))
+(define-fun var1095_morphFeatureSpec/-1525671968 ((_arg_1 var1095)) var251 (as @var251_0 var251))
+(define-fun morphoSpec/-974673759 ((_arg_1 var1383)) var251 (as @var251_0 var251))
+(define-fun toString/1418588163 ((BOUND_VARIABLE_732 var251)) String "")
+(define-fun null-var1383 () var1383 (as @var1383_0 var1383))
+(define-fun null-String () String "A")
+(define-fun var2468 () var1383 (as @var1383_1 var1383))
+(define-fun var1863 () String "")
+(define-fun var2468!1 () var1383 (as @var1383_2 var1383))

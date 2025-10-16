@@ -1,0 +1,7 @@
+(define-fun x () String "vvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLww")
+(define-fun y () String "")
+(define-fun x_seg0 () String "LL")
+(define-fun x_seg1 () String "LL")
+(define-fun x_seg2 () String "LL")
+(define-fun x_rest () String "vvVVLLwwvvVVLLww")
+(define-fun x_ww_first () String "LL")

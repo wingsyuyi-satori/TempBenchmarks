@@ -1,0 +1,41 @@
+; cardinality of var2476 is 1
+; rep: (as @var2476_0 var2476)
+; cardinality of var1354 is 1
+; rep: (as @var1354_0 var1354)
+; cardinality of var2421 is 1
+; rep: (as @var2421_0 var2421)
+; cardinality of var344 is 1
+; rep: (as @var344_0 var344)
+; cardinality of var2757 is 1
+; rep: (as @var2757_0 var2757)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun cast-from-Int-to-Float32 ((BOUND_VARIABLE_744 Int)) (_ FloatingPoint 8 24) (fp #b0 #b00000000 #b00000000000000000000000))
+(define-fun cast-from-Float32-to-Int ((BOUND_VARIABLE_748 (_ FloatingPoint 8 24))) Int 0)
+(define-fun var1354-init () var1354 (as @var1354_0 var1354))
+(define-fun <init>/643259939 ((BOUND_VARIABLE_751 var1354) (BOUND_VARIABLE_752 Int)) void (as @void_0 void))
+(define-fun var2421-init () var2421 (as @var2421_0 var2421))
+(define-fun <init>/613807010 ((BOUND_VARIABLE_755 var2421) (BOUND_VARIABLE_756 Int)) void (as @void_0 void))
+(define-fun var344-init () var344 (as @var344_0 var344))
+(define-fun <init>/-130489206 ((BOUND_VARIABLE_759 var344) (BOUND_VARIABLE_760 var1354) (BOUND_VARIABLE_761 var2757) (BOUND_VARIABLE_762 var2757) (BOUND_VARIABLE_763 var2757) (BOUND_VARIABLE_764 String)) void (as @void_0 void))
+(define-fun cast-from-var2421-to-var2757 ((BOUND_VARIABLE_767 var2421)) var2757 (as @var2757_0 var2757))
+(define-fun null-String () String "A")
+(define-fun var2143 () String "")
+(define-fun var3727!1 () var1354 (as @var1354_0 var1354))
+(define-fun var2258!1 () Int 0)
+(define-fun var385!1 () var2421 (as @var2421_0 var2421))
+(define-fun var2258!2 () Int 0)
+(define-fun var2997!1 () var2421 (as @var2421_0 var2421))
+(define-fun var2258!3 () Int 0)
+(define-fun var3426!1 () var2421 (as @var2421_0 var2421))
+(define-fun var2258!4 () Int 0)
+(define-fun var3882!1 () var344 (as @var344_0 var344))
+(define-fun var3727!2 () var1354 (as @var1354_0 var1354))
+(define-fun var385!2 () var2421 (as @var2421_0 var2421))
+(define-fun var2997!2 () var2421 (as @var2421_0 var2421))
+(define-fun var3426!2 () var2421 (as @var2421_0 var2421))
+(define-fun var2143!1 () String "")

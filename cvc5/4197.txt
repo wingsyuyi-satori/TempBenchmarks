@@ -1,0 +1,29 @@
+; cardinality of var2682 is 1
+; rep: (as @var2682_0 var2682)
+; cardinality of var1345 is 1
+; rep: (as @var1345_0 var1345)
+; cardinality of var2633 is 1
+; rep: (as @var2633_0 var2633)
+; cardinality of var2897 is 1
+; rep: (as @var2897_0 var2897)
+; cardinality of var2411 is 1
+; rep: (as @var2411_0 var2411)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun replaceFirst/750800361 ((_arg_1 String) (_arg_2 String) (_arg_3 String)) String "")
+(define-fun var1345-init () var1345 (as @var1345_0 var1345))
+(define-fun <init>/927978603 ((BOUND_VARIABLE_889 var1345)) void (as @void_0 void))
+(define-fun var2633-init () var2633 (as @var2633_0 var2633))
+(define-fun <init>/871497512 ((BOUND_VARIABLE_892 var2633) (BOUND_VARIABLE_893 var2897) (BOUND_VARIABLE_894 var2411)) void (as @void_0 void))
+(define-fun cast-from-var1345-to-var2897 ((BOUND_VARIABLE_897 var1345)) var2897 (as @var2897_0 var2897))
+(define-fun cast-from-String-to-var2411 ((BOUND_VARIABLE_900 String)) var2411 (as @var2411_0 var2411))
+(define-fun null-String () String "A")
+(define-fun var2265 () String "")
+(define-fun var1061!1 () var1345 (as @var1345_0 var1345))
+(define-fun var3292!1 () var2633 (as @var2633_0 var2633))
+(define-fun var1061!2 () var1345 (as @var1345_0 var1345))
+(define-fun var824!1 () String "")

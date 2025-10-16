@@ -1,0 +1,7 @@
+(define-fun T_1 () Bool true)
+(define-fun T_2 () Bool true)
+(define-fun T_3 () Bool true)
+(define-fun var_0xINPUT_142378 () String "Example:")
+(define-fun input_first () String "Example")
+(define-fun input_second () String "")
+(define-fun input_rest () String "")

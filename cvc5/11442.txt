@@ -1,0 +1,36 @@
+; cardinality of var1577 is 2
+; rep: (as @var1577_0 var1577)
+; rep: (as @var1577_1 var1577)
+; cardinality of var314 is 1
+; rep: (as @var314_0 var314)
+; cardinality of var2691 is 1
+; rep: (as @var2691_0 var2691)
+; cardinality of var1708 is 1
+; rep: (as @var1708_0 var1708)
+; cardinality of var150 is 1
+; rep: (as @var150_0 var150)
+; cardinality of var285 is 1
+; rep: (as @var285_0 var285)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun this$0/-508771627 ((_arg_1 var1577)) var2691 (as @var2691_0 var2691))
+(define-fun var2691_access$000/1195809519 ((_arg_1 var2691)) Bool false)
+(define-fun var2691_access$200/3554864 ((BOUND_VARIABLE_1072 var2691)) String "")
+(define-fun var2691_access$300/-390947598 ((_arg_1 var2691)) Bool true)
+(define-fun var1708-init () var1708 (as @var1708_0 var1708))
+(define-fun <init>/1228603609 ((BOUND_VARIABLE_1075 var1708) (BOUND_VARIABLE_1076 Int)) void (as @void_0 void))
+(define-fun var150_quote/811834350 ((_arg_1 String)) String "B")
+(define-fun var285-init () var285 (as @var285_0 var285))
+(define-fun <init>/-208190597 ((BOUND_VARIABLE_1079 var285)) void (as @void_0 void))
+(define-fun null-var1577 () var1577 (as @var1577_0 var1577))
+(define-fun null-String () String "A")
+(define-fun var1577-$assertionsDisabled () Bool false)
+(define-fun var843 () var1577 (as @var1577_1 var1577))
+(define-fun var2994 () String "")
+(define-fun var2082!1 () var1708 (as @var1708_0 var1708))
+(define-fun var740!1 () Int 0)
+(define-fun var569!1 () var285 (as @var285_0 var285))

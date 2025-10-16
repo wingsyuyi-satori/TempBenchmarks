@@ -1,0 +1,5 @@
+(define-fun T_1 () Bool false)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_88630 () String ",")
+(define-fun split0 () String "")
+(define-fun split1 () String "")

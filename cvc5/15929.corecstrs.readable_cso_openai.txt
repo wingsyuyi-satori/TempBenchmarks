@@ -1,0 +1,7 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_47381 () String "")
+(define-fun slash_count () Int 2)
+(define-fun first_segment () String "A")
+(define-fun rest_after_first_slash () String "file:")
+(define-fun proto () String "http")
+(define-fun proto_rest () String "")

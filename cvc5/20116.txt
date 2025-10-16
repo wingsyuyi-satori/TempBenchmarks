@@ -1,0 +1,52 @@
+; cardinality of var1865 is 4
+; rep: (as @var1865_0 var1865)
+; rep: (as @var1865_1 var1865)
+; rep: (as @var1865_2 var1865)
+; rep: (as @var1865_3 var1865)
+; cardinality of var3072 is 1
+; rep: (as @var3072_0 var3072)
+; cardinality of var1969 is 3
+; rep: (as @var1969_0 var1969)
+; rep: (as @var1969_1 var1969)
+; rep: (as @var1969_2 var1969)
+; cardinality of var797 is 1
+; rep: (as @var797_0 var797)
+; cardinality of var58 is 1
+; rep: (as @var58_0 var58)
+; cardinality of var2715 is 1
+; rep: (as @var2715_0 var2715)
+; cardinality of var327 is 1
+; rep: (as @var327_0 var327)
+; cardinality of var2513 is 1
+; rep: (as @var2513_0 var2513)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun <init>/-279557996 ((BOUND_VARIABLE_1011 var1969)) void (as @void_0 void))
+(define-fun cast-from-var1865-to-var1969 ((BOUND_VARIABLE_1014 var1865)) var1969 (as @var1969_0 var1969))
+(define-fun var797-init () var797 (as @var797_0 var797))
+(define-fun <init>/272540643 ((BOUND_VARIABLE_1017 var797)) void (as @void_0 void))
+(define-fun var2715_newHashMap/701256970 () var58 (as @var58_0 var58))
+(define-fun lexicon/-613054603 ((_arg_1 var1865)) var58 (as @var58_0 var58))
+(define-fun var327-init () var327 (as @var327_0 var327))
+(define-fun <init>/-1681595970 ((BOUND_VARIABLE_1021 var327) (BOUND_VARIABLE_1022 String)) void (as @void_0 void))
+(define-fun var2513_getLineIterator/915635313 ((_arg_1 var327)) var2513 (as @var2513_0 var2513))
+(define-fun iterator/1890858564 ((_arg_1 var2513)) Iterator (as @Iterator_0 Iterator))
+(define-fun Iterator_hasNext/-1669924200 ((_arg_1 Iterator)) Bool false)
+(define-fun var58_getOrDefault/-573460120 ((_arg_1 var58) (_arg_2 var1969) (_arg_3 var1969)) var1969 (as @var1969_2 var1969))
+(define-fun cast-from-String-to-var1969 ((_arg_1 String)) var1969 (ite (= "null" _arg_1) (as @var1969_1 var1969) (as @var1969_0 var1969)))
+(define-fun cast-from-var1969-to-String ((_arg_1 var1969)) String "")
+(define-fun unk/-613054603 ((_arg_1 var1865)) String "")
+(define-fun null-var1865 () var1865 (as @var1865_0 var1865))
+(define-fun null-String () String "A")
+(define-fun var1994 () var1865 (as @var1865_1 var1865))
+(define-fun var1279 () String "")
+(define-fun var1994!1 () var1865 (as @var1865_0 var1865))
+(define-fun var859!1 () var797 (as @var797_0 var797))
+(define-fun var1994!2 () var1865 (as @var1865_2 var1865))
+(define-fun var2149!1 () var327 (as @var327_0 var327))
+(define-fun var929!1 () String "")
+(define-fun var1994!3 () var1865 (as @var1865_3 var1865))

@@ -1,0 +1,20 @@
+(define-fun bad_api_key () String
+    "user-99999:secret12")
+  (define-fun invalid_jwt_token () String
+    "YXdzOmFzZC5zaWduYXR1cmU=")
+  (define-fun api_key () String
+    "api-12345:abcdef")
+  (define-fun jwt_token () String
+    "QWxhZGRpbjpPcGVuU2VzYW1l.Tm90UmVhbC5KdXN0VGVzdA.MTIzNDU2")
+  (define-fun api_key_prefix () String
+    "api")
+  (define-fun api_key_secret () String
+    "BEHJLS")
+  (define-fun api_key_id () String
+    "2")
+  (define-fun jwt_signature () String
+    "x")
+  (define-fun jwt_payload () String
+    "W")
+  (define-fun jwt_header () String
+    "Q")

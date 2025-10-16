@@ -1,0 +1,10 @@
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 2
+; rep: (as @ClassObject_0 ClassObject)
+; rep: (as @ClassObject_1 ClassObject)
+(define-fun toString/-1020053180 ((_arg_1 ClassObject)) String "A")
+(define-fun null-ClassObject () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var1386 () ClassObject (as @ClassObject_1 ClassObject))

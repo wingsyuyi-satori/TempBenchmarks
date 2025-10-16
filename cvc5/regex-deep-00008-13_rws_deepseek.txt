@@ -1,0 +1,6 @@
+(define-fun jwt () String ".")
+(define-fun api_key () String "")
+(define-fun secret () String "")
+(define-fun header () String "eyJ")
+(define-fun payload () String "")
+(define-fun signature () String "eyJ")

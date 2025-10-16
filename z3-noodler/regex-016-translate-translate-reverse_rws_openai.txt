@@ -1,0 +1,10 @@
+(define-fun username () String
+    "\u{0}")
+  (define-fun domain () String
+    "com")
+  (define-fun email_address () String
+    "")
+  (define-fun tld_chain () String
+    "\u{0}\u{0}.")
+  (define-fun subdomain () String
+    "\u{0}")

@@ -1,0 +1,76 @@
+(define-fun remaining_sections () String
+    "db]")
+  (define-fun first_section () String
+    "[web]")
+  (define-fun nested_config () String
+    "[web]\nport=80\n[db]\nhost=local")
+  (define-fun bracket_close_count () Int
+    6)
+  (define-fun bracket_open_count () Int
+    6)
+  (define-fun section_boundary () String
+    "[app][config][test]")
+  (define-fun url_value_with_equals () String
+    "=")
+  (define-fun url_key () String
+    "[]")
+  (define-fun equals_count () Int
+    3)
+  (define-fun multi_equals () String
+    "url=http://example.com:8080/path=value")
+  (define-fun invalid_parts () Int
+    1)
+  (define-fun invalid_config () String
+    "malformed_line_without_delimiter")
+  (define-fun trimmed_value () String
+    " ")
+  (define-fun trimmed_key () String
+    " ")
+  (define-fun config_with_spaces () String
+    "timeout = 30")
+  (define-fun db_name_key () String
+    "name")
+  (define-fun db_name_value () String
+    "E")
+  (define-fun server_port_key () String
+    "port")
+  (define-fun server_host_key () String
+    "host")
+  (define-fun server_port_value () String
+    "D")
+  (define-fun server_host_value () String
+    "C")
+  (define-fun db_section () String
+    "[]")
+  (define-fun server_section () String
+    "[]")
+  (define-fun line5 () String
+    "b")
+  (define-fun line4 () String
+    "[]")
+  (define-fun line3 () String
+    "t")
+  (define-fun line2 () String
+    "a")
+  (define-fun line1 () String
+    "[]")
+  (define-fun ini_content () String
+    "[server]\nhost=localhost\nport=8080\n[database]\nname=mydb")
+  (define-fun section_name () String
+    "B")
+  (define-fun section_header () String
+    "[database]")
+  (define-fun alt_value () String
+    "[]")
+  (define-fun alt_key () String
+    "[]")
+  (define-fun alt_config_line () String
+    "port:8080")
+  (define-fun extracted_value () String
+    "[]")
+  (define-fun extracted_key () String
+    "A")
+  (define-fun key_value_pair () String
+    "database_host=localhost")
+  (define-fun config_line () String
+    "")

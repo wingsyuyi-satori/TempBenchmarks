@@ -1,0 +1,12 @@
+(define-fun y () String
+    "$$$$$$$$$$$$}}")
+  (define-fun x () String
+    "}}$$}}}}$$}}}}")
+  (define-fun y_split1 () String
+    "B")
+  (define-fun y_split0 () String
+    "C")
+  (define-fun x_split1 () String
+    "B")
+  (define-fun x_split0 () String
+    "B")

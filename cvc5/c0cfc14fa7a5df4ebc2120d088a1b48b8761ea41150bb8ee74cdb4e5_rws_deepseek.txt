@@ -1,0 +1,4 @@
+(define-fun csv_comma () String "AAAAAAAAAA")
+(define-fun csv_tab () String "AAAAAAAAAA")
+(define-fun csv_pipe () String "AAAAAAAAAA")
+(define-fun csv_with_empty () String "")

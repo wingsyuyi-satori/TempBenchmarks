@@ -1,0 +1,3 @@
+(define-fun word1 () String "")
+(define-fun in1 () String "A")
+(define-fun in0 () String "")

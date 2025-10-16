@@ -1,0 +1,26 @@
+; cardinality of var1473 is 1
+; rep: (as @var1473_0 var1473)
+; cardinality of var934 is 2
+; rep: (as @var934_0 var934)
+; rep: (as @var934_1 var934)
+; cardinality of var2022 is 1
+; rep: (as @var2022_0 var2022)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun Int_parseInt/1370970945 ((BOUND_VARIABLE_800 String)) Int 0)
+(define-fun var2022-init () var2022 (as @var2022_0 var2022))
+(define-fun String-init () String "")
+(define-fun <init>/875830710 ((BOUND_VARIABLE_803 var2022) (BOUND_VARIABLE_804 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun null-var934 () var934 (as @var934_0 var934))
+(define-fun var1281 () String "")
+(define-fun var3530 () var934 (as @var934_1 var934))
+(define-fun var2388!1 () String "")
+(define-fun var2388!2 () String "Invalid subnet: ")
+(define-fun var2977!1 () String "Invalid subnet: ")
+(define-fun var882!1 () var2022 (as @var2022_0 var2022))
+(define-fun var1317!1 () String "")

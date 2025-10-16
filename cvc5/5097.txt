@@ -1,0 +1,27 @@
+; cardinality of var3575 is 2
+; rep: (as @var3575_0 var3575)
+; rep: (as @var3575_1 var3575)
+; cardinality of var1294 is 2
+; rep: (as @var1294_0 var1294)
+; rep: (as @var1294_1 var1294)
+; cardinality of var3328 is 1
+; rep: (as @var3328_0 var3328)
+; cardinality of var2050 is 1
+; rep: (as @var2050_0 var2050)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun toString/-512974245 ((_arg_1 var3575)) String "A")
+(define-fun var3328_isNotBlank/-616714458 ((_arg_1 String)) Bool true)
+(define-fun var1294_contains/-441121415 ((_arg_1 var1294) (_arg_2 var2050)) Bool false)
+(define-fun cast-from-String-to-var2050 ((_arg_1 String)) var2050 (as @var2050_0 var2050))
+(define-fun var1294_add/328494887 ((BOUND_VARIABLE_841 var1294) (BOUND_VARIABLE_842 var2050)) Bool false)
+(define-fun null-var3575 () var3575 (as @var3575_0 var3575))
+(define-fun null-var1294 () var1294 (as @var1294_0 var1294))
+(define-fun var3638 () var3575 (as @var3575_1 var3575))
+(define-fun var2254 () var1294 (as @var1294_1 var1294))
+(define-fun var2254!1 () var1294 (as @var1294_0 var1294))
+(define-fun var2398!1 () String "")

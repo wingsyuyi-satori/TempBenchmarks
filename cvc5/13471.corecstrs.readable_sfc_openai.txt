@@ -1,0 +1,4 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_125573 () String "aqdYVEFBFA")
+(define-fun s0 () String "")
+(define-fun s1 () String "")

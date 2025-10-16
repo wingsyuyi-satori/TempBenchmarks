@@ -1,0 +1,20 @@
+(define-fun var349 () Int
+    0)
+  (define-fun var3160 () String
+    "!")
+  (define-fun var3853 () Int
+    (let ((a!1 (< (num_splits (trim-right (trim-left var3160)) ",\s*") (- 1))))
+(let ((a!2 (ite a!1 (num_splits (trim-right (trim-left var3160)) ",\s*") (- 1))))
+  (ite (> (- 1) 0) a!2 (num_splits (trim-right (trim-left var3160)) ",\s*")))))
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var718 () String
+    (trim-right (trim-left var3160)))
+  (define-fun var3736 () var1295
+    var1295-init)
+  (define-fun var1295-init () var1295
+    var1295!val!0)
+  (define-fun var3736!1 () var1295
+    var1295!val!0)
+  (define-fun <init>/-1461814690 ((x!0 var1295)) void
+    void!val!0)

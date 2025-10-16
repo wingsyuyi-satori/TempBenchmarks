@@ -1,0 +1,39 @@
+; cardinality of var2501 is 1
+; rep: (as @var2501_0 var2501)
+; cardinality of var939 is 1
+; rep: (as @var939_0 var939)
+; cardinality of var3524 is 1
+; rep: (as @var3524_0 var3524)
+; cardinality of var1672 is 1
+; rep: (as @var1672_0 var1672)
+; cardinality of var3500 is 1
+; rep: (as @var3500_0 var3500)
+; cardinality of var3923 is 2
+; rep: (as @var3923_0 var3923)
+; rep: (as @var3923_1 var3923)
+; cardinality of var1071 is 1
+; rep: (as @var1071_0 var1071)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun getLength-Arr-String-1 ((_arg_1 (Array Int String))) Int 2)
+(define-fun var2501-init () var2501 (as @var2501_0 var2501))
+(define-fun <init>/720541530 ((BOUND_VARIABLE_810 var2501)) void (as @void_0 void))
+(define-fun var939-init () var939 (as @var939_0 var939))
+(define-fun <init>/-1681595970 ((BOUND_VARIABLE_813 var939) (BOUND_VARIABLE_814 String)) void (as @void_0 void))
+(define-fun var3524-init () var3524 (as @var3524_0 var3524))
+(define-fun var1672-init () var1672 (as @var1672_0 var1672))
+(define-fun var3500-init () var3500 (as @var3500_0 var3500))
+(define-fun printStackTrace/885456489 ((BOUND_VARIABLE_817 var1071)) void (as @void_0 void))
+(define-fun cast-from-var3923-to-var1071 ((BOUND_VARIABLE_820 var3923)) var1071 (as @var1071_0 var1071))
+(define-fun null-__Array__Int__String__ () (Array Int String) (store ((as const (Array Int String)) "A") 0 ","))
+(define-fun null-var3923 () var3923 (as @var3923_0 var3923))
+(define-fun var2007 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1954!1 () var2501 (as @var2501_0 var2501))
+(define-fun var3374!1 () var939 (as @var939_0 var939))
+(define-fun var3215!1 () String "")
+(define-fun var3449 () var3923 (as @var3923_1 var3923))
+(define-fun var3449!1 () var3923 (as @var3923_0 var3923))

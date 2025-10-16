@@ -1,0 +1,6 @@
+(define-fun tsv_line () String "")
+(define-fun tsv_f0 () String "")
+(define-fun tsv_f1 () String "")
+(define-fun tsv_f2 () String "")
+(define-fun tsv_f3 () String ";")
+(define-fun tsv_f4 () String "|")

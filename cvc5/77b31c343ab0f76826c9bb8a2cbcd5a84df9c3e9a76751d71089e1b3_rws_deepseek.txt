@@ -1,0 +1,7 @@
+(define-fun csv_row () String "")
+(define-fun tsv_row () String "")
+(define-fun pipe_row () String "")
+(define-fun csv_id () String "0")
+(define-fun csv_last () String "")
+(define-fun tsv_middle () String ",")
+(define-fun pipe_first () String "")

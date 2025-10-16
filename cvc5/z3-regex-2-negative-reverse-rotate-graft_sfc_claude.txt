@@ -1,0 +1,4 @@
+(define-fun S () String "Abbbaaa")
+(define-fun S_part0 () String "")
+(define-fun S_part1 () String "")
+(define-fun S_rest () String "aaa")

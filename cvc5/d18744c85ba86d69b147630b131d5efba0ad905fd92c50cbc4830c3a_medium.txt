@@ -1,0 +1,5 @@
+(define-fun word1 () String "#")
+(define-fun in1 () String "")
+(define-fun in0 () String "#")
+(define-fun rest_0_1478 () String "dngrxd6woochxno")
+(define-fun rest_1_8987 () String "dngrxd6woochxno")

@@ -1,0 +1,10 @@
+; cardinality of var2102 is 1
+; rep: (as @var2102_0 var2102)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2102_getVersion/530152056 () String "")
+(define-fun Int_parseInt/1370970945 ((BOUND_VARIABLE_618 String)) Int 0)

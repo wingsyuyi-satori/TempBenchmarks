@@ -1,0 +1,26 @@
+(define-fun s2 () String
+    ":-,")
+  (define-fun s3 () String
+    ":-,")
+  (define-fun s1 () String
+    "")
+  (define-fun s2dash1_colon1 () String
+    "A")
+  (define-fun s2dash1_colon0 () String
+    "")
+  (define-fun s2dash1_colon_n () Int
+    2)
+  (define-fun s2dash1 () String
+    "")
+  (define-fun s2dash0 () String
+    "")
+  (define-fun s2_dash_n () Int
+    2)
+  (define-fun s3_part2 () String
+    "C")
+  (define-fun s3_part1 () String
+    "")
+  (define-fun s3_part0 () String
+    "DE")
+  (define-fun s3_comma_n () Int
+    3)

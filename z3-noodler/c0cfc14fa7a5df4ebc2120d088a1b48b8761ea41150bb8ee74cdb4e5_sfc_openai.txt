@@ -1,0 +1,8 @@
+(define-fun s_seg0 () String
+    "")
+  (define-fun s_rest () String
+    "")
+  (define-fun s_seg1 () String
+    "")
+  (define-fun s () String
+    "\u{0}\u{0},,\u{0}.\u{0}")

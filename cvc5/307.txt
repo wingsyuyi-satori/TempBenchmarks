@@ -1,0 +1,26 @@
+; cardinality of var1224 is 3
+; rep: (as @var1224_0 var1224)
+; rep: (as @var1224_1 var1224)
+; rep: (as @var1224_2 var1224)
+; cardinality of var3214 is 1
+; rep: (as @var3214_0 var3214)
+; cardinality of var858 is 1
+; rep: (as @var858_0 var858)
+; cardinality of var2517 is 1
+; rep: (as @var2517_0 var2517)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var858-init () var858 (as @var858_0 var858))
+(define-fun <init>/-325640736 ((BOUND_VARIABLE_698 var858)) void (as @void_0 void))
+(define-fun cast-from-var858-to-var2517 ((_arg_1 var858)) var2517 (as @var2517_0 var2517))
+(define-fun tabs/618735517 ((_arg_1 var1224)) var2517 (as @var2517_0 var2517))
+(define-fun null-var1224 () var1224 (as @var1224_0 var1224))
+(define-fun null-String () String "A")
+(define-fun var2997 () var1224 (as @var1224_1 var1224))
+(define-fun var840 () String "")
+(define-fun var1982!1 () var858 (as @var858_0 var858))
+(define-fun var2997!1 () var1224 (as @var1224_2 var1224))

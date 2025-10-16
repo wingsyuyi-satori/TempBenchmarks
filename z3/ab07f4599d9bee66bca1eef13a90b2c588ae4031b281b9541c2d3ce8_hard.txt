@@ -1,0 +1,14 @@
+(define-fun s2 () String
+    "0A;")
+  (define-fun s1 () String
+    "")
+  (define-fun num_0_4894 () Int
+    3)
+  (define-fun s3 () String
+    "0A;")
+  (define-fun rest_0_9076 () String
+    "a")
+  (define-fun part_0_5638 () String
+    "y")
+  (define-fun num_1_5231 () Int
+    6)

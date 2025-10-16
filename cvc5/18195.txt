@@ -1,0 +1,25 @@
+; cardinality of var2667 is 2
+; rep: (as @var2667_0 var2667)
+; rep: (as @var2667_1 var2667)
+; cardinality of var1240 is 1
+; rep: (as @var1240_0 var1240)
+; cardinality of var1730 is 1
+; rep: (as @var1730_0 var1730)
+; cardinality of var900 is 1
+; rep: (as @var900_0 var900)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2667_contains/-441121415 ((_arg_1 var2667) (_arg_2 var900)) Bool false)
+(define-fun cast-from-String-to-var900 ((_arg_1 String)) var900 (as @var900_0 var900))
+(define-fun null-var2667 () var2667 (as @var2667_0 var2667))
+(define-fun null-String () String "A")
+(define-fun var1730-SERVICE_NAME_SEPARATOR () String "")
+(define-fun var431 () var2667 (as @var2667_1 var2667))
+(define-fun var113 () String "")
+(define-fun var3145 () String "")
+(define-fun var1950 () String "")
+(define-fun var642 () String "")

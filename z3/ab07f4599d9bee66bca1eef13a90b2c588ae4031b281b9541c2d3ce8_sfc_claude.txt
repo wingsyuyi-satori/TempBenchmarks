@@ -1,0 +1,18 @@
+(define-fun s2 () String
+    "_, ")
+  (define-fun s3 () String
+    "_, ")
+  (define-fun s1 () String
+    "")
+  (define-fun s3_split_1 () String
+    "")
+  (define-fun s3_split_0 () String
+    "")
+  (define-fun s2_split_1 () String
+    "")
+  (define-fun s2_split_0 () String
+    "")
+  (define-fun s1_split_1 () String
+    "")
+  (define-fun s1_split_0 () String
+    "")

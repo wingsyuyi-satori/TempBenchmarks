@@ -1,0 +1,38 @@
+(define-fun jwt_header () String
+    "\u{0}")
+  (define-fun jwt_signature () String
+    "\u{0}")
+  (define-fun api_id () String
+    "\u{0}")
+  (define-fun api_secret () String
+    "\u{0}")
+  (define-fun jwt () String
+    "a")
+  (define-fun jwt_payload () String
+    "\u{0}")
+  (define-fun colon () String
+    ":")
+  (define-fun api_prefix () String
+    "\u{0}")
+  (define-fun dot () String
+    ".")
+  (define-fun api_key () String
+    "a")
+  (define-fun dash () String
+    "-")
+  (define-fun str.len ((x!0 String)) Int
+    8)
+  (define-fun str.is_base64 ((x!0 String)) Bool
+    true)
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)

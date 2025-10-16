@@ -1,0 +1,46 @@
+; cardinality of var2436 is 2
+; rep: (as @var2436_0 var2436)
+; rep: (as @var2436_1 var2436)
+; cardinality of var345 is 2
+; rep: (as @var345_0 var345)
+; rep: (as @var345_1 var345)
+; cardinality of var2402 is 2
+; rep: (as @var2402_0 var2402)
+; rep: (as @var2402_1 var2402)
+; cardinality of var887 is 2
+; rep: (as @var887_0 var887)
+; rep: (as @var887_1 var887)
+; cardinality of var2407 is 1
+; rep: (as @var2407_0 var2407)
+; cardinality of var1928 is 1
+; rep: (as @var1928_0 var1928)
+; cardinality of var2064 is 1
+; rep: (as @var2064_0 var2064)
+; cardinality of var2133 is 1
+; rep: (as @var2133_0 var2133)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2407-init () var2407 (as @var2407_0 var2407))
+(define-fun charset/-811599492 ((BOUND_VARIABLE_691 var887)) var1928 (as @var1928_0 var1928))
+(define-fun <init>/-1518332612 ((BOUND_VARIABLE_694 var2407) (BOUND_VARIABLE_695 var2064) (BOUND_VARIABLE_696 var1928)) void (as @void_0 void))
+(define-fun cast-from-var345-to-var2064 ((BOUND_VARIABLE_699 var345)) var2064 (as @var2064_0 var2064))
+(define-fun String-init () String "")
+(define-fun arr-Int-init () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun read/-1845806611 ((_arg_1 var2133) (_arg_2 (Array Int Int))) Int (- 1))
+(define-fun cast-from-var2407-to-var2133 ((_arg_1 var2407)) var2133 (as @var2133_0 var2133))
+(define-fun null-var2436 () var2436 (as @var2436_0 var2436))
+(define-fun null-var345 () var345 (as @var345_0 var345))
+(define-fun null-var2402 () var2402 (as @var2402_0 var2402))
+(define-fun null-var887 () var887 (as @var887_0 var887))
+(define-fun var1820 () var2436 (as @var2436_1 var2436))
+(define-fun var156 () var345 (as @var345_1 var345))
+(define-fun var3458 () var2402 (as @var2402_1 var2402))
+(define-fun var2205 () var887 (as @var887_1 var887))
+(define-fun var1073!1 () var2407 (as @var2407_0 var2407))
+(define-fun var156!1 () var345 (as @var345_0 var345))
+(define-fun var209!1 () var1928 (as @var1928_0 var1928))
+(define-fun var3067!1 () String "")

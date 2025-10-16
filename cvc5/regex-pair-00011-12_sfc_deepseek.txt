@@ -1,0 +1,4 @@
+(define-fun var0 () String "11999bcdddeee")
+(define-fun first_segment () String "0")
+(define-fun second_segment () String "0")
+(define-fun rest_segments () String "")

@@ -1,0 +1,16 @@
+(define-fun s () String
+    "AB  ,C,")
+  (define-fun s_char1 () String
+    "")
+  (define-fun s_char0 () String
+    "")
+  (define-fun s_comma1 () String
+    "")
+  (define-fun s_comma0 () String
+    "")
+  (define-fun s_part2 () String
+    "")
+  (define-fun s_part1 () String
+    "")
+  (define-fun s_part0 () String
+    "")

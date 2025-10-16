@@ -1,0 +1,35 @@
+; cardinality of var2171 is 2
+; rep: (as @var2171_0 var2171)
+; rep: (as @var2171_1 var2171)
+; cardinality of var3996 is 3
+; rep: (as @var3996_0 var3996)
+; rep: (as @var3996_1 var3996)
+; rep: (as @var3996_2 var3996)
+; cardinality of var1939 is 1
+; rep: (as @var1939_0 var1939)
+; cardinality of var3492 is 1
+; rep: (as @var3492_0 var3492)
+; cardinality of var1980 is 1
+; rep: (as @var1980_0 var1980)
+; cardinality of var2009 is 1
+; rep: (as @var2009_0 var2009)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1939!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun remove/1441186265 ((BOUND_VARIABLE_836 var3492) (BOUND_VARIABLE_837 ClassObject)) var2009 (as @var2009_0 var2009))
+(define-fun cast-from-var3996-to-var3492 ((BOUND_VARIABLE_840 var3996)) var3492 (as @var3492_0 var3492))
+(define-fun word/-864359544 ((_arg_1 var3996)) String "")
+(define-fun replaceAll/1692887130 ((_arg_1 String) (_arg_2 String) (_arg_3 String)) String "")
+(define-fun compoundBuffer/893453587 ((BOUND_VARIABLE_843 var2171)) var1980 (as @var1980_0 var1980))
+(define-fun var1980_remove/1853576941 ((BOUND_VARIABLE_846 var1980) (BOUND_VARIABLE_847 Int)) var2009 (as @var2009_0 var2009))
+(define-fun cast-from-var2009-to-var3996 ((BOUND_VARIABLE_850 var2009)) var3996 (as @var3996_0 var3996))
+(define-fun null-var2171 () var2171 (as @var2171_0 var2171))
+(define-fun null-var3996 () var3996 (as @var3996_0 var3996))
+(define-fun var3624 () var2171 (as @var2171_1 var2171))
+(define-fun var2902 () var3996 (as @var3996_1 var3996))
+(define-fun var2902!1 () var3996 (as @var3996_2 var3996))
+(define-fun var1607 () ClassObject (as @ClassObject_0 ClassObject))

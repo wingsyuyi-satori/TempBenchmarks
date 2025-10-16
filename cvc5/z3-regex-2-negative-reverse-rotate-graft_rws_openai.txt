@@ -1,0 +1,1 @@
+(define-fun url () String "https://example.com:443/user/profile?token=abc&mode=edit")

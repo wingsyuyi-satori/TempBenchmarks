@@ -1,0 +1,48 @@
+; cardinality of var1240 is 5
+; rep: (as @var1240_0 var1240)
+; rep: (as @var1240_1 var1240)
+; rep: (as @var1240_2 var1240)
+; rep: (as @var1240_3 var1240)
+; rep: (as @var1240_4 var1240)
+; cardinality of var298 is 1
+; rep: (as @var298_0 var298)
+; cardinality of var436 is 1
+; rep: (as @var436_0 var436)
+; cardinality of var2772 is 1
+; rep: (as @var2772_0 var2772)
+; cardinality of var1479 is 2
+; rep: (as @var1479_0 var1479)
+; rep: (as @var1479_1 var1479)
+; cardinality of var2585 is 2
+; rep: (as @var2585_0 var2585)
+; rep: (as @var2585_1 var2585)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun <init>/-279557996 ((BOUND_VARIABLE_834 var436)) void (as @void_0 void))
+(define-fun cast-from-var1240-to-var436 ((BOUND_VARIABLE_837 var1240)) var436 (as @var436_0 var436))
+(define-fun var2772-init () var2772 (as @var2772_0 var2772))
+(define-fun <init>/613807010 ((BOUND_VARIABLE_840 var2772) (BOUND_VARIABLE_841 Int)) void (as @void_0 void))
+(define-fun corefPairs/74865948 ((BOUND_VARIABLE_844 var1240)) var2772 (as @var2772_0 var2772))
+(define-fun var1479-init () var1479 (as @var1479_0 var1479))
+(define-fun <init>/1228603609 ((BOUND_VARIABLE_847 var1479) (BOUND_VARIABLE_848 Int)) void (as @void_0 void))
+(define-fun cast-from-var1479-to-var2585 ((_arg_1 var1479)) var2585 (ite (= (as @var1479_0 var1479) _arg_1) (as @var2585_0 var2585) (as @var2585_1 var2585)))
+(define-fun tokens/74865948 ((_arg_1 var1240)) var2585 (as @var2585_0 var2585))
+(define-fun pronouns/74865948 ((_arg_1 var1240)) var2585 (as @var2585_1 var2585))
+(define-fun null-var1240 () var1240 (as @var1240_0 var1240))
+(define-fun null-String () String "A")
+(define-fun var937 () var1240 (as @var1240_1 var1240))
+(define-fun var1269 () String "")
+(define-fun var937!1 () var1240 (as @var1240_0 var1240))
+(define-fun var2947!1 () var2772 (as @var2772_0 var2772))
+(define-fun var1235 () Int 0)
+(define-fun var937!2 () var1240 (as @var1240_2 var1240))
+(define-fun var755!1 () var1479 (as @var1479_0 var1479))
+(define-fun var3916!1 () Int 0)
+(define-fun var937!3 () var1240 (as @var1240_3 var1240))
+(define-fun var1130!1 () var1479 (as @var1479_1 var1479))
+(define-fun var3736 () Int 0)
+(define-fun var937!4 () var1240 (as @var1240_4 var1240))

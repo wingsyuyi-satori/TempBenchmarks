@@ -1,0 +1,4 @@
+(define-fun key1 () String "CC")
+(define-fun key2 () String "VO")
+(define-fun rest_1_7904 () String "7dmrifupvpi2q")
+(define-fun rest_2_5060 () String "7dmrifupvpi2q")

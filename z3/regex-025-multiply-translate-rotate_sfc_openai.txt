@@ -1,0 +1,12 @@
+(define-fun y () String
+    "$$}}}}}}}}}}}}")
+  (define-fun x () String
+    "}}}}$$$$$$$$}}")
+  (define-fun y_seg1 () String
+    "")
+  (define-fun y_seg0 () String
+    "")
+  (define-fun x_seg1 () String
+    "")
+  (define-fun x_seg0 () String
+    "")

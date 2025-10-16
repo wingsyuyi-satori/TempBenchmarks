@@ -1,0 +1,21 @@
+; cardinality of var163 is 1
+; rep: (as @var163_0 var163)
+; cardinality of var292 is 1
+; rep: (as @var292_0 var292)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var292-init () var292 (as @var292_0 var292))
+(define-fun <init>/598147663 ((BOUND_VARIABLE_1323 var292)) void (as @void_0 void))
+(define-fun setWord/-781399982 ((BOUND_VARIABLE_1326 var292) (BOUND_VARIABLE_1327 String)) void (as @void_0 void))
+(define-fun setValue/611793815 ((BOUND_VARIABLE_1330 var292) (BOUND_VARIABLE_1331 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun var2942 () String "")
+(define-fun var2656!1 () var292 (as @var292_0 var292))
+(define-fun var2656!2 () var292 (as @var292_0 var292))
+(define-fun var805!1 () String "")
+(define-fun var2656!3 () var292 (as @var292_0 var292))
+(define-fun var1781!1 () String "")

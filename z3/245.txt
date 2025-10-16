@@ -1,0 +1,96 @@
+;; universe for var2420:
+  ;;   var2420!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2420!val!0 () var2420)
+  ;; cardinality constraint:
+  (forall ((x var2420)) (= x var2420!val!0))
+  ;; -----------
+  ;; universe for var544:
+  ;;   var544!val!0 var544!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var544!val!0 () var544)
+  (declare-fun var544!val!1 () var544)
+  ;; cardinality constraint:
+  (forall ((x var544)) (or (= x var544!val!0) (= x var544!val!1)))
+  ;; -----------
+  ;; universe for var3353:
+  ;;   var3353!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var3353!val!0 () var3353)
+  ;; cardinality constraint:
+  (forall ((x var3353)) (= x var3353!val!0))
+  ;; -----------
+  ;; universe for var25:
+  ;;   var25!val!1 var25!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var25!val!1 () var25)
+  (declare-fun var25!val!0 () var25)
+  ;; cardinality constraint:
+  (forall ((x var25)) (or (= x var25!val!1) (= x var25!val!0)))
+  ;; -----------
+  (define-fun var2262 () Int
+    (let ((a!1 (< (num_splits var3668
+                          (get/637268509 (separator/1368122213 var2068)))
+              (- 1))))
+(let ((a!2 (ite a!1
+                (num_splits var3668
+                            (get/637268509 (separator/1368122213 var2068)))
+                (- 1))))
+  (ite (> (- 1) 0)
+       a!2
+       (num_splits var3668 (get/637268509 (separator/1368122213 var2068)))))))
+  (define-fun var2068 () var544
+    var544!val!0)
+  (define-fun var2720 () var25
+    var25!val!0)
+  (define-fun var1184 () (Array Int (Array Int String))
+    arr-__Array__Int__String__-init)
+  (define-fun var2112 () String
+    (get/637268509 (separator/1368122213 var2068)))
+  (define-fun null-String () String
+    "!1!")
+  (define-fun var453 () var3353
+    (evalValueList/1368122213 var2068))
+  (define-fun var3683 () var2420
+    (separator/1368122213 var2068))
+  (define-fun var3668 () String
+    "!0!")
+  (define-fun var3922 () Int
+    (- 1))
+  (define-fun null-__Array__Int__String__ () (Array Int String)
+    ((as const (Array Int String)) "!3!"))
+  (define-fun null-var544 () var544
+    var544!val!1)
+  (define-fun var3479 () Int
+    (let ((a!1 (< (num_splits var3668
+                          (get/637268509 (separator/1368122213 var2068)))
+              (- 1))))
+(let ((a!2 (ite a!1
+                (num_splits var3668
+                            (get/637268509 (separator/1368122213 var2068)))
+                (- 1))))
+  (ite (> (- 1) 0)
+       a!2
+       (num_splits var3668 (get/637268509 (separator/1368122213 var2068)))))))
+  (define-fun null-var25 () var25
+    var25!val!1)
+  (define-fun var855 () Int
+    0)
+  (define-fun var1694 () (Array Int String)
+    ((as const (Array Int String)) "!2!"))
+  (define-fun var784 () Bool
+    (is/1027769019 (evalValueList/1368122213 var2068)))
+  (define-fun arr-__Array__Int__String__-init () (Array Int (Array Int String))
+    ((as const (Array Int (Array Int String))) ((as const (Array Int String)) "")))
+  (define-fun is/1027769019 ((x!0 var3353)) Bool
+    false)
+  (define-fun get/637268509 ((x!0 var2420)) String
+    "!4!")
+  (define-fun evalValueList/1368122213 ((x!0 var544)) var3353
+    var3353!val!0)
+  (define-fun separator/1368122213 ((x!0 var544)) var2420
+    var2420!val!0)

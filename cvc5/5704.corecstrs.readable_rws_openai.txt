@@ -1,0 +1,4 @@
+(define-fun url () String "http://example.com:8080/foo/bar?x=1&y=2")
+(define-fun url_bad_protocol () String "ftp://example.com/foo")
+(define-fun url_bad_host () String "http://localhost/path")
+(define-fun url_short_path () String "https://example.com/foo")

@@ -1,0 +1,75 @@
+;; universe for var191:
+  ;;   var191!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var191!val!0 () var191)
+  ;; cardinality constraint:
+  (forall ((x var191)) (= x var191!val!0))
+  ;; -----------
+  ;; universe for var2980:
+  ;;   var2980!val!1 var2980!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2980!val!1 () var2980)
+  (declare-fun var2980!val!0 () var2980)
+  ;; cardinality constraint:
+  (forall ((x var2980)) (or (= x var2980!val!1) (= x var2980!val!0)))
+  ;; -----------
+  ;; universe for var2366:
+  ;;   var2366!val!0 var2366!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2366!val!0 () var2366)
+  (declare-fun var2366!val!1 () var2366)
+  ;; cardinality constraint:
+  (forall ((x var2366)) (or (= x var2366!val!0) (= x var2366!val!1)))
+  ;; -----------
+  (define-fun var1866 () var2366
+    var2366!val!0)
+  (define-fun var3557 () var2980
+    var2980!val!0)
+  (define-fun var1355 () String
+    "application/x-www-form-urlencoded")
+  (define-fun var1448 () String
+    (getFirst/-1258182190 var1866 "Content-type"))
+  (define-fun null-var2366 () var2366
+    var2366!val!1)
+  (define-fun var3615 () String
+    (let ((a!1 (and (> (- 1) 0)
+                (= 0 (- (- 1) 1))
+                (>= (num_splits (getFirst/-1258182190 var1866 "Content-type")
+                                ";")
+                    (- 1)))))
+  (ite a!1
+       (split_rest (getFirst/-1258182190 var1866 "Content-type")
+                   ";"
+                   (- (- 1) 1))
+       (split_at (getFirst/-1258182190 var1866 "Content-type") ";" 0))))
+  (define-fun var3986 () Bool
+    (containsKey/437427949 var1866 (cast-from-String-to-var191 "Content-type")))
+  (define-fun null-var2980 () var2980
+    var2980!val!1)
+  (define-fun var1355!1 () String
+    (let ((a!1 (and (> (- 1) 0)
+                (= 0 (- (- 1) 1))
+                (>= (num_splits (getFirst/-1258182190 var1866 "Content-type")
+                                ";")
+                    (- 1)))))
+(let ((a!2 (trim-left (ite a!1
+                           (split_rest (getFirst/-1258182190
+                                         var1866
+                                         "Content-type")
+                                       ";"
+                                       (- (- 1) 1))
+                           (split_at (getFirst/-1258182190
+                                       var1866
+                                       "Content-type")
+                                     ";"
+                                     0)))))
+  (trim-right a!2))))
+  (define-fun containsKey/437427949 ((x!0 var2366) (x!1 var191)) Bool
+    true)
+  (define-fun cast-from-String-to-var191 ((x!0 String)) var191
+    var191!val!0)
+  (define-fun getFirst/-1258182190 ((x!0 var2366) (x!1 String)) String
+    "")

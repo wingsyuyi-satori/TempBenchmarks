@@ -1,0 +1,41 @@
+; cardinality of var2050 is 1
+; rep: (as @var2050_0 var2050)
+; cardinality of var523 is 1
+; rep: (as @var523_0 var523)
+; cardinality of var2366 is 2
+; rep: (as @var2366_0 var2366)
+; rep: (as @var2366_1 var2366)
+; cardinality of var2103 is 1
+; rep: (as @var2103_0 var2103)
+; cardinality of var1698 is 1
+; rep: (as @var1698_0 var1698)
+; cardinality of var2754 is 1
+; rep: (as @var2754_0 var2754)
+; cardinality of var3041 is 1
+; rep: (as @var3041_0 var3041)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun getLength-Arr-String-1 ((_arg_1 (Array Int String))) Int 1)
+(define-fun var2103_argsToProperties/-1524630653 ((_arg_1 (Array Int String)) (_arg_2 var2050)) var2366 (as @var2366_1 var2366))
+(define-fun getProperty/1391780669 ((_arg_1 var2366) (_arg_2 String)) String "A")
+(define-fun var1698-init () var1698 (as @var1698_0 var1698))
+(define-fun <init>/-325640736 ((BOUND_VARIABLE_1067 var1698)) void (as @void_0 void))
+(define-fun var523-init () var523 (as @var523_0 var523))
+(define-fun <init>/1278683649 ((BOUND_VARIABLE_1070 var523) (BOUND_VARIABLE_1071 var2754) (BOUND_VARIABLE_1072 var2366)) void (as @void_0 void))
+(define-fun cast-from-var1698-to-var2754 ((BOUND_VARIABLE_1075 var1698)) var2754 (as @var2754_0 var2754))
+(define-fun process/-2031771835 ((_arg_1 var523)) var2754 (as @var2754_0 var2754))
+(define-fun var3041_getBool/43227246 ((_arg_1 var2366) (_arg_2 String)) Bool false)
+(define-fun getProperty/-469436802 ((BOUND_VARIABLE_1078 var2366) (BOUND_VARIABLE_1079 String) (BOUND_VARIABLE_1080 String)) String "")
+(define-fun var2754_iterator/-912451715 ((_arg_1 var2754)) Iterator (as @Iterator_0 Iterator))
+(define-fun Iterator_hasNext/-1669924200 ((_arg_1 Iterator)) Bool false)
+(define-fun null-__Array__Int__String__ () (Array Int String) (store ((as const (Array Int String)) "A") 0 " "))
+(define-fun var523-argOptionDefs () var2050 (as @var2050_0 var2050))
+(define-fun var1893 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var2464!1 () var1698 (as @var1698_0 var1698))
+(define-fun var2262!1 () var523 (as @var523_0 var523))
+(define-fun var2464!2 () var1698 (as @var1698_0 var1698))
+(define-fun var260!1 () var2366 (as @var2366_0 var2366))

@@ -1,0 +1,33 @@
+; cardinality of var3829 is 2
+; rep: (as @var3829_0 var3829)
+; rep: (as @var3829_1 var3829)
+; cardinality of var2859 is 1
+; rep: (as @var2859_0 var2859)
+; cardinality of var3737 is 1
+; rep: (as @var3737_0 var3737)
+; cardinality of var3726 is 1
+; rep: (as @var3726_0 var3726)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun Int_parseInt/1370970945 ((_arg_1 String)) Int (ite (= "C" _arg_1) 1 0))
+(define-fun mwtTokens/-371264511 ((BOUND_VARIABLE_865 var3829)) var3737 (as @var3737_0 var3737))
+(define-fun var3737_add/328494887 ((BOUND_VARIABLE_868 var3737) (BOUND_VARIABLE_869 var3726)) Bool false)
+(define-fun cast-from-String-to-var3726 ((BOUND_VARIABLE_872 String)) var3726 (as @var3726_0 var3726))
+(define-fun mwtMiscs/-371264511 ((BOUND_VARIABLE_875 var3829)) var3737 (as @var3737_0 var3737))
+(define-fun mwtLastCoreLabels/-371264511 ((BOUND_VARIABLE_878 var3829)) var3737 (as @var3737_0 var3737))
+(define-fun Int_valueOf/-1371140006 ((BOUND_VARIABLE_881 Int)) Int 0)
+(define-fun cast-from-Int-to-var3726 ((BOUND_VARIABLE_884 Int)) var3726 (as @var3726_0 var3726))
+(define-fun null-var3829 () var3829 (as @var3829_0 var3829))
+(define-fun null-String () String "A")
+(define-fun var3225 () var3829 (as @var3829_1 var3829))
+(define-fun var1887 () String "")
+(define-fun var1311!1 () var3737 (as @var3737_0 var3737))
+(define-fun var992!1 () String "")
+(define-fun var3121!1 () var3737 (as @var3737_0 var3737))
+(define-fun var34!1 () String "")
+(define-fun var1085!1 () var3737 (as @var3737_0 var3737))
+(define-fun var1802!1 () Int 0)

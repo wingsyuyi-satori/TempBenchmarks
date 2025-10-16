@@ -1,0 +1,2 @@
+(define-fun x () String "bbaa")
+(define-fun y () String "bbaabbaa")

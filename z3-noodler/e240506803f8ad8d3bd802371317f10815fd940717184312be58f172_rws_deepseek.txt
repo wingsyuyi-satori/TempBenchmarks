@@ -1,0 +1,33 @@
+(define-fun timestamp () String
+    "\u{0}")
+  (define-fun component () String
+    "\u{0}")
+  (define-fun log_level () String
+    " DEBUG ")
+  (define-fun full_message () String
+    "\u{0}")
+  (define-fun message () String
+    "\u{0}")
+  (define-fun log_entry () String
+    "[2023-11-15 14:30:45] INFO | main: System started successfully")
+  (define-fun str.len ((x!0 String)) Int
+    19)
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    (ite (and (= x!0 "\u{0}") (= x!1 10)) " "
+    (ite (and (= x!0 "\u{0}") (= x!1 13)) ":"
+    (ite (and (= x!0 "\u{0}") (= x!1 16)) ":"
+      "-"))))
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "\u{0}") (= x!1 "[")) false
+    (ite (and (= x!0 "\u{0}") (= x!1 "]")) false
+      true)))
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")

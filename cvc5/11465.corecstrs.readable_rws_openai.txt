@@ -1,0 +1,1 @@
+(define-fun url () String "https://www.example.com:443/foo/bar/baz?user=alice&debug=1")

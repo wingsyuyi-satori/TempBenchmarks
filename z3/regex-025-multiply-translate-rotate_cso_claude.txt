@@ -1,0 +1,4 @@
+(define-fun y () String
+    "}}}}$$}}$$$$}}")
+  (define-fun x () String
+    "$$}}$$}}}}$$}}")

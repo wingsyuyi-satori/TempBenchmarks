@@ -1,0 +1,15 @@
+; cardinality of var2896 is 2
+; rep: (as @var2896_0 var2896)
+; rep: (as @var2896_1 var2896)
+; cardinality of var1207 is 1
+; rep: (as @var1207_0 var1207)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun null-var2896 () var2896 (as @var2896_0 var2896))
+(define-fun null-String () String "A")
+(define-fun var3307 () var2896 (as @var2896_1 var2896))
+(define-fun var2003 () String "")

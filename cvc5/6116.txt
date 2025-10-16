@@ -1,0 +1,22 @@
+; cardinality of var1902 is 2
+; rep: (as @var1902_0 var1902)
+; rep: (as @var1902_1 var1902)
+; cardinality of var2060 is 1
+; rep: (as @var2060_0 var2060)
+; cardinality of var198 is 1
+; rep: (as @var198_0 var198)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun getLength-Arr-Int-1 ((_arg_1 (Array Int Int))) Int 2)
+(define-fun var198_max/1360571700 ((_arg_1 Int) (_arg_2 Int)) Int 0)
+(define-fun arr-Int-init () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun null-var1902 () var1902 (as @var1902_0 var1902))
+(define-fun null-String () String "A")
+(define-fun null-__Array__Int__Int__ () (Array Int Int) (store ((as const (Array Int Int)) 1) 0 (- 1)))
+(define-fun var1372 () var1902 (as @var1902_1 var1902))
+(define-fun var921 () String "")
+(define-fun var3653 () (Array Int Int) ((as const (Array Int Int)) 0))

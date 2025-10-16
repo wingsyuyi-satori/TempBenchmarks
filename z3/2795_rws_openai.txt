@@ -1,0 +1,27 @@
+(define-fun message () String
+    (split_rest (split_at (split_rest (split_rest log_entry "]" 1) "|" 1) " " 1)
+            "|"
+            1))
+  (define-fun log_entry () String
+    "]")
+  (define-fun after_pipe1 () String
+    (split_rest (split_rest log_entry "]" 1) "|" 1))
+  (define-fun log_level () String
+    (split_at (split_at (split_rest (split_rest log_entry "]" 1) "|" 1) " " 1)
+          "|"
+          0))
+  (define-fun ts () String
+    (split_at (split_at log_entry "]" 0) "[" 1))
+  (define-fun after_space1 () String
+    (split_at (split_rest (split_rest log_entry "]" 1) "|" 1) " " 1))
+  (define-fun ts_with_bracket () String
+    (split_at log_entry "]" 0))
+  (define-fun after_bracket () String
+    (split_rest log_entry "]" 1))
+  (define-fun message_clean () String
+    (let ((a!1 (split_rest (split_at (split_rest (split_rest log_entry "]" 1) "|" 1)
+                                 " "
+                                 1)
+                       "|"
+                       1)))
+  (split_at a!1 " " 1)))

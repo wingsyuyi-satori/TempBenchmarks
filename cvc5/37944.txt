@@ -1,0 +1,18 @@
+; cardinality of var3342 is 2
+; rep: (as @var3342_0 var3342)
+; rep: (as @var3342_1 var3342)
+; cardinality of var2098 is 1
+; rep: (as @var2098_0 var2098)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun initialized/615252293 ((_arg_1 var3342)) Bool true)
+(define-fun docId/615252293 ((_arg_1 var3342)) String "")
+(define-fun sentId/615252293 ((_arg_1 var3342)) String "\u{5c}s*\u{5c}|\u{5c}s*")
+(define-fun null-var3342 () var3342 (as @var3342_0 var3342))
+(define-fun null-String () String "A")
+(define-fun var1639 () var3342 (as @var3342_1 var3342))
+(define-fun var1786 () String "")

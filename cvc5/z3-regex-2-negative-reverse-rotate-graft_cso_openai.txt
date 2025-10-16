@@ -1,0 +1,8 @@
+(define-fun S () String "Abbbaaa")
+(define-fun seg_count () Int 3)
+(define-fun seg0 () String "")
+(define-fun seg1 () String "B")
+(define-fun seg2 () String "Abbbaaa")
+(define-fun subseg_count () Int 2)
+(define-fun subseg1_0 () String "")
+(define-fun subseg1_1 () String "")

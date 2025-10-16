@@ -1,0 +1,7 @@
+(define-fun word1 () String "a")
+(define-fun in1 () String "")
+(define-fun in0 () String "a")
+(define-fun in1_first () String "")
+(define-fun in1_second () String "")
+(define-fun in0_first () String "")
+(define-fun in0_second () String "")

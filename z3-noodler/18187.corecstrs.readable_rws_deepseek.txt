@@ -1,0 +1,28 @@
+(define-fun message () String
+    "")
+  (define-fun close_bracket () String
+    "]")
+  (define-fun colon () String
+    ":")
+  (define-fun log_level () String
+    "14")
+  (define-fun pipe () String
+    "|")
+  (define-fun date_part () String
+    "")
+  (define-fun space () String
+    " ")
+  (define-fun level_part () String
+    "14")
+  (define-fun time_part () String
+    "")
+  (define-fun dash () String
+    "-")
+  (define-fun open_bracket () String
+    "[")
+  (define-fun log_entry () String
+    "[2023-01-15 14:30:45] ERROR: Database connection failed")
+  (define-fun invalid_log_entry () String
+    "[2023-13-32 25:61:61] CRITICAL: Invalid timestamp")
+  (define-fun timestamp () String
+    "")

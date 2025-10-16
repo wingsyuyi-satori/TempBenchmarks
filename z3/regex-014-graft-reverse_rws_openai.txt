@@ -1,0 +1,43 @@
+(define-fun message () String
+    (let ((a!1 (str.substr (split_at log_entry "|" 1)
+                       1
+                       (- (str.len (split_at log_entry "|" 1)) 1))))
+  (ite (str.prefixof " " (split_at log_entry "|" 1))
+       a!1
+       (split_at log_entry "|" 1))))
+  (define-fun after_rbracket () String
+    (split_at log_entry "]" 1))
+  (define-fun after_rbracket_trim () String
+    (let ((a!1 (str.substr (split_at log_entry "]" 1)
+                       1
+                       (- (str.len (split_at log_entry "]" 1)) 1))))
+  (ite (str.prefixof " " (split_at log_entry "]" 1))
+       a!1
+       (split_at log_entry "]" 1))))
+  (define-fun seg1_after_lbracket () String
+    (split_at log_entry "[" 1))
+  (define-fun log_level () String
+    (let ((a!1 (str.substr (split_at log_entry "]" 1)
+                       1
+                       (- (str.len (split_at log_entry "]" 1)) 1))))
+(let ((a!2 (split_at (ite (str.prefixof " " (split_at log_entry "]" 1))
+                          a!1
+                          (split_at log_entry "]" 1))
+                     "|"
+                     0)))
+  (str.replace a!2 " " ""))))
+  (define-fun message_with_spaces () String
+    (split_at log_entry "|" 1))
+  (define-fun log_entry () String
+    "[2024-06-01 12:34:56] INFO | User login succeeded: user=alice")
+  (define-fun timestamp () String
+    (split_at (split_at log_entry "[" 1) "]" 0))
+  (define-fun level_and_space () String
+    (let ((a!1 (str.substr (split_at log_entry "]" 1)
+                       1
+                       (- (str.len (split_at log_entry "]" 1)) 1))))
+  (split_at (ite (str.prefixof " " (split_at log_entry "]" 1))
+                 a!1
+                 (split_at log_entry "]" 1))
+            "|"
+            0)))

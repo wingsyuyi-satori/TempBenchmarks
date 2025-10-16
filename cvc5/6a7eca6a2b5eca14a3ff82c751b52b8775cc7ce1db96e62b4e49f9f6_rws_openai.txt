@@ -1,0 +1,5 @@
+(define-fun email_addr () String "")
+(define-fun user_part () String "@")
+(define-fun domain_part () String "")
+(define-fun subdomain () String "@")
+(define-fun tld () String "admin")

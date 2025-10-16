@@ -1,0 +1,15 @@
+; cardinality of var2167 is 1
+; rep: (as @var2167_0 var2167)
+; cardinality of var2911 is 1
+; rep: (as @var2911_0 var2911)
+; cardinality of var1661 is 1
+; rep: (as @var1661_0 var1661)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1661_newHashMap/701256970 () var2911 (as @var2911_0 var2911))
+(define-fun null-String () String "A")
+(define-fun var3626 () String "")

@@ -1,0 +1,45 @@
+; cardinality of var1901 is 2
+; rep: (as @var1901_0 var1901)
+; rep: (as @var1901_1 var1901)
+; cardinality of var2871 is 1
+; rep: (as @var2871_0 var2871)
+; cardinality of var2257 is 2
+; rep: (as @var2257_0 var2257)
+; rep: (as @var2257_1 var2257)
+; cardinality of var1840 is 1
+; rep: (as @var1840_0 var1840)
+; cardinality of var1047 is 1
+; rep: (as @var1047_0 var1047)
+; cardinality of var1241 is 1
+; rep: (as @var1241_0 var1241)
+; cardinality of var855 is 1
+; rep: (as @var855_0 var855)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-Int-init () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun var1840-init () var1840 (as @var1840_0 var1840))
+(define-fun <init>/2076123439 ((BOUND_VARIABLE_864 var1840) (BOUND_VARIABLE_865 (Array Int Int)) (BOUND_VARIABLE_866 Int)) void (as @void_0 void))
+(define-fun var2257_write/489016319 ((BOUND_VARIABLE_869 var2257) (BOUND_VARIABLE_870 var1840)) void (as @void_0 void))
+(define-fun var1901_hasEntry/-919956893 ((_arg_1 var1901) (_arg_2 String)) Bool false)
+(define-fun getWriteIndex/-1813127352 ((BOUND_VARIABLE_873 var1840)) Int 0)
+(define-fun var1047-init () var1047 (as @var1047_0 var1047))
+(define-fun <init>/-513080946 ((BOUND_VARIABLE_876 var1047) (BOUND_VARIABLE_877 (Array Int Int))) void (as @void_0 void))
+(define-fun var1901_createDocument/310456128 ((BOUND_VARIABLE_880 var1901) (BOUND_VARIABLE_881 String) (BOUND_VARIABLE_882 Int) (BOUND_VARIABLE_883 var855)) var1241 (as @var1241_0 var1241))
+(define-fun cast-from-var1047-to-var855 ((BOUND_VARIABLE_886 var1047)) var855 (as @var855_0 var855))
+(define-fun null-var1901 () var1901 (as @var1901_0 var1901))
+(define-fun null-String () String "A")
+(define-fun null-var2257 () var2257 (as @var2257_0 var2257))
+(define-fun var1973 () var1901 (as @var1901_1 var1901))
+(define-fun var37 () String "")
+(define-fun var2585 () var2257 (as @var2257_1 var2257))
+(define-fun var2928!1 () var1840 (as @var1840_0 var1840))
+(define-fun var3512!1 () (Array Int Int) ((as const (Array Int Int)) 0))
+(define-fun var1875 () Int 0)
+(define-fun var2585!1 () var2257 (as @var2257_0 var2257))
+(define-fun var2928!2 () var1840 (as @var1840_0 var1840))
+(define-fun var1004!1 () var1047 (as @var1047_0 var1047))
+(define-fun var3512!2 () (Array Int Int) ((as const (Array Int Int)) 0))

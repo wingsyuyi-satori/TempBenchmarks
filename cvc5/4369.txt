@@ -1,0 +1,12 @@
+; cardinality of var267 is 2
+; rep: (as @var267_0 var267)
+; rep: (as @var267_1 var267)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun getContentType/125337655 ((_arg_1 var267)) String "A")
+(define-fun null-var267 () var267 (as @var267_0 var267))
+(define-fun var1845 () var267 (as @var267_1 var267))

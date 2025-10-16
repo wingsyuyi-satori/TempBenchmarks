@@ -1,0 +1,6 @@
+(define-fun data_line () String "")
+(define-fun delimiter () String ",")
+(define-fun id_field () String "0AAAAAAA")
+(define-fun timestamp () String "AAAA-AA-BA")
+(define-fun value () String "0")
+(define-fun status () String "ACTIVE")

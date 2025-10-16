@@ -1,0 +1,8 @@
+(define-fun T_1 () Bool false)
+(define-fun T_2 () Bool true)
+(define-fun T_3 () Bool false)
+(define-fun T_4 () Bool true)
+(define-fun var_0xINPUT_107669 () String "A")
+(define-fun input_split_0 () String "A")
+(define-fun input_split_1 () String "A")
+(define-fun input_remaining () String "")

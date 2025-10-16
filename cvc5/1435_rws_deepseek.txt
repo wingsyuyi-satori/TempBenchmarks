@@ -1,0 +1,7 @@
+(define-fun dot () String ".")
+(define-fun dash () String "-")
+(define-fun colon () String ":")
+(define-fun jwt () String "")
+(define-fun api_key () String "")
+(define-fun auth_header () String "Bearer ")
+(define-fun expected_sig () String "ABC123")

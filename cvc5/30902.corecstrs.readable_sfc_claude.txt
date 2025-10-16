@@ -1,0 +1,6 @@
+(define-fun T_1 () Int 0)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_440920 () String "")
+(define-fun split_0 () String "")
+(define-fun split_1 () String "")
+(define-fun num_segments () Int 1)

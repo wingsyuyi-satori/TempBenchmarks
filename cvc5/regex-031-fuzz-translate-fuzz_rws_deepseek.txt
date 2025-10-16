@@ -1,0 +1,6 @@
+(define-fun email_addr () String "")
+(define-fun mailbox () String "A")
+(define-fun domain () String ".")
+(define-fun domain_seg1 () String "A")
+(define-fun domain_seg2 () String "B")
+(define-fun tld () String "..")

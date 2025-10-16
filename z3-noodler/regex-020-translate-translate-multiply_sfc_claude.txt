@@ -1,0 +1,12 @@
+(define-fun x_seg1 () String
+    "\u{0}")
+  (define-fun x () String
+    "zzzzzz")
+  (define-fun x_seg0 () String
+    "\u{0}")
+  (define-fun x_seg2 () String
+    "\u{0}")
+  (define-fun x_rest () String
+    "")
+  (define-fun y () String
+    "")

@@ -1,0 +1,2 @@
+(define-fun key1 () String "CC")
+(define-fun key2 () String "VO")

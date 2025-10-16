@@ -1,0 +1,6 @@
+(define-fun input_line () String "")
+(define-fun tsv_field_count () Int 1)
+(define-fun field_a () String "")
+(define-fun field_b () String "")
+(define-fun field_c () String "")
+(define-fun csv_field3 () String "")

@@ -1,0 +1,5 @@
+(define-fun email () String "@")
+(define-fun user () String "A")
+(define-fun domain () String "A")
+(define-fun tld () String "com")
+(define-fun tld_index () Int 1)

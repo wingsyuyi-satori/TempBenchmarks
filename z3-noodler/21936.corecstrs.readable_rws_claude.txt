@@ -1,0 +1,30 @@
+(define-fun param2 () String
+    "\u{0}\u{0}=")
+  (define-fun host_without_port () String
+    "example")
+  (define-fun path_segment_2 () String
+    "\u{0}")
+  (define-fun remaining_path () String
+    "\u{0}")
+  (define-fun path_segment_1 () String
+    "api.com")
+  (define-fun url () String
+    "https://api.example.com:8080/v1/users/profile?id=123&format=json")
+  (define-fun param1 () String
+    "\u{0}\u{0}=")
+  (define-fun protocol () String
+    "https")
+  (define-fun param1_key () String
+    "\u{0}")
+  (define-fun query_string () String
+    "\u{0}")
+  (define-fun path () String
+    "\u{0}")
+  (define-fun param2_key () String
+    "\u{0}")
+  (define-fun host () String
+    "api.com")
+  (define-fun port () String
+    "\u{0}\u{0}")
+  (define-fun full_host_part () String
+    "\u{0}")

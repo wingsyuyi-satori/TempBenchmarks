@@ -1,0 +1,7 @@
+(define-fun email_addr () String "")
+(define-fun at () String "@")
+(define-fun dot () String ".")
+(define-fun local () String "user")
+(define-fun domain () String "")
+(define-fun domain_segments () Int 1)
+(define-fun tld () String "..")

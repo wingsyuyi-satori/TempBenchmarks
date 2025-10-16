@@ -1,0 +1,35 @@
+;; universe for var345:
+  ;;   var345!val!0 var345!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var345!val!0 () var345)
+  (declare-fun var345!val!1 () var345)
+  ;; cardinality constraint:
+  (forall ((x var345)) (or (= x var345!val!0) (= x var345!val!1)))
+  ;; -----------
+  (define-fun var2328 () String
+    (trim-right (trim-left var1928)))
+  (define-fun null-var345 () var345
+    var345!val!1)
+  (define-fun var3080 () Int
+    (let ((a!1 (< (num_splits (trim-right (trim-left var1928))
+                          (splitRegex/-1299977600 var595))
+              (- 1))))
+(let ((a!2 (ite a!1
+                (num_splits (trim-right (trim-left var1928))
+                            (splitRegex/-1299977600 var595))
+                (- 1))))
+  (ite (> (- 1) 0)
+       a!2
+       (num_splits (trim-right (trim-left var1928))
+                   (splitRegex/-1299977600 var595))))))
+  (define-fun var756 () String
+    (splitRegex/-1299977600 var595))
+  (define-fun var1928 () String
+    "!")
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var595 () var345
+    var345!val!0)
+  (define-fun splitRegex/-1299977600 ((x!0 var345)) String
+    "")

@@ -1,0 +1,4 @@
+(define-fun x () String
+    "YX~MYX~M321")
+  (define-fun y () String
+    "")

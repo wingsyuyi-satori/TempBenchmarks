@@ -1,0 +1,19 @@
+(define-fun var2095 () String
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 0 (- (- 1) 1))
+                     (>= (num_splits var796 "\(") (- 1)))
+                (split_rest var796 "\(" (- (- 1) 1))
+                (split_at var796 "\(" 0))))
+  (trim-right (trim-left a!1))))
+  (define-fun var1502 () String
+    (ite (and (> (- 1) 0) (= 0 (- (- 1) 1)) (>= (num_splits var796 "\(") (- 1)))
+     (split_rest var796 "\(" (- (- 1) 1))
+     (split_at var796 "\(" 0)))
+  (define-fun var1637 () Int
+    (ite (> (- 1) 0)
+     (ite (< (num_splits var796 "\(") (- 1)) (num_splits var796 "\(") (- 1))
+     (num_splits var796 "\(")))
+  (define-fun var796 () String
+    "\u{0}")
+  (define-fun null-String () String
+    "\u{0}\u{0}")

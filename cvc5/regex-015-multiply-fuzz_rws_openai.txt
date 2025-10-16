@@ -1,0 +1,5 @@
+(define-fun addr () String "")
+(define-fun user () String "A")
+(define-fun host () String "")
+(define-fun host_first () String "@")
+(define-fun host_last () String "@")

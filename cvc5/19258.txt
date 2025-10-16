@@ -1,0 +1,62 @@
+; cardinality of var2319 is 2
+; rep: (as @var2319_0 var2319)
+; rep: (as @var2319_1 var2319)
+; cardinality of var2356 is 1
+; rep: (as @var2356_0 var2356)
+; cardinality of var1573 is 1
+; rep: (as @var1573_0 var1573)
+; cardinality of var1620 is 1
+; rep: (as @var1620_0 var1620)
+; cardinality of var3250 is 1
+; rep: (as @var3250_0 var3250)
+; cardinality of var3215 is 1
+; rep: (as @var3215_0 var3215)
+; cardinality of var3504 is 1
+; rep: (as @var3504_0 var3504)
+; cardinality of var800 is 1
+; rep: (as @var800_0 var800)
+; cardinality of var3837 is 1
+; rep: (as @var3837_0 var3837)
+; cardinality of var2750 is 1
+; rep: (as @var2750_0 var2750)
+; cardinality of var1794 is 1
+; rep: (as @var1794_0 var1794)
+; cardinality of var3950 is 1
+; rep: (as @var3950_0 var3950)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-String-init () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1573_arraycopy/-325913181 ((BOUND_VARIABLE_1120 var1620) (BOUND_VARIABLE_1121 Int) (BOUND_VARIABLE_1122 var1620) (BOUND_VARIABLE_1123 Int) (BOUND_VARIABLE_1124 Int)) void (as @void_0 void))
+(define-fun cast-from-__Array__Int__String__-to-var1620 ((BOUND_VARIABLE_1127 (Array Int String))) var1620 (as @var1620_0 var1620))
+(define-fun getLength-Arr-String-1 ((_arg_1 (Array Int String))) Int 1)
+(define-fun var3215_getEncoding/-422666462 ((BOUND_VARIABLE_1130 var2319)) String "")
+(define-fun var3215_getTagSeparator/-1758988662 ((BOUND_VARIABLE_1133 var2319)) String "")
+(define-fun var3950-init () var3950 (as @var3950_0 var3950))
+(define-fun String-init () String "")
+(define-fun <init>/875830710 ((BOUND_VARIABLE_1136 var3950) (BOUND_VARIABLE_1137 String)) void (as @void_0 void))
+(define-fun null-var2319 () var2319 (as @var2319_0 var2319))
+(define-fun null-String () String "A")
+(define-fun var3250-TEXT () var3250 (as @var3250_0 var3250))
+(define-fun null-var3504 () var3504 (as @var3504_0 var3504))
+(define-fun null-var800 () var800 (as @var800_0 var800))
+(define-fun null-var3837 () var3837 (as @var3837_0 var3837))
+(define-fun null-var2750 () var2750 (as @var2750_0 var2750))
+(define-fun null-var1794 () var1794 (as @var1794_0 var1794))
+(define-fun null-Int () Int 0)
+(define-fun var3507 () var2319 (as @var2319_1 var2319))
+(define-fun var448 () String "")
+(define-fun var793!1 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var2032 () Int 0)
+(define-fun var3524!1 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var2032!1 () Int 0)
+(define-fun var483!1 () Int 0)
+(define-fun var3596!1 () String "")
+(define-fun var3596!2 () String "TaggedFileRecord argument ")
+(define-fun var1552!1 () String "TaggedFileRecord argument ")
+(define-fun var1103!1 () String "TaggedFileRecord argument  has an unexpected number of =s")
+(define-fun var2929!1 () var3950 (as @var3950_0 var3950))
+(define-fun var963!1 () String "")

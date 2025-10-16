@@ -1,0 +1,20 @@
+(define-fun y () String
+    "}}}}}}}}}}$$}}")
+  (define-fun x () String
+    "}}$$$$$$$$$$}}")
+  (define-fun s () String
+    "|:F;")
+  (define-fun sub2 () String
+    "|:F;")
+  (define-fun sub1 () String
+    "")
+  (define-fun val () String
+    "")
+  (define-fun key () String
+    "id_")
+  (define-fun part3 () String
+    "END")
+  (define-fun part2 () String
+    ":")
+  (define-fun part1 () String
+    "CGH")

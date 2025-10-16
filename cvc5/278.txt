@@ -1,0 +1,26 @@
+; cardinality of var1761 is 2
+; rep: (as @var1761_0 var1761)
+; rep: (as @var1761_1 var1761)
+; cardinality of var609 is 1
+; rep: (as @var609_0 var609)
+; cardinality of var512 is 1
+; rep: (as @var512_0 var512)
+; cardinality of var447 is 1
+; rep: (as @var447_0 var447)
+; cardinality of var158 is 1
+; rep: (as @var158_0 var158)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var609!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun arr-var1761-init () (Array Int var1761) ((as const (Array Int var1761)) (as @var1761_0 var1761)))
+(define-fun cast-from-ClassObject-to-var1761 ((_arg_1 ClassObject)) var1761 (as @var1761_1 var1761))
+(define-fun var447_channels/-1873906782 ((BOUND_VARIABLE_672 (Array Int var1761))) var512 (as @var512_0 var512))
+(define-fun var158-init () var158 (as @var158_0 var158))
+(define-fun <init>/964458484 ((BOUND_VARIABLE_675 var158)) void (as @void_0 void))
+(define-fun null-__Array__Int__var1761__ () (Array Int var1761) (store ((as const (Array Int var1761)) (as @var1761_1 var1761)) 0 (as @var1761_0 var1761)))
+(define-fun var538!1 () (Array Int var1761) (store ((as const (Array Int var1761)) (as @var1761_0 var1761)) 0 (as @var1761_1 var1761)))
+(define-fun var218!1 () var158 (as @var158_0 var158))

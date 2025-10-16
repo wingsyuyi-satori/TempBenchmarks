@@ -1,0 +1,7 @@
+(define-fun config_line () String "username=admin")
+(define-fun section_header () String "[UserSettings]")
+(define-fun key () String "\u{5c}n")
+(define-fun value () String "")
+(define-fun section_name () String "\u{5c}n")
+(define-fun rest_after_key () String "B")
+(define-fun rest_after_section () String "A")

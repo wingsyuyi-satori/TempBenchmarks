@@ -1,0 +1,14 @@
+(define-fun var0_split_1 () String
+    "\u{0}")
+  (define-fun var0 () String
+    "02257fflloswwAAHHTTTUUUVX(,,-:<<<[[11")
+  (define-fun var0_split_2 () String
+    "\u{0}")
+  (define-fun var0_split_1_0 () String
+    "\u{0}")
+  (define-fun var0_split_1_1 () String
+    "\u{0}")
+  (define-fun var0_rest_0 () String
+    "")
+  (define-fun var0_split_0 () String
+    "\u{0}")

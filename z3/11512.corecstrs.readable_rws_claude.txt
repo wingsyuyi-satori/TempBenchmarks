@@ -1,0 +1,58 @@
+(define-fun action_type () String
+    "login")
+  (define-fun user_id () String
+    "12345")
+  (define-fun structured_log () String
+    "2024-01-15 13:20:15 [INFO] | user_id:12345 action:login status:success")
+  (define-fun end_time () String
+    "5")
+  (define-fun start_time () String
+    "1")
+  (define-fun log_time_range () String
+    "14:30:25-16:45:30")
+  (define-fun log_count () Int
+    5)
+  (define-fun combined_logs () String
+    "INFO|WARN|ERROR|INFO|DEBUG")
+  (define-fun stack_trace () String
+    "")
+  (define-fun multiline_log () String
+    "2024-01-15 11:15:00 [ERROR] | Exception occurred")
+  (define-fun cache_key () String
+    "ERROR")
+  (define-fun cache_message () String
+    "Cache miss")
+  (define-fun app_name () String
+    "AppServer")
+  (define-fun thread_id () String
+    "Thread")
+  (define-fun complex_log () String
+    "2024-01-15 16:22:33 [WARN] AppServer-Thread-5 | Cache miss for key user:12345")
+  (define-fun error_message () String
+    "Database")
+  (define-fun error_level () String
+    "ERROR")
+  (define-fun error_timestamp () String
+    "ERROR")
+  (define-fun error_log () String
+    "2024-01-15 09:45:12 [ERROR] | Database connection failed")
+  (define-fun log_level () String
+    "ERROR")
+  (define-fun second_part () String
+    "j`")
+  (define-fun minute_part () String
+    "H^")
+  (define-fun hour_part () String
+    "\Z")
+  (define-fun date_component () String
+    "0")
+  (define-fun message_content () String
+    "Userqw")
+  (define-fun time_component () String
+    "4")
+  (define-fun timestamp_part () String
+    "0")
+  (define-fun log_entry () String
+    "2024-01-15 14:30:25 [INFO] | User login successful")
+  (define-fun info_logs () String
+    "")

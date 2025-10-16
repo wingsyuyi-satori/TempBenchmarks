@@ -1,0 +1,26 @@
+(define-fun delim_rbracket () String
+    "]")
+  (define-fun message_raw () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 1) "|" 2))
+  (define-fun after_rbracket () String
+    (split_at (split_at log_entry "[" 1) "]" 1))
+  (define-fun delim_dash () String
+    "-")
+  (define-fun delim_space () String
+    " ")
+  (define-fun log_level_raw () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 1) "|" 1))
+  (define-fun log_entry () String
+    "[2024-06-18 14:23:55] | INFO | User logged in")
+  (define-fun delim_colon () String
+    ":")
+  (define-fun num_pipe_splits () Int
+    (num_splits (split_at (split_at log_entry "[" 1) "]" 1) "|"))
+  (define-fun delim_lbracket () String
+    "[")
+  (define-fun after_lbracket () String
+    (split_at log_entry "[" 1))
+  (define-fun delim_pipe () String
+    "|")
+  (define-fun timestamp () String
+    (split_at (split_at log_entry "[" 1) "]" 0))

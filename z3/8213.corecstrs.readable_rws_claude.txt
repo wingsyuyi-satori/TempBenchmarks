@@ -1,0 +1,38 @@
+(define-fun multi_delim_line () String
+    "key=value:extra")
+  (define-fun remaining_config () String
+    "[database]")
+  (define-fun config_with_spaces () String
+    "timeout = 30")
+  (define-fun valid_key () String
+    "database_connection_timeout")
+  (define-fun malformed_line () String
+    "invalid_config_no_delimiter")
+  (define-fun complex_config () String
+    "[app]\nname=MyApp\nversion=1.0\n[logging]\nlevel=INFO")
+  (define-fun port_line () String
+    "port=443")
+  (define-fun host_line () String
+    "host=example.com")
+  (define-fun ini_content () String
+    "[server]\nhost=example.com\nport=443\n[database]\nname=mydb")
+  (define-fun section_name () String
+    "database")
+  (define-fun section_header () String
+    "[database]")
+  (define-fun extracted_value () String
+    "localhost")
+  (define-fun extracted_key () String
+    "database_host")
+  (define-fun alt_config () String
+    "port:8080")
+  (define-fun config_line () String
+    "database_host=localhost")
+  (define-fun key_value_pair () String
+    "")
+  (define-fun full_config () String
+    "")
+  (define-fun extract_section_name ((x!0 String)) String
+    (ite (= x!0 "[database]") "database"
+    (ite (= x!0 "[app]") "!0!"
+      (split_at (split_at x!0 "[" 1) "]" 0))))

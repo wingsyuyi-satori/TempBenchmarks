@@ -1,0 +1,23 @@
+; cardinality of var57 is 2
+; rep: (as @var57_0 var57)
+; rep: (as @var57_1 var57)
+; cardinality of var3904 is 2
+; rep: (as @var3904_0 var3904)
+; rep: (as @var3904_1 var3904)
+; cardinality of var2350 is 2
+; rep: (as @var2350_0 var2350)
+; rep: (as @var2350_1 var2350)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3904_getValue/381491177 ((_arg_1 var3904)) var2350 (as @var2350_0 var2350))
+(define-fun cast-from-var2350-to-String ((_arg_1 var2350)) String "A")
+(define-fun var57_contains/1636690605 ((_arg_1 var57) (_arg_2 var2350)) Bool false)
+(define-fun cast-from-String-to-var2350 ((_arg_1 String)) var2350 (as @var2350_1 var2350))
+(define-fun null-var57 () var57 (as @var57_0 var57))
+(define-fun null-var3904 () var3904 (as @var3904_0 var3904))
+(define-fun var3450 () var57 (as @var57_1 var57))
+(define-fun var3003 () var3904 (as @var3904_1 var3904))

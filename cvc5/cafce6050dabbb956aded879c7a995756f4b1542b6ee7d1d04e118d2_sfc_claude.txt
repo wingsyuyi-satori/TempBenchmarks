@@ -1,0 +1,7 @@
+(define-fun key1 () String "CC")
+(define-fun key2 () String "VO")
+(define-fun key1_split_C_0 () String "O")
+(define-fun key1_split_C_1 () String "")
+(define-fun key1_split_C_2 () String "")
+(define-fun key2_split_O_0 () String "O")
+(define-fun key2_split_O_1 () String "")

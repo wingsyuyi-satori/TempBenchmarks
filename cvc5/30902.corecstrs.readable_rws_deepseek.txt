@@ -1,0 +1,7 @@
+(define-fun email_addr () String ".com")
+(define-fun local () String "@")
+(define-fun domain () String ".")
+(define-fun subdomain_count () Int 2)
+(define-fun domain_seg1 () String "0")
+(define-fun domain_seg2 () String "..")
+(define-fun tld () String "..")

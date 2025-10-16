@@ -1,0 +1,2 @@
+(define-fun var0 () String
+    "2257eeelloswwAACCCGGGTTTUUUVY),,.:<<<@@@\\\\11")

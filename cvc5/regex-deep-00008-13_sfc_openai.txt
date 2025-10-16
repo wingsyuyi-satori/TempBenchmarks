@@ -1,0 +1,4 @@
+(define-fun var0 () String "0000000000000000")
+(define-fun var0_first () String "")
+(define-fun var0_second () String "")
+(define-fun var0_rest () String "")

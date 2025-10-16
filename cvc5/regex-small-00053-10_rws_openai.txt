@@ -1,0 +1,4 @@
+(define-fun log_entry () String "[2024-06-21 15:23:10] INFO | User login successful")
+(define-fun timestamp () String "")
+(define-fun log_level () String "ERROR")
+(define-fun message () String "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")

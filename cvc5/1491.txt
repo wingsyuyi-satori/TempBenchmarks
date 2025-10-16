@@ -1,0 +1,36 @@
+; cardinality of var1081 is 1
+; rep: (as @var1081_0 var1081)
+; cardinality of var2764 is 1
+; rep: (as @var2764_0 var2764)
+; cardinality of var1480 is 1
+; rep: (as @var1480_0 var1480)
+; cardinality of var1300 is 1
+; rep: (as @var1300_0 var1300)
+; cardinality of var3137 is 1
+; rep: (as @var3137_0 var3137)
+; cardinality of var1237 is 1
+; rep: (as @var1237_0 var1237)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun replaceAll/1692887130 ((_arg_1 String) (_arg_2 String) (_arg_3 String)) String "")
+(define-fun var1480-init () var1480 (as @var1480_0 var1480))
+(define-fun <init>/-325640736 ((BOUND_VARIABLE_910 var1480)) void (as @void_0 void))
+(define-fun String_valueOf/1240665136 ((BOUND_VARIABLE_913 Int)) String "")
+(define-fun var1300_add/-376848345 ((BOUND_VARIABLE_916 var1300) (BOUND_VARIABLE_917 var3137)) Bool false)
+(define-fun cast-from-var1480-to-var1300 ((BOUND_VARIABLE_920 var1480)) var1300 (as @var1300_0 var1300))
+(define-fun cast-from-String-to-var3137 ((BOUND_VARIABLE_923 String)) var3137 (as @var3137_0 var3137))
+(define-fun var1237-init () var1237 (as @var1237_0 var1237))
+(define-fun <init>/1828590458 ((BOUND_VARIABLE_926 var1237) (BOUND_VARIABLE_927 var1300) (BOUND_VARIABLE_928 var3137)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun var2764-line1 () Int 0)
+(define-fun var1498 () String "")
+(define-fun var1364!1 () var1480 (as @var1480_0 var1480))
+(define-fun var1364!2 () var1480 (as @var1480_0 var1480))
+(define-fun var3896!1 () String "")
+(define-fun var1550!1 () var1237 (as @var1237_0 var1237))
+(define-fun var1364!3 () var1480 (as @var1480_0 var1480))
+(define-fun var3379!1 () String "")

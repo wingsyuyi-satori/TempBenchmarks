@@ -1,0 +1,27 @@
+(define-fun dot () String
+    ".")
+  (define-fun dash () String
+    "-")
+  (define-fun colon () String
+    ":")
+  (define-fun api_key () String
+    "a")
+  (define-fun jwt_token () String
+    "a")
+  (define-fun str.len ((x!0 String)) Int
+    1)
+  (define-fun str.is_base64 ((x!0 String)) Bool
+    true)
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "\u{0}") (= x!1 "SECRET")) false
+      true))
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)

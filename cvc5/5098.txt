@@ -1,0 +1,20 @@
+; cardinality of var3392 is 2
+; rep: (as @var3392_0 var3392)
+; rep: (as @var3392_1 var3392)
+; cardinality of var1864 is 2
+; rep: (as @var1864_0 var1864)
+; rep: (as @var1864_1 var1864)
+; cardinality of var3522 is 1
+; rep: (as @var3522_0 var3522)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun toString/-512974245 ((_arg_1 var3392)) String "A")
+(define-fun var3522_isNotBlank/-616714458 ((_arg_1 String)) Bool false)
+(define-fun null-var3392 () var3392 (as @var3392_0 var3392))
+(define-fun null-var1864 () var1864 (as @var1864_0 var1864))
+(define-fun var3863 () var3392 (as @var3392_1 var3392))
+(define-fun var1235 () var1864 (as @var1864_1 var1864))

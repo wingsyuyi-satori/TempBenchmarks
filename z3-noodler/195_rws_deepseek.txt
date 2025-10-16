@@ -1,0 +1,10 @@
+(define-fun tld () String
+    "\u{0}\u{0}")
+  (define-fun domain () String
+    "\u{0}")
+  (define-fun email_addr () String
+    "\u{0}\u{0}\u{0}\u{0}.@")
+  (define-fun main_domain () String
+    "\u{0}")
+  (define-fun local () String
+    "\u{0}\u{0}")

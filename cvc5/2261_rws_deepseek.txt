@@ -1,0 +1,7 @@
+(define-fun csv_line () String "")
+(define-fun header () String "ID")
+(define-fun first_name () String ",")
+(define-fun last_name () String ",")
+(define-fun email () String "@")
+(define-fun remaining_fields () String "")
+(define-fun pipe_line () String "")

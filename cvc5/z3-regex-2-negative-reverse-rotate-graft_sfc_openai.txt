@@ -1,0 +1,3 @@
+(define-fun S () String "Abbbaaa")
+(define-fun S_first () String "")
+(define-fun S_second () String "")

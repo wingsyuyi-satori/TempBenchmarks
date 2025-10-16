@@ -1,0 +1,22 @@
+(define-fun backup_email () String
+    "a")
+  (define-fun user_tld () String
+    "\u{0}\u{0}")
+  (define-fun subdomain () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun main_domain () String
+    "\u{0}\u{0}")
+  (define-fun backup_main () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun backup_local () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun backup_tld () String
+    "\u{0}\u{0}")
+  (define-fun user_domain () String
+    ".\u{0}")
+  (define-fun user_local () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun backup_domain () String
+    ".\u{0}")
+  (define-fun user_email () String
+    "a")

@@ -1,0 +1,19 @@
+; cardinality of var1468 is 2
+; rep: (as @var1468_0 var1468)
+; rep: (as @var1468_1 var1468)
+; cardinality of var2487 is 1
+; rep: (as @var2487_0 var2487)
+; cardinality of var3099 is 1
+; rep: (as @var3099_0 var3099)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1468_getServiceModel/1214805812 ((BOUND_VARIABLE_591 var1468)) var2487 (as @var2487_0 var2487))
+(define-fun var1468_getTargetServiceUniqueName/-1786712159 ((_arg_1 var1468)) String "A")
+(define-fun null-var1468 () var1468 (as @var1468_0 var1468))
+(define-fun null-var2487 () var2487 (as @var2487_0 var2487))
+(define-fun null-String () String "")
+(define-fun var255 () var1468 (as @var1468_1 var1468))

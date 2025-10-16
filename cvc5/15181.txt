@@ -1,0 +1,23 @@
+; cardinality of var1890 is 2
+; rep: (as @var1890_0 var1890)
+; rep: (as @var1890_1 var1890)
+; cardinality of var3000 is 1
+; rep: (as @var3000_0 var3000)
+; cardinality of var1690 is 1
+; rep: (as @var1690_0 var1690)
+; cardinality of var218 is 1
+; rep: (as @var218_0 var218)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun resultsSlot/506553339 ((BOUND_VARIABLE_690 var1890)) var1690 (as @var1690_0 var1690))
+(define-fun getContent/2060121830 ((BOUND_VARIABLE_693 var1690)) var218 (as @var218_0 var218))
+(define-fun var218_clear/2124191932 ((BOUND_VARIABLE_696 var218)) void (as @void_0 void))
+(define-fun null-var1890 () var1890 (as @var1890_0 var1890))
+(define-fun null-String () String "A")
+(define-fun var2261 () var1890 (as @var1890_1 var1890))
+(define-fun var1401 () String "")
+(define-fun var3496!1 () var218 (as @var218_0 var218))

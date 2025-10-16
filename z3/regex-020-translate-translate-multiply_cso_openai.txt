@@ -1,0 +1,16 @@
+(define-fun y () String
+    "")
+  (define-fun x () String
+    "zzzzzz")
+  (define-fun post_bracket () String
+    "")
+  (define-fun pre_bracket () String
+    "A")
+  (define-fun bracket_parts_count () Int
+    2)
+  (define-fun after_first_z () String
+    "[")
+  (define-fun first_z_seg () String
+    "A")
+  (define-fun z_parts_count () Int
+    2)

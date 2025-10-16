@@ -1,0 +1,31 @@
+; cardinality of var2524 is 1
+; rep: (as @var2524_0 var2524)
+; cardinality of var2169 is 1
+; rep: (as @var2169_0 var2169)
+; cardinality of var3865 is 1
+; rep: (as @var3865_0 var3865)
+; cardinality of var1804 is 1
+; rep: (as @var1804_0 var1804)
+; cardinality of var137 is 1
+; rep: (as @var137_0 var137)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3865_newHashSet/99871946 () var2169 (as @var2169_0 var2169))
+(define-fun var2169_size/-649653377 ((BOUND_VARIABLE_823 var2169)) Int 0)
+(define-fun arr-String-init () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var2169_toArray/-250983565 ((BOUND_VARIABLE_827 var2169) (BOUND_VARIABLE_828 (Array Int var1804))) (Array Int var1804) ((as const (Array Int var1804)) (as @var1804_0 var1804)))
+(define-fun cast-from-__Array__Int__String__-to-__Array__Int__var1804__ ((BOUND_VARIABLE_833 (Array Int String))) (Array Int var1804) ((as const (Array Int var1804)) (as @var1804_0 var1804)))
+(define-fun var137_sort/-2094180924 ((BOUND_VARIABLE_836 (Array Int var1804))) void (as @void_0 void))
+(define-fun String-init () String "")
+(define-fun getLength-Arr-String-1 ((_arg_1 (Array Int String))) Int 0)
+(define-fun null-String () String "A")
+(define-fun var3654 () String "")
+(define-fun var1378 () String "")
+(define-fun var2996!1 () var2169 (as @var2169_0 var2169))
+(define-fun var1043!1 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1043!2 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1444!1 () String "")

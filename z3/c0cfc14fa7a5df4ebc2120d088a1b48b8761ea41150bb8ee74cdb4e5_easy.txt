@@ -1,0 +1,4 @@
+(define-fun s () String
+    "AB..CDC")
+  (define-fun part_1_3676 () String
+    "t6kmfe69nv")

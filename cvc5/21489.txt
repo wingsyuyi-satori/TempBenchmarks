@@ -1,0 +1,77 @@
+; cardinality of var2525 is 2
+; rep: (as @var2525_0 var2525)
+; rep: (as @var2525_1 var2525)
+; cardinality of var1951 is 3
+; rep: (as @var1951_0 var1951)
+; rep: (as @var1951_1 var1951)
+; rep: (as @var1951_2 var1951)
+; cardinality of var1121 is 1
+; rep: (as @var1121_0 var1121)
+; cardinality of var3936 is 1
+; rep: (as @var3936_0 var3936)
+; cardinality of var3077 is 1
+; rep: (as @var3077_0 var3077)
+; cardinality of var902 is 1
+; rep: (as @var902_0 var902)
+; cardinality of var1120 is 1
+; rep: (as @var1120_0 var1120)
+; cardinality of var338 is 1
+; rep: (as @var338_0 var338)
+; cardinality of var1983 is 1
+; rep: (as @var1983_0 var1983)
+; cardinality of var3293 is 1
+; rep: (as @var3293_0 var3293)
+; cardinality of var350 is 1
+; rep: (as @var350_0 var350)
+; cardinality of var1501 is 1
+; rep: (as @var1501_0 var1501)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun buildCharacterMapPerAnnotation/-1031716714 ((_arg_1 var2525)) Bool false)
+(define-fun var1121-init () var1121 (as @var1121_0 var1121))
+(define-fun <init>/964458484 ((BOUND_VARIABLE_937 var1121)) void (as @void_0 void))
+(define-fun setProperty/703705272 ((BOUND_VARIABLE_940 var1121) (BOUND_VARIABLE_941 String) (BOUND_VARIABLE_942 String)) var1501 (as @var1501_0 var1501))
+(define-fun var3936-init () var3936 (as @var3936_0 var3936))
+(define-fun <init>/1273068990 ((BOUND_VARIABLE_945 var3936) (BOUND_VARIABLE_946 var1121) (BOUND_VARIABLE_947 Bool)) void (as @void_0 void))
+(define-fun annotate/-1213120409 ((BOUND_VARIABLE_950 var3936) (BOUND_VARIABLE_951 var1951)) void (as @void_0 void))
+(define-fun characterMap/-1031716714 ((BOUND_VARIABLE_954 var2525)) var3077 (as @var3077_0 var3077))
+(define-fun var902_setupCoref/-491369574 ((BOUND_VARIABLE_957 String) (BOUND_VARIABLE_958 var3077) (BOUND_VARIABLE_959 var1951)) var3077 (as @var3077_0 var3077))
+(define-fun var1120-init () var1120 (as @var1120_0 var1120))
+(define-fun <init>/865666258 ((BOUND_VARIABLE_962 var1120)) void (as @void_0 void))
+(define-fun annotate/-1676560150 ((BOUND_VARIABLE_965 var1120) (BOUND_VARIABLE_966 var1951)) void (as @void_0 void))
+(define-fun parser/-1031716714 ((BOUND_VARIABLE_969 var2525)) var338 (as @var338_0 var338))
+(define-fun var902_addEnhancedSentences/-1856196795 ((BOUND_VARIABLE_972 var1951) (BOUND_VARIABLE_973 var338)) void (as @void_0 void))
+(define-fun var902_annotateForDependencyParse/2124179671 ((BOUND_VARIABLE_976 var1951) (BOUND_VARIABLE_977 var338)) void (as @void_0 void))
+(define-fun getQMMapping/361786175 ((BOUND_VARIABLE_980 var2525) (BOUND_VARIABLE_981 var1951) (BOUND_VARIABLE_982 var3077)) var3077 (as @var3077_0 var3077))
+(define-fun qmSieveList/-1031716714 ((_arg_1 var2525)) String "A")
+(define-fun getMSMapping/592998345 ((BOUND_VARIABLE_985 var2525) (BOUND_VARIABLE_986 var1951) (BOUND_VARIABLE_987 var3077)) var3077 (as @var3077_0 var3077))
+(define-fun msSieveList/-1031716714 ((_arg_1 var2525)) String "B")
+(define-fun var3293_gatherQuotes/-846678570 ((_arg_1 var350)) var1983 (as @var1983_0 var1983))
+(define-fun cast-from-var1951-to-var350 ((_arg_1 var1951)) var350 (as @var350_0 var350))
+(define-fun var1983_iterator/-912451715 ((_arg_1 var1983)) Iterator (as @Iterator_0 Iterator))
+(define-fun Iterator_hasNext/-1669924200 ((_arg_1 Iterator)) Bool false)
+(define-fun null-var2525 () var2525 (as @var2525_0 var2525))
+(define-fun null-var1951 () var1951 (as @var1951_0 var1951))
+(define-fun var2525-COREF_PATH () String "")
+(define-fun var3733 () var2525 (as @var2525_1 var2525))
+(define-fun var1220 () var1951 (as @var1951_1 var1951))
+(define-fun var136!1 () var1121 (as @var1121_0 var1121))
+(define-fun var136!2 () var1121 (as @var1121_0 var1121))
+(define-fun var1329 () String "")
+(define-fun var1587 () String "")
+(define-fun var3317!1 () var3936 (as @var3936_0 var3936))
+(define-fun var136!3 () var1121 (as @var1121_0 var1121))
+(define-fun var1064 () Int 0)
+(define-fun var3317!2 () var3936 (as @var3936_0 var3936))
+(define-fun var1220!1 () var1951 (as @var1951_0 var1951))
+(define-fun var3213!1 () var1120 (as @var1120_0 var1120))
+(define-fun var3213!2 () var1120 (as @var1120_0 var1120))
+(define-fun var1220!2 () var1951 (as @var1951_0 var1951))
+(define-fun var1220!3 () var1951 (as @var1951_0 var1951))
+(define-fun var151!1 () var338 (as @var338_0 var338))
+(define-fun var1220!4 () var1951 (as @var1951_2 var1951))
+(define-fun var2852!1 () var338 (as @var338_0 var338))

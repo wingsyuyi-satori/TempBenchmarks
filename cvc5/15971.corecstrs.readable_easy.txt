@@ -1,0 +1,4 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_193107 () String "Type")
+(define-fun part_0_1380 () String "")
+(define-fun part_1_6678 () String "")

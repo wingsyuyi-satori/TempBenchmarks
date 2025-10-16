@@ -1,0 +1,7 @@
+(define-fun url () String "https://example.com/foo/bar")
+(define-fun protocol () String "https")
+(define-fun host () String ".")
+(define-fun path_full () String "B")
+(define-fun first_path_segment () String "foo")
+(define-fun num_path_segments () Int 2)
+(define-fun temp1 () String "A")

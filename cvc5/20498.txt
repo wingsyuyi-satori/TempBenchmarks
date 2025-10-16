@@ -1,0 +1,47 @@
+; cardinality of var2009 is 2
+; rep: (as @var2009_0 var2009)
+; rep: (as @var2009_1 var2009)
+; cardinality of var3023 is 4
+; rep: (as @var3023_0 var3023)
+; rep: (as @var3023_1 var3023)
+; rep: (as @var3023_2 var3023)
+; rep: (as @var3023_3 var3023)
+; cardinality of var2823 is 2
+; rep: (as @var2823_0 var2823)
+; rep: (as @var2823_1 var2823)
+; cardinality of var1673 is 1
+; rep: (as @var1673_0 var1673)
+; cardinality of var1337 is 1
+; rep: (as @var1337_0 var1337)
+; cardinality of var3244 is 1
+; rep: (as @var3244_0 var3244)
+; cardinality of var1730 is 2
+; rep: (as @var1730_0 var1730)
+; rep: (as @var1730_1 var1730)
+; cardinality of var3282 is 1
+; rep: (as @var3282_0 var3282)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1337!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var1673_fillOptions/-926000568 ((BOUND_VARIABLE_1189 ClassObject) (BOUND_VARIABLE_1190 var2009)) void (as @void_0 void))
+(define-fun equals/1194252418 ((_arg_1 var3244) (_arg_2 var1730)) Bool false)
+(define-fun cast-from-var3023-to-var3244 ((_arg_1 var3023)) var3244 (as @var3244_0 var3244))
+(define-fun cast-from-var3023-to-var1730 ((_arg_1 var3023)) var1730 (ite (= (as @var3023_2 var3023) _arg_1) (as @var1730_1 var1730) (as @var1730_0 var1730)))
+(define-fun var3282-init () var3282 (as @var3282_0 var3282))
+(define-fun <init>/-1040522254 ((BOUND_VARIABLE_1193 var3282)) void (as @void_0 void))
+(define-fun null-var2009 () var2009 (as @var2009_0 var2009))
+(define-fun null-var3023 () var3023 (as @var3023_0 var3023))
+(define-fun null-var2823 () var2823 (as @var2823_0 var2823))
+(define-fun var1337-numWordsCompound () String ",")
+(define-fun var3023-SURFACE () var3023 (as @var3023_1 var3023))
+(define-fun var3023-DEP () var3023 (as @var3023_2 var3023))
+(define-fun var1604 () var2009 (as @var2009_1 var2009))
+(define-fun var779 () var3023 (as @var3023_3 var3023))
+(define-fun var3260 () var2823 (as @var2823_1 var2823))
+(define-fun var1332 () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var1604!1 () var2009 (as @var2009_0 var2009))
+(define-fun var2832!1 () var3282 (as @var3282_0 var3282))

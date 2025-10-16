@@ -1,0 +1,22 @@
+; cardinality of var1045 is 2
+; rep: (as @var1045_0 var1045)
+; rep: (as @var1045_1 var1045)
+; cardinality of var1445 is 2
+; rep: (as @var1445_0 var1445)
+; rep: (as @var1445_1 var1445)
+; cardinality of var1853 is 2
+; rep: (as @var1853_0 var1853)
+; rep: (as @var1853_1 var1853)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1445_toString/-646077907 ((_arg_1 var1445)) String "A")
+(define-fun null-var1045 () var1045 (as @var1045_0 var1045))
+(define-fun null-var1445 () var1445 (as @var1445_0 var1445))
+(define-fun null-var1853 () var1853 (as @var1853_0 var1853))
+(define-fun var652 () var1045 (as @var1045_1 var1045))
+(define-fun var3239 () var1445 (as @var1445_1 var1445))
+(define-fun var250 () var1853 (as @var1853_1 var1853))

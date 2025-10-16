@@ -1,0 +1,5 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_147214 () String "Search")
+(define-fun search_parts_0 () String "S")
+(define-fun search_parts_1 () String "a")
+(define-fun search_count () Int 2)

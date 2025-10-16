@@ -1,0 +1,8 @@
+(define-fun var0 () String
+    "000000000000008")
+  (define-fun rest_2_3478 () String
+    "mesqw")
+  (define-fun rest_1_1429 () String
+    "aw6pbp0r34o7")
+  (define-fun rest_0_2429 () String
+    "aw6pbp0r34o7")

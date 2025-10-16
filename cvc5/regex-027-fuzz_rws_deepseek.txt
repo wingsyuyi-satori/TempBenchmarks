@@ -1,0 +1,5 @@
+(define-fun csv_line () String "AAAAAAAA||")
+(define-fun tsv_line () String "AAAAAAAA||")
+(define-fun pipe_line () String "AAAAAAAA||")
+(define-fun first_csv_field () String "")
+(define-fun first_tsv_field () String "ID")

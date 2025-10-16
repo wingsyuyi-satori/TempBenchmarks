@@ -1,0 +1,10 @@
+(define-fun var_0xINPUT_456790 () String
+    "")
+  (define-fun T_1 () Bool
+    false)
+  (define-fun split_part_0 () String
+    "")
+  (define-fun T_2 () Bool
+    true)
+  (define-fun split_part_1 () String
+    "")

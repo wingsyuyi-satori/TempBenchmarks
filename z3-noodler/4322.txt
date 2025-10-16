@@ -1,0 +1,25 @@
+;; universe for var2200:
+  ;;   var2200!val!0 var2200!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2200!val!0 () var2200)
+  (declare-fun var2200!val!1 () var2200)
+  ;; cardinality constraint:
+  (forall ((x var2200)) (or (= x var2200!val!0) (= x var2200!val!1)))
+  ;; -----------
+  (define-fun var3588 () var2200
+    var2200!val!0)
+  (define-fun var2878 () String
+    "!")
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var3122 () Int
+    0)
+  (define-fun var2220 () String
+    (trim-right (trim-left var2878)))
+  (define-fun null-var2200 () var2200
+    var2200!val!1)
+  (define-fun var2014 () Int
+    (let ((a!1 (< (num_splits (trim-right (trim-left var2878)) ",\s*") (- 1))))
+(let ((a!2 (ite a!1 (num_splits (trim-right (trim-left var2878)) ",\s*") (- 1))))
+  (ite (> (- 1) 0) a!2 (num_splits (trim-right (trim-left var2878)) ",\s*")))))

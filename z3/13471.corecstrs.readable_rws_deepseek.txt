@@ -1,0 +1,26 @@
+(define-fun query () String
+    "")
+  (define-fun host () String
+    ".")
+  (define-fun port () String
+    "")
+  (define-fun url () String
+    "https://example.com:8080/path/to/resource?param=value")
+  (define-fun path_segments () Int
+    8)
+  (define-fun path () String
+    "")
+  (define-fun host_port () String
+    ".")
+  (define-fun protocol () String
+    "ftp")
+  (define-fun param_delim () String
+    "&")
+  (define-fun query_delim () String
+    "?")
+  (define-fun port_delim () String
+    ":")
+  (define-fun path_delim () String
+    "/")
+  (define-fun protocol_delim () String
+    "://")

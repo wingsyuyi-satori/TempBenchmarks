@@ -1,0 +1,5 @@
+(define-fun key2 () String "cache-control")
+(define-fun value2 () String " ")
+(define-fun value2_key () String "")
+(define-fun value2_val () String "")
+(define-fun value2_first_dir () String "")

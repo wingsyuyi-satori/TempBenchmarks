@@ -1,0 +1,7 @@
+(define-fun input_record () String "")
+(define-fun delimiter () String ",")
+(define-fun name_field () String "\u{5c}t")
+(define-fun email_field () String "AAA@")
+(define-fun age_field () String ",")
+(define-fun status_field () String "")
+(define-fun total_segments () Int 4)

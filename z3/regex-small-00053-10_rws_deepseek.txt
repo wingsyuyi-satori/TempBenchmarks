@@ -1,0 +1,24 @@
+(define-fun log_entry () String
+    "]")
+  (define-fun time_part () String
+    "MHPQJSXV")
+  (define-fun message () String
+    "^")
+  (define-fun log_level () String
+    "INFO")
+  (define-fun level_part () String
+    "YINFO\")
+  (define-fun timestamp () String
+    "]")
+  (define-fun rbracket () String
+    "]")
+  (define-fun lbracket () String
+    "[")
+  (define-fun pipe () String
+    "|")
+  (define-fun dash () String
+    "-")
+  (define-fun colon () String
+    ":")
+  (define-fun space () String
+    " ")

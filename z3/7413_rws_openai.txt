@@ -1,0 +1,34 @@
+(define-fun minute () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 1))
+  (define-fun second () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 2))
+  (define-fun ts_with_endbracket () String
+    (split_at log_entry "[" 1))
+  (define-fun log_level () String
+    (let ((a!1 (- (str.len (split_at (split_rest log_entry "]" 1) "|" 1)) 2)))
+  (str.substr (split_at (split_rest log_entry "]" 1) "|" 1) 1 a!1)))
+  (define-fun year () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 0))
+  (define-fun day () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 2))
+  (define-fun message_with_pipe () String
+    (split_rest (split_rest log_entry "]" 1) "|" 2))
+  (define-fun timestamp () String
+    (split_at (split_at log_entry "[" 1) "]" 0))
+  (define-fun message () String
+    (let ((a!1 (- (str.len (split_rest (split_rest log_entry "]" 1) "|" 2)) 1)))
+  (str.substr (split_rest (split_rest log_entry "]" 1) "|" 2) 1 a!1)))
+  (define-fun date_part () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0))
+  (define-fun hour () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 0))
+  (define-fun log_entry () String
+    "[2024-06-25 14:23:59] | INFO | System started successfully")
+  (define-fun month () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 1))
+  (define-fun time_part () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1))
+  (define-fun log_level_padded () String
+    (split_at (split_rest log_entry "]" 1) "|" 1))
+  (define-fun after_bracket () String
+    (split_rest log_entry "]" 1))

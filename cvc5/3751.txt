@@ -1,0 +1,31 @@
+; cardinality of var1395 is 1
+; rep: (as @var1395_0 var1395)
+; cardinality of var2214 is 2
+; rep: (as @var2214_0 var2214)
+; rep: (as @var2214_1 var2214)
+; cardinality of var3543 is 2
+; rep: (as @var3543_0 var3543)
+; rep: (as @var3543_1 var3543)
+; cardinality of var2163 is 1
+; rep: (as @var2163_0 var2163)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun arr-var3543-init () (Array Int var3543) ((as const (Array Int var3543)) (as @var3543_0 var3543)))
+(define-fun cast-from-String-to-var3543 ((_arg_1 String)) var3543 (as @var3543_1 var3543))
+(define-fun var2163_log/2127824580 ((BOUND_VARIABLE_1375 (Array Int var3543))) void (as @void_0 void))
+(define-fun info/114590825 ((BOUND_VARIABLE_1378 var2214) (BOUND_VARIABLE_1379 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun null-var2214 () var2214 (as @var2214_0 var2214))
+(define-fun null-Bool () Bool true)
+(define-fun null-__Array__Int__var3543__ () (Array Int var3543) (store ((as const (Array Int var3543)) (as @var3543_1 var3543)) 0 (as @var3543_0 var3543)))
+(define-fun var3808 () String "")
+(define-fun var1791 () var2214 (as @var2214_1 var2214))
+(define-fun var3185 () Bool false)
+(define-fun var951!1 () (Array Int var3543) (store ((as const (Array Int var3543)) (as @var3543_0 var3543)) 0 (as @var3543_1 var3543)))
+(define-fun var951!2 () (Array Int var3543) ((as const (Array Int var3543)) (as @var3543_0 var3543)))
+(define-fun var1791!1 () var2214 (as @var2214_0 var2214))
+(define-fun var3098!1 () String "")

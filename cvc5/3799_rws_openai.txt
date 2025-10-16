@@ -1,0 +1,5 @@
+(define-fun candidate_email () String "B@A")
+(define-fun user () String "")
+(define-fun domain () String "C")
+(define-fun subdomain () String "B@A")
+(define-fun suffix () String "B@A")

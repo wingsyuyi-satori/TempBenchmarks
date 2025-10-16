@@ -1,0 +1,18 @@
+(define-fun s () String
+    "AB--_C_")
+  (define-fun concat_ab () String
+    "D-")
+  (define-fun partD () String
+    "")
+  (define-fun partC () String
+    "")
+  (define-fun underscore_count () Int
+    2)
+  (define-fun partC_and_more () String
+    "-")
+  (define-fun partB () String
+    "")
+  (define-fun partA () String
+    "D")
+  (define-fun dash_count () Int
+    3)

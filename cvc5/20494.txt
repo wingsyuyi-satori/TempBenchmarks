@@ -1,0 +1,43 @@
+; cardinality of var3519 is 2
+; rep: (as @var3519_0 var3519)
+; rep: (as @var3519_1 var3519)
+; cardinality of var2682 is 3
+; rep: (as @var2682_0 var2682)
+; rep: (as @var2682_1 var2682)
+; rep: (as @var2682_2 var2682)
+; cardinality of var184 is 2
+; rep: (as @var184_0 var184)
+; rep: (as @var184_1 var184)
+; cardinality of var448 is 1
+; rep: (as @var448_0 var448)
+; cardinality of var1505 is 1
+; rep: (as @var1505_0 var1505)
+; cardinality of var3631 is 1
+; rep: (as @var3631_0 var3631)
+; cardinality of var3543 is 1
+; rep: (as @var3543_0 var3543)
+; cardinality of var478 is 1
+; rep: (as @var478_0 var478)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1505!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var448_fillOptions/-926000568 ((BOUND_VARIABLE_1107 ClassObject) (BOUND_VARIABLE_1108 var3519)) void (as @void_0 void))
+(define-fun equals/1194252418 ((_arg_1 var3631) (_arg_2 var3543)) Bool true)
+(define-fun cast-from-var2682-to-var3631 ((_arg_1 var2682)) var3631 (as @var3631_0 var3631))
+(define-fun cast-from-var2682-to-var3543 ((_arg_1 var2682)) var3543 (as @var3543_0 var3543))
+(define-fun var478_setUp/-1798686479 ((BOUND_VARIABLE_1111 var3519)) void (as @void_0 void))
+(define-fun null-var3519 () var3519 (as @var3519_0 var3519))
+(define-fun null-var2682 () var2682 (as @var2682_0 var2682))
+(define-fun null-var184 () var184 (as @var184_0 var184))
+(define-fun var1505-numWordsCompound () String ",")
+(define-fun var2682-SURFACE () var2682 (as @var2682_1 var2682))
+(define-fun var2088 () var3519 (as @var3519_1 var3519))
+(define-fun var3230 () var2682 (as @var2682_2 var2682))
+(define-fun var1610 () var184 (as @var184_1 var184))
+(define-fun var2764 () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var2088!1 () var3519 (as @var3519_0 var3519))
+(define-fun var2088!2 () var3519 (as @var3519_0 var3519))

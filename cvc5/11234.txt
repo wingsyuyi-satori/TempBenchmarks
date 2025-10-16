@@ -1,0 +1,18 @@
+; cardinality of var3226 is 2
+; rep: (as @var3226_0 var3226)
+; rep: (as @var3226_1 var3226)
+; cardinality of var775 is 1
+; rep: (as @var775_0 var775)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3226-init () var3226 (as @var3226_0 var3226))
+(define-fun <init>/248943908 ((BOUND_VARIABLE_669 var3226)) void (as @void_0 void))
+(define-fun null-var3226 () var3226 (as @var3226_0 var3226))
+(define-fun null-String () String "A")
+(define-fun var1358 () var3226 (as @var3226_1 var3226))
+(define-fun var2264 () String "")
+(define-fun var1890!1 () var3226 (as @var3226_0 var3226))

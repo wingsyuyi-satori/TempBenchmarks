@@ -1,0 +1,22 @@
+(define-fun post_at () String
+    "\u{0}")
+  (define-fun rest1 () String
+    "\u{0}\u{0}.")
+  (define-fun subdomain2 () String
+    "\u{0}")
+  (define-fun tld_parts () String
+    "\u{0}\u{0}\u{0}\u{0}")
+  (define-fun subdomain1 () String
+    "\u{0}")
+  (define-fun pre_at () String
+    "\u{0}\u{0}")
+  (define-fun local () String
+    "\u{0}\u{0}")
+  (define-fun email_addr () String
+    "\u{0}\u{0}.")
+  (define-fun last_dot_index () Int
+    (- 3))
+  (define-fun domain () String
+    "\u{0}")
+  (define-fun rest2 () String
+    "\u{0}\u{0}")

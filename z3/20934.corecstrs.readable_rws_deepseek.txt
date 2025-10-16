@@ -1,0 +1,40 @@
+(define-fun after_db () String
+    "h")
+  (define-fun timeout_value () String
+    "n")
+  (define-fun api_key_value () String
+    "]")
+  (define-fun port_value () String
+    "b")
+  (define-fun host_value () String
+    "a")
+  (define-fun auth_section () String
+    "s")
+  (define-fun db_section () String
+    "[")
+  (define-fun config_content () String
+    "[Database]\nhost=localhost\nport:5432\n\n[Auth]\napi_key=abc123\ntimeout=30\n")
+  (define-fun str.len ((x!0 String)) Int
+    6)
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun str.prefixof ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun str.suffixof ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.indexof ((x!0 String) (x!1 String) (x!2 Int)) Int
+    0)
+  (define-fun str.replace ((x!0 String) (x!1 String) (x!2 String)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")

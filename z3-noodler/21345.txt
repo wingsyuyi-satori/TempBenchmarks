@@ -1,0 +1,70 @@
+;; universe for var3031:
+  ;;   var3031!val!0 var3031!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var3031!val!0 () var3031)
+  (declare-fun var3031!val!1 () var3031)
+  ;; cardinality constraint:
+  (forall ((x var3031)) (or (= x var3031!val!0) (= x var3031!val!1)))
+  ;; -----------
+  ;; universe for var2680:
+  ;;   var2680!val!0 var2680!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2680!val!0 () var2680)
+  (declare-fun var2680!val!1 () var2680)
+  ;; cardinality constraint:
+  (forall ((x var2680)) (or (= x var2680!val!0) (= x var2680!val!1)))
+  ;; -----------
+  ;; universe for var290:
+  ;;   var290!val!0 var290!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var290!val!0 () var290)
+  (declare-fun var290!val!1 () var290)
+  ;; cardinality constraint:
+  (forall ((x var290)) (or (= x var290!val!0) (= x var290!val!1)))
+  ;; -----------
+  ;; universe for var1894:
+  ;;   var1894!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1894!val!0 () var1894)
+  ;; cardinality constraint:
+  (forall ((x var1894)) (= x var1894!val!0))
+  ;; -----------
+  (define-fun var120 () Float64
+    (var3031_getCount/958668014 var3592 (cast-from-var290-to-var1894 var795)))
+  (define-fun var3246 () String
+    (getPhrase/-292787131 var795))
+  (define-fun null-var290 () var290
+    var290!val!1)
+  (define-fun null-var3031 () var3031
+    var3031!val!1)
+  (define-fun null-Float64 () Float64
+    (fp #b0 #b00000000000 #x0000000000001))
+  (define-fun var795 () var290
+    var290!val!0)
+  (define-fun var1760 () Float64
+    (_ +zero 11 53))
+  (define-fun var886 () var2680
+    var2680!val!0)
+  (define-fun var3086 () Int
+    (let ((a!1 (ite (< (num_splits (getPhrase/-292787131 var795) "\s+") (- 1))
+                (num_splits (getPhrase/-292787131 var795) "\s+")
+                (- 1))))
+  (ite (> (- 1) 0) a!1 (num_splits (getPhrase/-292787131 var795) "\s+"))))
+  (define-fun var3592 () var3031
+    var3031!val!0)
+  (define-fun var732 () Bool
+    (var3031_containsKey/1421819118 var3592 (cast-from-var290-to-var1894 var795)))
+  (define-fun null-var2680 () var2680
+    var2680!val!1)
+  (define-fun cast-from-var290-to-var1894 ((x!0 var290)) var1894
+    var1894!val!0)
+  (define-fun var3031_containsKey/1421819118 ((x!0 var3031) (x!1 var1894)) Bool
+    true)
+  (define-fun getPhrase/-292787131 ((x!0 var290)) String
+    "\u{0}")
+  (define-fun var3031_getCount/958668014 ((x!0 var3031) (x!1 var1894)) Float64
+    (_ NaN 11 53))

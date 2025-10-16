@@ -1,0 +1,7 @@
+(define-fun E () String "")
+(define-fun L () String "")
+(define-fun D () String "@")
+(define-fun domain_segments () Int 3)
+(define-fun first_domain_label () String "AAA")
+(define-fun second_domain_label () String "www")
+(define-fun tld () String "www")

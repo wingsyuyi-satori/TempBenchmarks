@@ -1,0 +1,10 @@
+(define-fun x_rest () String
+    "\u{0}zz")
+  (define-fun x_part0 () String
+    "\u{0}")
+  (define-fun x () String
+    "zzzzzz")
+  (define-fun x_part1 () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun y () String
+    "")

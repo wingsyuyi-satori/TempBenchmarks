@@ -1,0 +1,137 @@
+;; universe for var3923:
+  ;;   var3923!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var3923!val!0 () var3923)
+  ;; cardinality constraint:
+  (forall ((x var3923)) (= x var3923!val!0))
+  ;; -----------
+  ;; universe for var1635:
+  ;;   var1635!val!1 var1635!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1635!val!1 () var1635)
+  (declare-fun var1635!val!0 () var1635)
+  ;; cardinality constraint:
+  (forall ((x var1635)) (or (= x var1635!val!1) (= x var1635!val!0)))
+  ;; -----------
+  ;; universe for var1585:
+  ;;   var1585!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1585!val!0 () var1585)
+  ;; cardinality constraint:
+  (forall ((x var1585)) (= x var1585!val!0))
+  ;; -----------
+  ;; universe for var2996:
+  ;;   var2996!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2996!val!0 () var2996)
+  ;; cardinality constraint:
+  (forall ((x var2996)) (= x var2996!val!0))
+  ;; -----------
+  ;; universe for var1267:
+  ;;   var1267!val!1 var1267!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1267!val!1 () var1267)
+  (declare-fun var1267!val!0 () var1267)
+  ;; cardinality constraint:
+  (forall ((x var1267)) (or (= x var1267!val!1) (= x var1267!val!0)))
+  ;; -----------
+  (define-fun var3890!1 () String
+    "Invalid color-mode: !")
+  (define-fun var3065!1 () String
+    "")
+  (define-fun var3065!2 () String
+    "Invalid color-mode: ")
+  (define-fun var335 () String
+    (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+     (split_rest var189 ":" (- 2 1))
+     (split_at var189 ":" 0)))
+  (define-fun <init>/1968657023 () String
+    "")
+  (define-fun var3065 () String
+    String-init)
+  (define-fun var1585-US () var1585
+    var1585!val!0)
+  (define-fun var3923-FINEST () var3923
+    var3923!val!0)
+  (define-fun var1635-log () var2996
+    var2996!val!0)
+  (define-fun var3034 () String
+    (let ((a!1 (ite (and (> 2 0) (= 1 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 1))))
+  (trim-right (trim-left a!1))))
+  (define-fun var2417 () String
+    (ite (and (> 2 0) (= 1 (- 2 1)) (>= (num_splits var189 ":") 2))
+     (split_rest var189 ":" (- 2 1))
+     (split_at var189 ":" 1)))
+  (define-fun var2804 () var1267
+    var1267!val!0)
+  (define-fun var638 () String
+    (let ((a!1 (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 0))))
+  (str.++ var3065!1 "Invalid color-mode: " (trim-right (trim-left a!1)))))
+  (define-fun var2882 () var2996
+    var1635-log)
+  (define-fun var310 () var3923
+    var3923-FINEST)
+  (define-fun var554 () Bool
+    (isLoggable/-616065502 var1635-log var3923-FINEST))
+  (define-fun null-String () String
+    "\u{0}")
+  (define-fun var3890 () String
+    (str.++ var3065!1 "Invalid color-mode: "))
+  (define-fun var2522 () var1635
+    var1635!val!0)
+  (define-fun var189 () String
+    "")
+  (define-fun var102 () var2996
+    var1635-log)
+  (define-fun var1167 () Int
+    (let ((a!1 (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 0))))
+  (hashCode/-467973558
+    (toLowerCase/1946809429 (trim-right (trim-left a!1)) var1585-US))))
+  (define-fun var2373 () String
+    (let ((a!1 (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 0))))
+  (toLowerCase/1946809429 (trim-right (trim-left a!1)) var1585-US)))
+  (define-fun var2177 () var1585
+    var1585-US)
+  (define-fun null-var1267 () var1267
+    var1267!val!1)
+  (define-fun var945 () String
+    (let ((a!1 (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 0))))
+  (str.++ var3065!1 "Invalid color-mode: " (trim-right (trim-left a!1)))))
+  (define-fun var1548 () String
+    (let ((a!1 (ite (and (> 2 0) (= 0 (- 2 1)) (>= (num_splits var189 ":") 2))
+                (split_rest var189 ":" (- 2 1))
+                (split_at var189 ":" 0))))
+  (trim-right (trim-left a!1))))
+  (define-fun var345 () Int
+    (- 1))
+  (define-fun null-var1635 () var1635
+    var1635!val!1)
+  (define-fun var638!1 () String
+    "")
+  (define-fun var2882!1 () var2996
+    var2996!val!0)
+  (define-fun String-init () String
+    "")
+  (define-fun isLoggable/-616065502 ((x!0 var2996) (x!1 var3923)) Bool
+    false)
+  (define-fun toLowerCase/1946809429 ((x!0 String) (x!1 var1585)) String
+    "")
+  (define-fun hashCode/-467973558 ((x!0 String)) Int
+    2)
+  (define-fun warning/-1321853967 ((x!0 var2996) (x!1 String)) void
+    void!val!0)

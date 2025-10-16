@@ -1,0 +1,40 @@
+; cardinality of var3360 is 2
+; rep: (as @var3360_0 var3360)
+; rep: (as @var3360_1 var3360)
+; cardinality of var1530 is 1
+; rep: (as @var1530_0 var1530)
+; cardinality of var1231 is 1
+; rep: (as @var1231_0 var1231)
+; cardinality of var1514 is 1
+; rep: (as @var1514_0 var1514)
+; cardinality of var767 is 2
+; rep: (as @var767_0 var767)
+; rep: (as @var767_1 var767)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1231_slurpFileNoExceptions/834711247 ((_arg_1 String) (_arg_2 String)) String "B")
+(define-fun arr-var767-init () (Array Int var767) ((as const (Array Int var767)) (as @var767_0 var767)))
+(define-fun String-init () String "")
+(define-fun cast-from-String-to-var767 ((_arg_1 String)) var767 (as @var767_1 var767))
+(define-fun info/-657332264 ((BOUND_VARIABLE_1882 var1514) (BOUND_VARIABLE_1883 (Array Int var767))) void (as @void_0 void))
+(define-fun null-var3360 () var3360 (as @var3360_0 var3360))
+(define-fun null-String () String "A")
+(define-fun null-Bool () Bool true)
+(define-fun var3360-logger () var1514 (as @var1514_0 var1514))
+(define-fun null-__Array__Int__var767__ () (Array Int var767) (store ((as const (Array Int var767)) (as @var767_1 var767)) 0 (as @var767_0 var767)))
+(define-fun var593 () var3360 (as @var3360_1 var3360))
+(define-fun var2838 () String "")
+(define-fun var3677 () Bool false)
+(define-fun var3441!1 () String "")
+(define-fun var3441!2 () String "  ")
+(define-fun var1900!1 () String "  ")
+(define-fun var3969!1 () String "  : ")
+(define-fun var1646!1 () String "  : ")
+(define-fun var2073!1 () String "  :  entries")
+(define-fun var2289!1 () (Array Int var767) (store ((as const (Array Int var767)) (as @var767_0 var767)) 0 (as @var767_1 var767)))
+(define-fun var1132!1 () var1514 (as @var1514_0 var1514))
+(define-fun var2289!2 () (Array Int var767) ((as const (Array Int var767)) (as @var767_0 var767)))

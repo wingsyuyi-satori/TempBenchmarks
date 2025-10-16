@@ -1,0 +1,21 @@
+; cardinality of var901 is 2
+; rep: (as @var901_0 var901)
+; rep: (as @var901_1 var901)
+; cardinality of var390 is 1
+; rep: (as @var390_0 var390)
+; cardinality of var3475 is 1
+; rep: (as @var3475_0 var3475)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3475-init () var3475 (as @var3475_0 var3475))
+(define-fun <init>/1228603609 ((BOUND_VARIABLE_679 var3475) (BOUND_VARIABLE_680 Int)) void (as @void_0 void))
+(define-fun null-var901 () var901 (as @var901_0 var901))
+(define-fun null-String () String "A")
+(define-fun var375 () var901 (as @var901_1 var901))
+(define-fun var1341 () String "")
+(define-fun var3772!1 () var3475 (as @var3475_0 var3475))
+(define-fun var1163!1 () Int 0)

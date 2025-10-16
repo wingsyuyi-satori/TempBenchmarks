@@ -1,0 +1,124 @@
+;; universe for var1391:
+  ;;   var1391!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1391!val!0 () var1391)
+  ;; cardinality constraint:
+  (forall ((x var1391)) (= x var1391!val!0))
+  ;; -----------
+  ;; universe for var897:
+  ;;   var897!val!0 var897!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var897!val!0 () var897)
+  (declare-fun var897!val!1 () var897)
+  ;; cardinality constraint:
+  (forall ((x var897)) (or (= x var897!val!0) (= x var897!val!1)))
+  ;; -----------
+  ;; universe for var2606:
+  ;;   var2606!val!1 var2606!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2606!val!1 () var2606)
+  (declare-fun var2606!val!0 () var2606)
+  ;; cardinality constraint:
+  (forall ((x var2606)) (or (= x var2606!val!1) (= x var2606!val!0)))
+  ;; -----------
+  (define-fun var1387 () var1391
+    var1391-init)
+  (define-fun var1252 () var2606
+    var2606!val!0)
+  (define-fun var2922 () String
+    (trim-right (trim-left (readLine/150542008 var1387!1))))
+  (define-fun null-var897 () var897
+    var897!val!1)
+  (define-fun var75 () Int
+    (let ((a!1 (num_splits (trim-right (trim-left (readLine/150542008 var1387!1)))
+                       " ")))
+  (mod (ite (> (- 1) 0) (ite (< a!1 (- 1)) a!1 (- 1)) a!1) 4)))
+  (define-fun var3286 () var1378
+    var1378-init)
+  (define-fun var796 () Bool
+    (compress/-1175557387 var2343))
+  (define-fun var485 () var620
+    (var897_loadCorefChains/169242915 var1387!1))
+  (define-fun <init>/1968657023 () String
+    "")
+  (define-fun var1848 () String
+    (str.++ var1921!1
+        "ERROR: Incorrect format for the serialized coref graph: "
+        (trim-right (trim-left (readLine/150542008 var1387!1)))))
+  (define-fun var515 () var2240
+    var2240-init)
+  (define-fun var943 () var992
+    var992-init)
+  (define-fun var2179 () Int
+    (str.len (trim-right (trim-left (readLine/150542008 var1387!1)))))
+  (define-fun var1630 () String
+    (str.++ var1921!1 "ERROR: Incorrect format for the serialized coref graph: "))
+  (define-fun var1921 () String
+    String-init)
+  (define-fun var3416 () String
+    (str.++ var1921!1
+        "ERROR: Incorrect format for the serialized coref graph: "
+        (trim-right (trim-left (readLine/150542008 var1387!1)))))
+  (define-fun var1387!1 () var1391
+    var1391!val!0)
+  (define-fun var3584 () Int
+    (let ((a!1 (num_splits (trim-right (trim-left (readLine/150542008 var1387!1)))
+                       " ")))
+  (ite (> (- 1) 0) (ite (< a!1 (- 1)) a!1 (- 1)) a!1)))
+  (define-fun var2343 () var897
+    var897!val!0)
+  (define-fun var595 () String
+    (readLine/150542008 var1387!1))
+  (define-fun var1921!1 () String
+    "")
+  (define-fun null-var2606 () var2606
+    var2606!val!1)
+  (define-fun var1630!1 () String
+    "ERROR: Incorrect format for the serialized coref graph: \u{1f6f4}")
+  (define-fun var1921!2 () String
+    "ERROR: Incorrect format for the serialized coref graph: ")
+  (define-fun null-var620 () var620
+    var620!val!0)
+  (define-fun var2240-init () var2240
+    var2240!val!0)
+  (define-fun var3286!1 () var1378
+    var1378!val!0)
+  (define-fun var3416!1 () String
+    "")
+  (define-fun var515!1 () var2240
+    var2240!val!0)
+  (define-fun var943!1 () var992
+    var992!val!0)
+  (define-fun var1378-init () var1378
+    var1378!val!0)
+  (define-fun var1252!1 () var2606
+    var2606!val!1)
+  (define-fun var249 () String
+    "")
+  (define-fun var992-init () var992
+    var992!val!0)
+  (define-fun String-init () String
+    "")
+  (define-fun var943!2 () var992
+    var992!val!0)
+  (define-fun var1391-init () var1391
+    var1391!val!0)
+  (define-fun compress/-1175557387 ((x!0 var897)) Bool
+    false)
+  (define-fun readLine/150542008 ((x!0 var1391)) String
+    "\u{1f6f4}")
+  (define-fun var897_loadCorefChains/169242915 ((x!0 var1391)) var620
+    var620!val!0)
+  (define-fun <init>/393586270 ((x!0 var992) (x!1 var2606)) void
+    void!val!0)
+  (define-fun <init>/1337065752 ((x!0 var1378) (x!1 String)) void
+    void!val!0)
+  (define-fun <init>/30097470 ((x!0 var1391) (x!1 var2616)) void
+    void!val!0)
+  (define-fun <init>/-1253962986 ((x!0 var2240) (x!1 String)) void
+    void!val!0)
+  (define-fun cast-from-var992-to-var2616 ((x!0 var992)) var2616
+    var2616!val!0)

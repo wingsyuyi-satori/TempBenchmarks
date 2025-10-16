@@ -1,0 +1,6 @@
+(define-fun email_addr () String " ")
+(define-fun user () String "BA")
+(define-fun domain () String "C")
+(define-fun domain_label () String "@")
+(define-fun domain_rest () String "")
+(define-fun tld () String "BA")

@@ -1,0 +1,5 @@
+(define-fun jwt () String "")
+(define-fun api_key () String "")
+(define-fun secret () String "")
+(define-fun invalid_jwt () String ".")
+(define-fun invalid_api_key () String ".")

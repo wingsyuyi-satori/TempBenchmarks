@@ -1,0 +1,65 @@
+;; universe for var1021:
+  ;;   var1021!val!1 var1021!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var1021!val!1 () var1021)
+  (declare-fun var1021!val!0 () var1021)
+  ;; cardinality constraint:
+  (forall ((x var1021)) (or (= x var1021!val!1) (= x var1021!val!0)))
+  ;; -----------
+  (define-fun var2659 () var2387
+    var2387-init)
+  (define-fun var3784 () String
+    (str.++ var2874!1 "ERROR: Invalid dependency node line: "))
+  (define-fun var2874 () String
+    String-init)
+  (define-fun var115 () String
+    (readLine/150542008 var818))
+  (define-fun var105 () Int
+    (let ((a!1 (num_splits (trim-right (trim-left (readLine/150542008 var818)))
+                       "\t")))
+  (ite (> (- 1) 0) (ite (< a!1 (- 1)) a!1 (- 1)) a!1)))
+  (define-fun var2140 () Int
+    (str.len (trim-right (trim-left (readLine/150542008 var818)))))
+  (define-fun <init>/1968657023 () String
+    "")
+  (define-fun var2874!1 () String
+    "")
+  (define-fun var2433 () String
+    (str.++ var2874!1
+        "ERROR: Invalid dependency node line: "
+        (trim-right (trim-left (readLine/150542008 var818)))))
+  (define-fun null-var1021 () var1021
+    var1021!val!1)
+  (define-fun var818 () var1021
+    var1021!val!0)
+  (define-fun var3643 () String
+    (trim-right (trim-left (readLine/150542008 var818))))
+  (define-fun var401 () var2188
+    var2188-init)
+  (define-fun var420 () String
+    (str.++ var2874!1
+        "ERROR: Invalid dependency node line: "
+        (trim-right (trim-left (readLine/150542008 var818)))))
+  (define-fun var3784!1 () String
+    "ERROR: Invalid dependency node line: \u{1fffe}")
+  (define-fun var2874!2 () String
+    "ERROR: Invalid dependency node line: ")
+  (define-fun var2659!1 () var2387
+    var2387!val!0)
+  (define-fun var2387-init () var2387
+    var2387!val!0)
+  (define-fun var401!1 () var2188
+    var2188!val!0)
+  (define-fun String-init () String
+    "")
+  (define-fun var2188-init () var2188
+    var2188!val!0)
+  (define-fun var420!1 () String
+    "")
+  (define-fun readLine/150542008 ((x!0 var1021)) String
+    "\u{1fffe}")
+  (define-fun <init>/-1102441200 ((x!0 var2188)) void
+    void!val!0)
+  (define-fun <init>/-1084991535 ((x!0 var2387) (x!1 String)) void
+    void!val!0)

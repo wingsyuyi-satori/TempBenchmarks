@@ -1,0 +1,28 @@
+(define-fun tsv_age () String
+    "\u{0}")
+  (define-fun tsv_department () String
+    "\u{0}")
+  (define-fun pipe_price () String
+    "\u{0}")
+  (define-fun semi_first () String
+    "\u{0}")
+  (define-fun pipe_product () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun tsv_name () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun tsv_record () String
+    "a")
+  (define-fun semicolon_record () String
+    "a")
+  (define-fun tsv_email () String
+    "\u{0}@@")
+  (define-fun semi_field_count () Int
+    2)
+  (define-fun pipe_category () String
+    "")
+  (define-fun semi_second () String
+    "\u{0}")
+  (define-fun format_consistency_check () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun pipe_record () String
+    "a")

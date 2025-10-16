@@ -1,0 +1,35 @@
+; cardinality of var3571 is 7
+; rep: (as @var3571_0 var3571)
+; rep: (as @var3571_1 var3571)
+; rep: (as @var3571_2 var3571)
+; rep: (as @var3571_3 var3571)
+; rep: (as @var3571_4 var3571)
+; rep: (as @var3571_5 var3571)
+; rep: (as @var3571_6 var3571)
+; cardinality of var3390 is 1
+; rep: (as @var3390_0 var3390)
+; cardinality of var3117 is 1
+; rep: (as @var3117_0 var3117)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun <init>/-279557996 ((BOUND_VARIABLE_1136 var3117)) void (as @void_0 void))
+(define-fun cast-from-var3571-to-var3117 ((BOUND_VARIABLE_1139 var3571)) var3117 (as @var3117_0 var3117))
+(define-fun value/-687932879 ((_arg_1 var3571)) String "")
+(define-fun category/-687932879 ((_arg_1 var3571)) String "")
+(define-fun serviceInterface/-687932879 ((_arg_1 var3571)) String "")
+(define-fun version/-687932879 ((_arg_1 var3571)) String "")
+(define-fun group/-687932879 ((_arg_1 var3571)) String "")
+(define-fun null-var3571 () var3571 (as @var3571_0 var3571))
+(define-fun null-String () String "A")
+(define-fun var3544 () var3571 (as @var3571_1 var3571))
+(define-fun var3120 () String "")
+(define-fun var3544!1 () var3571 (as @var3571_0 var3571))
+(define-fun var3544!2 () var3571 (as @var3571_2 var3571))
+(define-fun var3544!3 () var3571 (as @var3571_3 var3571))
+(define-fun var3544!4 () var3571 (as @var3571_4 var3571))
+(define-fun var3544!5 () var3571 (as @var3571_5 var3571))
+(define-fun var3544!6 () var3571 (as @var3571_6 var3571))

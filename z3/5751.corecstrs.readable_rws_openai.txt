@@ -1,0 +1,20 @@
+(define-fun afterOpenBracket () String
+    (split_at sectionHeader "[" 1))
+  (define-fun sectionHeader () String
+    "[database]")
+  (define-fun key1 () String
+    (split_at line1 "=" 0))
+  (define-fun line2 () String
+    "password:1234")
+  (define-fun afterCloseBracket () String
+    (split_at (split_at sectionHeader "[" 1) "]" 1))
+  (define-fun line1 () String
+    "user=admin")
+  (define-fun value2 () String
+    (split_at line2 ":" 1))
+  (define-fun key2 () String
+    (split_at line2 ":" 0))
+  (define-fun value1 () String
+    (split_at line1 "=" 1))
+  (define-fun sectionName () String
+    (split_at (split_at sectionHeader "[" 1) "]" 0))

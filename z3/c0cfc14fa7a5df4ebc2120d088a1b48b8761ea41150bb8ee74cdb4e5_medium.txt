@@ -1,0 +1,10 @@
+(define-fun s () String
+    "AB__CDC")
+  (define-fun rest_2_7338 () String
+    "")
+  (define-fun rest_1_8678 () String
+    "")
+  (define-fun rest_0_4401 () String
+    "")
+  (define-fun part_1_9910 () String
+    "y")

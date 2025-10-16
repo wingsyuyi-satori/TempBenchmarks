@@ -1,0 +1,2 @@
+(define-fun s () String "AAAAAAAAAAA")
+(define-fun p () String "AAAAAAA")

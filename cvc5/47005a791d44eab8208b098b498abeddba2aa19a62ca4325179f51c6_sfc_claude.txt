@@ -1,0 +1,7 @@
+(define-fun key2 () String "cache-control")
+(define-fun value2 () String " ")
+(define-fun value2_parts_0 () String "")
+(define-fun value2_parts_1 () String "")
+(define-fun value2_parts_2 () String "")
+(define-fun key2_parts_0 () String "")
+(define-fun key2_parts_1 () String "")

@@ -1,0 +1,5 @@
+(define-fun x () String "YX~MYX~M321")
+(define-fun y () String "")
+(define-fun x_seg0 () String "")
+(define-fun x_seg1 () String "")
+(define-fun x_seg2 () String "")

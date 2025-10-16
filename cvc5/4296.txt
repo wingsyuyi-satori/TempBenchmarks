@@ -1,0 +1,25 @@
+; cardinality of var2587 is 1
+; rep: (as @var2587_0 var2587)
+; cardinality of var1792 is 2
+; rep: (as @var1792_0 var1792)
+; rep: (as @var1792_1 var1792)
+; cardinality of var2514 is 3
+; rep: (as @var2514_0 var2514)
+; rep: (as @var2514_1 var2514)
+; rep: (as @var2514_2 var2514)
+; cardinality of var1615 is 1
+; rep: (as @var1615_0 var1615)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1615_getCapabilitiesByName/-679790978 () var2514 (as @var2514_0 var2514))
+(define-fun null-String () String "A")
+(define-fun null-var1792 () var1792 (as @var1792_0 var1792))
+(define-fun null-var2514 () var2514 (as @var2514_0 var2514))
+(define-fun var1845 () String "")
+(define-fun var814 () var1792 (as @var1792_1 var1792))
+(define-fun var2979 () var2514 (as @var2514_1 var2514))
+(define-fun var1871 () var2514 (as @var2514_2 var2514))

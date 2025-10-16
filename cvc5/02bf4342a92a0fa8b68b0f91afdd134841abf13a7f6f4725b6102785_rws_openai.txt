@@ -1,0 +1,5 @@
+(define-fun user_email () String "")
+(define-fun username () String "")
+(define-fun domain_full () String "A")
+(define-fun domain_label () String "AAAAAAAAA")
+(define-fun tld_label () String "localhost")

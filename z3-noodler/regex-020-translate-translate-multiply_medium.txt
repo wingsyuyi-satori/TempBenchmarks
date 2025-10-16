@@ -1,0 +1,12 @@
+(define-fun rest_2_6664 () String
+    "woi8ry12hw")
+  (define-fun x () String
+    "zzzzzz")
+  (define-fun part_0_4459 () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun part_0_6301 () String
+    "bc")
+  (define-fun rest_1_9896 () String
+    "woi8ry12hw")
+  (define-fun y () String
+    "")

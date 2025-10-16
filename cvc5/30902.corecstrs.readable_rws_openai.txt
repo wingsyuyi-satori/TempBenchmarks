@@ -1,0 +1,6 @@
+(define-fun EMAIL () String "")
+(define-fun USER () String "A")
+(define-fun HOST () String "B")
+(define-fun SUBDOMAIN () String "A")
+(define-fun DOMAIN () String "A")
+(define-fun TLD () String "AA")

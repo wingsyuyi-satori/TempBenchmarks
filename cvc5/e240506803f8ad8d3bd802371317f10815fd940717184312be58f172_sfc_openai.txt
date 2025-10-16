@@ -1,0 +1,7 @@
+(define-fun key2 () String "cache-control")
+(define-fun value2 () String "\u{d}\u{c}\u{d}")
+(define-fun value2_left () String "")
+(define-fun value2_right () String "")
+(define-fun value2_first_comma () String "")
+(define-fun value2_second_comma () String "")
+(define-fun value2_rest () String "")

@@ -1,0 +1,4 @@
+(define-fun I () String "bcddc")
+(define-fun H () String "")
+(define-fun F () String "bcecede")
+(define-fun E () String "fdcafdbcddcc")

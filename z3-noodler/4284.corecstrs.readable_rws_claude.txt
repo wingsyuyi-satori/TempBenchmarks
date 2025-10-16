@@ -1,0 +1,38 @@
+(define-fun entity_match () Bool
+    false)
+  (define-fun currency_code () String
+    "\u{0}\u{0}\u{0}")
+  (define-fun price_field () String
+    "\u{0}")
+  (define-fun optional_field () String
+    "\u{0}")
+  (define-fun pipe_count () Int
+    5)
+  (define-fun euro_field_count () Int
+    3)
+  (define-fun name_field () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun tab_field_count () Int
+    4)
+  (define-fun customer_name () String
+    "\u{0}")
+  (define-fun email_field () String
+    "\u{0}@@")
+  (define-fun status_field () String
+    "\u{0}")
+  (define-fun product_id () String
+    "\u{0}")
+  (define-fun amount_euro () String
+    "\u{0}")
+  (define-fun pipe_tail () String
+    "")
+  (define-fun semicolon_record () String
+    "a")
+  (define-fun pipe_record () String
+    "a")
+  (define-fun tsv_record () String
+    "a")
+  (define-fun category () String
+    "\u{0}")
+  (define-fun age_field () String
+    "")

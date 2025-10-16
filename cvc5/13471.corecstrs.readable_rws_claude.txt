@@ -1,0 +1,8 @@
+(define-fun url () String "AAAAAAAAAAAAA://")
+(define-fun protocol () String "http")
+(define-fun host () String "B.A:")
+(define-fun path () String "")
+(define-fun query_string () String "")
+(define-fun port_str () String "8080")
+(define-fun first_path_segment () String "")
+(define-fun second_path_segment () String "")

@@ -1,0 +1,22 @@
+(define-fun s2 () String
+    "AB,")
+  (define-fun s3 () String
+    "AB,")
+  (define-fun s1 () String
+    "")
+  (define-fun s1_num_splits () Int
+    1)
+  (define-fun s1_first () String
+    "")
+  (define-fun s3_num_splits () Int
+    1)
+  (define-fun s3_second () String
+    "")
+  (define-fun s3_first () String
+    "")
+  (define-fun s2_num_splits () Int
+    1)
+  (define-fun s2_second () String
+    "")
+  (define-fun s2_first () String
+    "")

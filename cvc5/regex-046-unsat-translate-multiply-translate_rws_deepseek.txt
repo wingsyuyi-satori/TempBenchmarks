@@ -1,0 +1,6 @@
+(define-fun csv_comma () String "ACTIVE")
+(define-fun csv_tab () String "ACTIVE")
+(define-fun csv_pipe () String "ACTIVE")
+(define-fun csv_semi () String "ACTIVE")
+(define-fun tsv_last_field () String "0")
+(define-fun pipe_status () String "ACTIVE")

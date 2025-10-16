@@ -1,0 +1,24 @@
+; cardinality of var1528 is 2
+; rep: (as @var1528_0 var1528)
+; rep: (as @var1528_1 var1528)
+; cardinality of var2979 is 1
+; rep: (as @var2979_0 var2979)
+; cardinality of var1529 is 1
+; rep: (as @var1529_0 var1529)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun commander/-2133873678 ((_arg_1 var1528)) var1529 (as @var1529_0 var1529))
+(define-fun getColumnSize/-165698927 ((_arg_1 var1529)) Int (- 1))
+(define-fun null-var1528 () var1528 (as @var1528_0 var1528))
+(define-fun null-String () String "A")
+(define-fun null-Int () Int 0)
+(define-fun var1630 () var1528 (as @var1528_1 var1528))
+(define-fun var3618 () String "")
+(define-fun var1331 () Int 1)
+(define-fun var381 () Int 1)
+(define-fun var931 () String "")
+(define-fun var3618!1 () String "")

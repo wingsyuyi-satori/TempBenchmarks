@@ -1,0 +1,33 @@
+(define-fun signature () String
+    "\u{0}")
+  (define-fun key_id () String
+    "a")
+  (define-fun prefix () String
+    "DEV")
+  (define-fun payload () String
+    "\u{0}")
+  (define-fun header () String
+    "\u{0}")
+  (define-fun bad_jwt () String
+    "a")
+  (define-fun jwt () String
+    "a")
+  (define-fun api_key () String
+    "a")
+  (define-fun secret () String
+    "a")
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    false)
+  (define-fun str.len ((x!0 String)) Int
+    (ite (= x!0 "a") 8
+      32))
+  (define-fun str.is_base64 ((x!0 String)) Bool
+    true)
+  (define-fun str.is_alphanum ((x!0 String)) Bool
+    true)
+  (define-fun str.suffixof ((x!0 String) (x!1 String)) Bool
+    false)
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.prefixof ((x!0 String) (x!1 String)) Bool
+    false)

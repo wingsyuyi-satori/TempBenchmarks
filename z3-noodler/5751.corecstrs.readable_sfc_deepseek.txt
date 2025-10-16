@@ -1,0 +1,14 @@
+(define-fun T_4 () Bool
+    true)
+  (define-fun var_0xINPUT_118656 () String
+    "\u{0}\u{0}")
+  (define-fun split_part_0 () String
+    "")
+  (define-fun T_1 () Bool
+    false)
+  (define-fun T_3 () Bool
+    false)
+  (define-fun split_part_1 () String
+    "")
+  (define-fun T_2 () Bool
+    true)

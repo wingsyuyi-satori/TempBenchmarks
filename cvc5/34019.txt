@@ -1,0 +1,18 @@
+; cardinality of var309 is 1
+; rep: (as @var309_0 var309)
+; cardinality of var372 is 1
+; rep: (as @var372_0 var372)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var372-init () var372 (as @var372_0 var372))
+(define-fun <init>/598147663 ((BOUND_VARIABLE_1523 var372)) void (as @void_0 void))
+(define-fun setTag/-302746546 ((BOUND_VARIABLE_1526 var372) (BOUND_VARIABLE_1527 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun var3322 () String "")
+(define-fun var1552!1 () var372 (as @var372_0 var372))
+(define-fun var1552!2 () var372 (as @var372_0 var372))
+(define-fun var2455!1 () String "")

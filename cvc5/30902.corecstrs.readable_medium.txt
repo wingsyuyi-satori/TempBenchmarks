@@ -1,0 +1,7 @@
+(define-fun T_1 () Int 0)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_440920 () String "")
+(define-fun rest_0_1429 () String "9ibq00svgi4d1")
+(define-fun rest_1_5242 () String "9ibq00svgi4d1")
+(define-fun rest_2_4192 () String "9ibq00svgi4d1")
+(define-fun rest_3_5371 () String "9ibq00svgi4d1")

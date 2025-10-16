@@ -1,0 +1,5 @@
+(define-fun T_1 () Bool true)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_201252 () String "array")
+(define-fun num_1_5061 () Int 2)
+(define-fun num_2_5882 () Int 2)

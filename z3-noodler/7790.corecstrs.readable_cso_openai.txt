@@ -1,0 +1,16 @@
+(define-fun var_0xINPUT_201252 () String
+    "array")
+  (define-fun T_2 () Bool
+    true)
+  (define-fun T_1 () Bool
+    true)
+  (define-fun seg0 () String
+    "ray")
+  (define-fun seg1_0 () String
+    "aaaa")
+  (define-fun seg1_1 () String
+    "ray")
+  (define-fun seg1 () String
+    "aaaarray")
+  (define-fun seg_count () Int
+    3)

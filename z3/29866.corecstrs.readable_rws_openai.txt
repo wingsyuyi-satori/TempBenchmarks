@@ -1,0 +1,10 @@
+(define-fun addr () String
+    "@")
+  (define-fun subdomain () String
+    "admin")
+  (define-fun user () String
+    "admin")
+  (define-fun domain () String
+    "ef")
+  (define-fun host () String
+    "in")

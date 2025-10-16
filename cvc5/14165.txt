@@ -1,0 +1,24 @@
+; cardinality of var454 is 1
+; rep: (as @var454_0 var454)
+; cardinality of var2347 is 1
+; rep: (as @var2347_0 var2347)
+; cardinality of var3002 is 1
+; rep: (as @var3002_0 var3002)
+; cardinality of var3046 is 1
+; rep: (as @var3046_0 var3046)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2347_debug/594372212 ((BOUND_VARIABLE_721 var2347) (BOUND_VARIABLE_722 String)) void (as @void_0 void))
+(define-fun var3046-init () var3046 (as @var3046_0 var3046))
+(define-fun <init>/-1053635008 ((BOUND_VARIABLE_725 var3046) (BOUND_VARIABLE_726 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun var3002-log () var2347 (as @var2347_0 var2347))
+(define-fun var1017 () String "")
+(define-fun var85!1 () var2347 (as @var2347_0 var2347))
+(define-fun var424!1 () String "")
+(define-fun var3690!1 () var3046 (as @var3046_0 var3046))
+(define-fun var3546!1 () String "")

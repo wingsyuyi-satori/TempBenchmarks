@@ -1,0 +1,5 @@
+(define-fun cfg_line () String "user=admin")
+(define-fun section_hdr () String "[database]")
+(define-fun key () String "=")
+(define-fun value () String "=")
+(define-fun section_name () String "=")

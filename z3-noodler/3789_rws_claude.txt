@@ -1,0 +1,24 @@
+(define-fun host_path_part () String
+    "\u{0}")
+  (define-fun first_path_segment () String
+    "")
+  (define-fun param_key () String
+    "active")
+  (define-fun protocol () String
+    "https")
+  (define-fun path_query_part () String
+    "\u{0}")
+  (define-fun protocol_host_part () String
+    "\u{0}")
+  (define-fun query_string () String
+    "active=true&limit=10")
+  (define-fun path () String
+    "/users")
+  (define-fun param_value () String
+    "true")
+  (define-fun host () String
+    "api.example.com/v1")
+  (define-fun url () String
+    "https://api.example.com/v1/users?active=true&limit=10")
+  (define-fun second_path_segment () String
+    "v1")

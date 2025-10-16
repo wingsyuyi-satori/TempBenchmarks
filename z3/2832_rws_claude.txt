@@ -1,0 +1,26 @@
+(define-fun psv_record () String
+    "\")
+  (define-fun data_record () String
+    "")
+  (define-fun alt_format () String
+    "t")
+  (define-fun tsv_record () String
+    "")
+  (define-fun alt_data () String
+    "")
+  (define-fun alt_id () String
+    "E")
+  (define-fun psv_remainder () String
+    "")
+  (define-fun psv_field2 () String
+    "E")
+  (define-fun psv_field1 () String
+    "C")
+  (define-fun status_field () String
+    "active")
+  (define-fun email_field () String
+    "A@D@")
+  (define-fun age_field () String
+    "B")
+  (define-fun name_field () String
+    "E")

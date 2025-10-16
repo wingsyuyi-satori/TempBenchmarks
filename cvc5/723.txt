@@ -1,0 +1,30 @@
+; cardinality of var1938 is 2
+; rep: (as @var1938_0 var1938)
+; rep: (as @var1938_1 var1938)
+; cardinality of var3446 is 1
+; rep: (as @var3446_0 var3446)
+; cardinality of var2949 is 1
+; rep: (as @var2949_0 var2949)
+; cardinality of var2962 is 1
+; rep: (as @var2962_0 var2962)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2949-init () var2949 (as @var2949_0 var2949))
+(define-fun <init>/598147663 ((BOUND_VARIABLE_884 var2949)) void (as @void_0 void))
+(define-fun var2962-init () var2962 (as @var2962_0 var2962))
+(define-fun String-init () String "")
+(define-fun <init>/-1253962986 ((BOUND_VARIABLE_887 var2962) (BOUND_VARIABLE_888 String)) void (as @void_0 void))
+(define-fun null-var1938 () var1938 (as @var1938_0 var1938))
+(define-fun null-String () String "A")
+(define-fun var3233 () var1938 (as @var1938_1 var1938))
+(define-fun var1985 () String "")
+(define-fun var861!1 () var2949 (as @var2949_0 var2949))
+(define-fun var1425!1 () String "")
+(define-fun var1425!2 () String "Unexpected input (many fields): ")
+(define-fun var3499!1 () String "Unexpected input (many fields): ")
+(define-fun var1120!1 () var2962 (as @var2962_0 var2962))
+(define-fun var1315!1 () String "")

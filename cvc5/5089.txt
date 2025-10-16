@@ -1,0 +1,17 @@
+; cardinality of var3476 is 2
+; rep: (as @var3476_0 var3476)
+; rep: (as @var3476_1 var3476)
+; cardinality of var3322 is 2
+; rep: (as @var3322_0 var3322)
+; rep: (as @var3322_1 var3322)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun toString/-512974245 ((_arg_1 var3476)) String "A")
+(define-fun null-var3476 () var3476 (as @var3476_0 var3476))
+(define-fun null-var3322 () var3322 (as @var3322_0 var3322))
+(define-fun var2473 () var3476 (as @var3476_1 var3476))
+(define-fun var1936 () var3322 (as @var3322_1 var3322))

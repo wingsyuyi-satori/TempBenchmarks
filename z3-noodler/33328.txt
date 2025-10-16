@@ -1,0 +1,43 @@
+;; universe for var3522:
+  ;;   var3522!val!0 var3522!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var3522!val!0 () var3522)
+  (declare-fun var3522!val!1 () var3522)
+  ;; cardinality constraint:
+  (forall ((x var3522)) (or (= x var3522!val!0) (= x var3522!val!1)))
+  ;; -----------
+  (define-fun var3713 () String
+    "!")
+  (define-fun null-__Array__Int__String__ () (Array Int String)
+    ((as const (Array Int String)) ""))
+  (define-fun var2630 () String
+    (trim-right (trim-left var3713)))
+  (define-fun null-String () String
+    "")
+  (define-fun var3995 () Int
+    (let ((a!1 (< (num_splits (trim-right (trim-left var3713))
+                          (splitRegex/-1299977600 var3495))
+              (- 1))))
+(let ((a!2 (ite a!1
+                (num_splits (trim-right (trim-left var3713))
+                            (splitRegex/-1299977600 var3495))
+                (- 1))))
+  (ite (> (- 1) 0)
+       a!2
+       (num_splits (trim-right (trim-left var3713))
+                   (splitRegex/-1299977600 var3495))))))
+  (define-fun null-var3522 () var3522
+    var3522!val!1)
+  (define-fun var1867 () String
+    (splitRegex/-1299977600 var3495))
+  (define-fun var283 () (Array Int String)
+    arr-String-init)
+  (define-fun var283!1 () (Array Int String)
+    (store ((as const (Array Int String)) "!") 8 ""))
+  (define-fun var3495 () var3522
+    var3522!val!0)
+  (define-fun arr-String-init () (Array Int String)
+    ((as const (Array Int String)) ""))
+  (define-fun splitRegex/-1299977600 ((x!0 var3522)) String
+    "")

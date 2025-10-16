@@ -1,0 +1,2 @@
+(define-fun jwt_token () String "")
+(define-fun api_key () String "")

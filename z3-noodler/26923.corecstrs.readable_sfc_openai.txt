@@ -1,0 +1,20 @@
+(define-fun var_0xINPUT_27346 () String
+    "a")
+  (define-fun PCTEMP_LHS_1 () String
+    "")
+  (define-fun PL2_seg1 () String
+    "")
+  (define-fun PCTEMP_LHS_2 () String
+    "")
+  (define-fun T1_seg0 () String
+    "")
+  (define-fun PL2_num_splits () Int
+    1)
+  (define-fun PL2_seg0 () String
+    "")
+  (define-fun T_1 () String
+    "/signina")
+  (define-fun T2_3 () String
+    "a")
+  (define-fun T1_3 () String
+    "/signin")

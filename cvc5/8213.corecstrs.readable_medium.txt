@@ -1,0 +1,6 @@
+(define-fun T_1 () Bool true)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_89339 () String ".")
+(define-fun rest_1_3082 () String "p84mt9govsl")
+(define-fun rest_2_7354 () String "e53apq")
+(define-fun rest_4_8180 () String "e53apq")

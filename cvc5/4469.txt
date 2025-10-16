@@ -1,0 +1,33 @@
+; cardinality of var265 is 2
+; rep: (as @var265_0 var265)
+; rep: (as @var265_1 var265)
+; cardinality of var2340 is 1
+; rep: (as @var2340_0 var2340)
+; cardinality of var2578 is 1
+; rep: (as @var2578_0 var2578)
+; cardinality of var3680 is 1
+; rep: (as @var3680_0 var3680)
+; cardinality of var3712 is 1
+; rep: (as @var3712_0 var3712)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3680!class () ClassObject (as @ClassObject_0 ClassObject))
+(define-fun var2578_valueOf/2134747254 ((BOUND_VARIABLE_700 ClassObject) (BOUND_VARIABLE_701 String)) var2578 (as @var2578_0 var2578))
+(define-fun cast-from-var2578-to-var3680 ((BOUND_VARIABLE_704 var2578)) var3680 (as @var3680_0 var3680))
+(define-fun var265_put/1464166817 ((BOUND_VARIABLE_707 var265) (BOUND_VARIABLE_708 var3712) (BOUND_VARIABLE_709 var3712)) var3712 (as @var3712_0 var3712))
+(define-fun cast-from-String-to-var3712 ((BOUND_VARIABLE_712 String)) var3712 (as @var3712_0 var3712))
+(define-fun cast-from-var3680-to-var3712 ((BOUND_VARIABLE_715 var3680)) var3712 (as @var3712_0 var3712))
+(define-fun null-var265 () var265 (as @var265_0 var265))
+(define-fun null-String () String "A")
+(define-fun var902 () var265 (as @var265_1 var265))
+(define-fun var2018 () String "")
+(define-fun var902!1 () var265 (as @var265_0 var265))
+(define-fun var3283!1 () String "")
+(define-fun var844!1 () var3680 (as @var3680_0 var3680))
+(define-fun var902!2 () var265 (as @var265_0 var265))
+(define-fun var3232!1 () String "")
+(define-fun var844!2 () var3680 (as @var3680_0 var3680))

@@ -1,0 +1,30 @@
+(define-fun log_level_1 () String
+    "INFO")
+  (define-fun log_entry_2 () String
+    "2024-01-15 14:22:33 [ERROR] | Database connection failed")
+  (define-fun timestamp_1 () String
+    "2024-01-15 10:30:45")
+  (define-fun log_level_2 () String
+    "ERROR")
+  (define-fun log_entry_1 () String
+    "2024-01-15 10:30:45 [INFO] | User login successful")
+  (define-fun log_entry_3 () String
+    "2024-01-15 09:15:20 [WARN] | Memory usage high")
+  (define-fun reconstructed_1 () String
+    "2024-01-15 10:30:45 [INFO] | User login successful")
+  (define-fun message_1 () String
+    " User login successful")
+  (define-fun time_part () String
+    "10:30:45")
+  (define-fun log_entry_4 () String
+    "Invalid log format without proper structure")
+  (define-fun timestamp_2 () String
+    " 2024-01-15")
+  (define-fun message_2 () String
+    "Database")
+  (define-fun date_part () String
+    "2024-01-15")
+  (define-fun level_section () String
+    "[]")
+  (define-fun remaining_after_level () String
+    "")

@@ -1,0 +1,44 @@
+(define-fun userinfo () String
+    "")
+  (define-fun port_delim () String
+    ":")
+  (define-fun protocol () String
+    "ftp")
+  (define-fun protocol_delim () String
+    "://")
+  (define-fun userinfo_delim () String
+    "@")
+  (define-fun domain_part1 () String
+    "")
+  (define-fun path_delim () String
+    "/")
+  (define-fun after_protocol () String
+    "files.server:\u{0}/")
+  (define-fun fragment_delim () String
+    "#")
+  (define-fun domain_rest () String
+    "")
+  (define-fun param_delim () String
+    "&")
+  (define-fun domain_part2 () String
+    "")
+  (define-fun query_delim () String
+    "?")
+  (define-fun path_rest () String
+    "")
+  (define-fun full_url () String
+    "ftp://files.server:\u{0}:1")
+  (define-fun path () String
+    "")
+  (define-fun fragment () String
+    "")
+  (define-fun host () String
+    "files.server:\u{0}")
+  (define-fun first_path_seg () String
+    "downloads")
+  (define-fun second_path_seg () String
+    "")
+  (define-fun query () String
+    "")
+  (define-fun port () String
+    "1")

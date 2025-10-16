@@ -1,0 +1,25 @@
+; cardinality of var423 is 2
+; rep: (as @var423_0 var423)
+; rep: (as @var423_1 var423)
+; cardinality of var2733 is 2
+; rep: (as @var2733_0 var2733)
+; rep: (as @var2733_1 var2733)
+; cardinality of var3156 is 1
+; rep: (as @var3156_0 var3156)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun toString/1403215111 ((_arg_1 var2733)) String "A")
+(define-fun var3156-init () var3156 (as @var3156_0 var3156))
+(define-fun <init>/-325640736 ((BOUND_VARIABLE_824 var3156)) void (as @void_0 void))
+(define-fun arr-String-init () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun null-var423 () var423 (as @var423_0 var423))
+(define-fun null-var2733 () var2733 (as @var2733_0 var2733))
+(define-fun null-__Array__Int__String__ () (Array Int String) (store ((as const (Array Int String)) "A") 0 "\u{5c}?"))
+(define-fun var119 () var423 (as @var423_1 var423))
+(define-fun var3365 () var2733 (as @var2733_1 var2733))
+(define-fun var406!1 () var3156 (as @var3156_0 var3156))
+(define-fun var1058!1 () (Array Int String) ((as const (Array Int String)) ""))

@@ -1,0 +1,6 @@
+(define-fun T_1 () Bool true)
+(define-fun T_2 () Bool true)
+(define-fun var_0xINPUT_502700 () String "array")
+(define-fun split_part_0 () String "")
+(define-fun split_part_1 () String "")
+(define-fun remaining_segments () String "r")

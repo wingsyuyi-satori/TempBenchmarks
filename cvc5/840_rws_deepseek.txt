@@ -1,0 +1,7 @@
+(define-fun str.split_at ((BOUND_VARIABLE_1682 String) (BOUND_VARIABLE_1683 String) (BOUND_VARIABLE_1684 Int)) String "")
+(define-fun str.num_splits ((BOUND_VARIABLE_1687 String) (BOUND_VARIABLE_1688 String)) Int 0)
+(define-fun str.split_rest ((BOUND_VARIABLE_1691 String) (BOUND_VARIABLE_1692 String) (BOUND_VARIABLE_1693 Int)) String "")
+(define-fun log_entry () String "[2023-01-15 14:30:45] INFO: User login successful | ip=192.168.1.1")
+(define-fun timestamp () String "AAAAAAAAAAAAAAAAAA ")
+(define-fun log_level () String " INFO")
+(define-fun message () String "AAAAAAAAAAAAAAAAAA ")

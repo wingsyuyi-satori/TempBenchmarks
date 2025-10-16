@@ -1,0 +1,7 @@
+(define-fun tsv_line () String "")
+(define-fun tsv_field0 () String "")
+(define-fun tsv_field1 () String "\u{5c}t")
+(define-fun tsv_field2 () String "\u{5c}t")
+(define-fun tsv_field3 () String "")
+(define-fun tsv_field4 () String "")
+(define-fun no_unescaped_quote ((BOUND_VARIABLE_794 String)) Bool false)

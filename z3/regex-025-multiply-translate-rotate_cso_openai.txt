@@ -1,0 +1,18 @@
+(define-fun y () String
+    "}}$$$$$$}}$$}}")
+  (define-fun x () String
+    "}}$$}}$$}}$$}}")
+  (define-fun y_rest () String
+    "$$")
+  (define-fun y_prefix () String
+    "")
+  (define-fun x_nested () String
+    "C")
+  (define-fun x_rest () String
+    "$$")
+  (define-fun x_prefix () String
+    "")
+  (define-fun n_y () Int
+    1)
+  (define-fun n_x () Int
+    1)

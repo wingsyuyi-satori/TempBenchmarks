@@ -1,0 +1,2 @@
+(define-fun var0 () String
+    "000000000000008")

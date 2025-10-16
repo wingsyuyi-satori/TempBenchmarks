@@ -1,0 +1,16 @@
+(define-fun expected_signature () String
+    "")
+  (define-fun api_key () String
+    "a")
+  (define-fun timestamp () String
+    "a")
+  (define-fun jwt_token () String
+    "a")
+  (define-fun is_base64 ((x!0 String)) Bool
+    true)
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)

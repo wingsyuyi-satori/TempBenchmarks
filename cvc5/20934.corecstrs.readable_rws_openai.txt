@@ -1,0 +1,5 @@
+(define-fun url () String "https://example.com/foo/bar")
+(define-fun protocol () String "http")
+(define-fun host () String ".")
+(define-fun path () String "")
+(define-fun after_protocol () String "A")

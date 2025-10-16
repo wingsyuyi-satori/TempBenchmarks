@@ -1,0 +1,4 @@
+(define-fun key2 () String "cache-control")
+(define-fun value2 () String "\u{b}\u{9}")
+(define-fun value2_key () String "\u{9}")
+(define-fun value2_val () String "\u{9}")

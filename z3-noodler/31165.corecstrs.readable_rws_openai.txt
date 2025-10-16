@@ -1,0 +1,56 @@
+(define-fun log_entry () String
+    "[2024-06-03 13:45:12] INFO | User login succeeded")
+  (define-fun hour_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 0))
+  (define-fun after_rbrack_trimmed () String
+    (let ((a!1 (- (str.len (split_at (split_at log_entry "[" 1) "]" 1)) 1)))
+  (ite (str.prefixof " " (split_at (split_at log_entry "[" 1) "]" 1))
+       (str.substr (split_at (split_at log_entry "[" 1) "]" 1) 1 a!1)
+       (split_at (split_at log_entry "[" 1) "]" 1))))
+  (define-fun time_part () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1))
+  (define-fun day_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 2))
+  (define-fun minute_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 1))
+  (define-fun segment_after_lbrack () String
+    (split_at log_entry "[" 1))
+  (define-fun delim_lbrack () String
+    "[")
+  (define-fun timestamp_and_rest () String
+    (split_at (split_at log_entry "[" 1) "]" 0))
+  (define-fun message () String
+    (let ((a!1 (str.substr (split_at log_entry "|" 1)
+                       1
+                       (- (str.len (split_at log_entry "|" 1)) 1))))
+  (ite (str.prefixof " " (split_at log_entry "|" 1))
+       a!1
+       (split_at log_entry "|" 1))))
+  (define-fun delim_colon () String
+    ":")
+  (define-fun delim_dash () String
+    "-")
+  (define-fun month_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 1))
+  (define-fun log_level () String
+    (let ((a!1 (- (str.len (split_at (split_at log_entry "[" 1) "]" 1)) 1)))
+(let ((a!2 (ite (str.prefixof " " (split_at (split_at log_entry "[" 1) "]" 1))
+                (str.substr (split_at (split_at log_entry "[" 1) "]" 1) 1 a!1)
+                (split_at (split_at log_entry "[" 1) "]" 1))))
+  (split_at a!2 " " 0))))
+  (define-fun after_rbrack () String
+    (split_at (split_at log_entry "[" 1) "]" 1))
+  (define-fun delim_space () String
+    " ")
+  (define-fun delim_pipe () String
+    "|")
+  (define-fun second_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 1) ":" 2))
+  (define-fun year_part () String
+    (split_at (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0) "-" 0))
+  (define-fun date_part () String
+    (split_at (split_at (split_at log_entry "[" 1) "]" 0) " " 0))
+  (define-fun after_pipe () String
+    (split_at log_entry "|" 1))
+  (define-fun delim_rbrack () String
+    "]")

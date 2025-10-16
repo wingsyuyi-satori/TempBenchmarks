@@ -1,0 +1,18 @@
+(define-fun backup_email () String
+    "@")
+  (define-fun user_email () String
+    "IJEFKL")
+  (define-fun backup_domain_count () Int
+    7)
+  (define-fun backup_domain () String
+    "")
+  (define-fun domain_suffix () String
+    "DH")
+  (define-fun primary_domain () String
+    "GC")
+  (define-fun domain_segments () Int
+    2)
+  (define-fun full_domain () String
+    ".B")
+  (define-fun username () String
+    "A.B")

@@ -1,0 +1,8 @@
+(define-fun tsv_data () String
+    "NOQRU")
+  (define-fun pipe_data () String
+    "NOQRU")
+  (define-fun mixed_data () String
+    "CSV")
+  (define-fun csv_data () String
+    "NOQRU")

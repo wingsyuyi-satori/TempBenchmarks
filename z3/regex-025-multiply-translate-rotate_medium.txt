@@ -1,0 +1,10 @@
+(define-fun y () String
+    "}}}}$$$$$$}}}}")
+  (define-fun x () String
+    "}}$$$$$$$$}}}}")
+  (define-fun rest_1_7787 () String
+    "n4i1j")
+  (define-fun rest_0_3552 () String
+    "n4i1j")
+  (define-fun part_0_4714 () String
+    "xy")

@@ -1,0 +1,18 @@
+(define-fun var_0xINPUT_468363 () String
+    "A:E/B")
+  (define-fun seg2 () String
+    "BD")
+  (define-fun seg1 () String
+    "AC")
+  (define-fun value () String
+    "B")
+  (define-fun key () String
+    "A")
+  (define-fun part2 () String
+    "y")
+  (define-fun part1 () String
+    "T")
+  (define-fun T_2 () Bool
+    true)
+  (define-fun T_1 () Bool
+    false)

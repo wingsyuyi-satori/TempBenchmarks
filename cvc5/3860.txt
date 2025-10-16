@@ -1,0 +1,22 @@
+; cardinality of var546 is 3
+; rep: (as @var546_0 var546)
+; rep: (as @var546_1 var546)
+; rep: (as @var546_2 var546)
+; cardinality of var1403 is 1
+; rep: (as @var1403_0 var1403)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun String-init () String "")
+(define-fun getPath/39698060 ((_arg_1 var546)) String "A")
+(define-fun var1403-init () var1403 (as @var1403_0 var1403))
+(define-fun <init>/875830710 ((BOUND_VARIABLE_632 var1403) (BOUND_VARIABLE_633 String)) void (as @void_0 void))
+(define-fun null-var546 () var546 (as @var546_0 var546))
+(define-fun var1012 () var546 (as @var546_1 var546))
+(define-fun var1175 () var546 (as @var546_2 var546))
+(define-fun var1132!1 () String "")
+(define-fun var2449!1 () var1403 (as @var1403_0 var1403))
+(define-fun var2318 () String "")

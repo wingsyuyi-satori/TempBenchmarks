@@ -1,0 +1,6 @@
+(define-fun dot () String ".")
+(define-fun dash () String "-")
+(define-fun colon () String ":")
+(define-fun jwt_token () String "header.payload.signature")
+(define-fun api_key () String "AKIA1234:abcdefghijklmnopqrstuvwxyz123456")
+(define-fun session_token () String "12345678-90ab-cdef-ghijklmnopqr")

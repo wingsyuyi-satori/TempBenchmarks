@@ -1,0 +1,42 @@
+; cardinality of var3303 is 8
+; rep: (as @var3303_0 var3303)
+; rep: (as @var3303_1 var3303)
+; rep: (as @var3303_2 var3303)
+; rep: (as @var3303_3 var3303)
+; rep: (as @var3303_4 var3303)
+; rep: (as @var3303_5 var3303)
+; rep: (as @var3303_6 var3303)
+; rep: (as @var3303_7 var3303)
+; cardinality of var2408 is 1
+; rep: (as @var2408_0 var2408)
+; cardinality of var1767 is 1
+; rep: (as @var1767_0 var1767)
+; cardinality of var1109 is 1
+; rep: (as @var1109_0 var1109)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun initialized/615252293 ((_arg_1 var3303)) Bool (= (as @var3303_7 var3303) _arg_1))
+(define-fun docId/615252293 ((_arg_1 var3303)) String "")
+(define-fun docFilename/615252293 ((_arg_1 var3303)) String "")
+(define-fun docPubDate/615252293 ((_arg_1 var3303)) String "")
+(define-fun sentId/615252293 ((_arg_1 var3303)) String "")
+(define-fun text/615252293 ((_arg_1 var3303)) String "")
+(define-fun origItems/615252293 ((BOUND_VARIABLE_1492 var3303)) var1767 (as @var1767_0 var1767))
+(define-fun var1767_add/328494887 ((BOUND_VARIABLE_1495 var1767) (BOUND_VARIABLE_1496 var1109)) Bool false)
+(define-fun cast-from-String-to-var1109 ((BOUND_VARIABLE_1499 String)) var1109 (as @var1109_0 var1109))
+(define-fun null-var3303 () var3303 (as @var3303_0 var3303))
+(define-fun null-String () String "\u{5c}s*\u{5c}|\u{5c}s*")
+(define-fun var3752 () var3303 (as @var3303_1 var3303))
+(define-fun var3311 () String "")
+(define-fun var3752!1 () var3303 (as @var3303_2 var3303))
+(define-fun var3752!2 () var3303 (as @var3303_3 var3303))
+(define-fun var3752!3 () var3303 (as @var3303_4 var3303))
+(define-fun var3752!4 () var3303 (as @var3303_5 var3303))
+(define-fun var3752!5 () var3303 (as @var3303_6 var3303))
+(define-fun var3752!6 () var3303 (as @var3303_7 var3303))
+(define-fun var623!1 () var1767 (as @var1767_0 var1767))
+(define-fun var3311!1 () String "")

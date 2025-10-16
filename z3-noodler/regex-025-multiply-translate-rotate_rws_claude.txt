@@ -1,0 +1,40 @@
+(define-fun query_string () String
+    "\u{0}id=456\u{0}id=456type=admin\u{0}type=admin")
+  (define-fun param2_name () String
+    "type")
+  (define-fun path () String
+    "\u{0}")
+  (define-fun host () String
+    "\u{0}\u{0}:")
+  (define-fun port () String
+    "8080")
+  (define-fun param2 () String
+    "\u{0}==")
+  (define-fun full_host_part () String
+    "\u{0}")
+  (define-fun param2_value () String
+    "admin")
+  (define-fun param1_name () String
+    "id")
+  (define-fun param1 () String
+    "\u{0}==")
+  (define-fun param1_value () String
+    "456")
+  (define-fun protocol () String
+    "https")
+  (define-fun path_segment_2 () String
+    "users")
+  (define-fun remaining_path () String
+    "\u{0}123\u{0}123")
+  (define-fun subdomain () String
+    "api")
+  (define-fun domain () String
+    "example")
+  (define-fun path_segment_1 () String
+    "v1")
+  (define-fun host_name () String
+    "\u{0}")
+  (define-fun tld () String
+    "com")
+  (define-fun url () String
+    "https://api.example.com:8080/v1/users/123?id=456&type=admin")

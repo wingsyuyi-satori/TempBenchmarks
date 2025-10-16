@@ -1,0 +1,30 @@
+; cardinality of var3290 is 2
+; rep: (as @var3290_0 var3290)
+; rep: (as @var3290_1 var3290)
+; cardinality of var2910 is 3
+; rep: (as @var2910_0 var2910)
+; rep: (as @var2910_1 var2910)
+; rep: (as @var2910_2 var2910)
+; cardinality of var1398 is 1
+; rep: (as @var1398_0 var1398)
+; cardinality of var459 is 1
+; rep: (as @var459_0 var459)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun loadTextClassifier/2023711293 ((BOUND_VARIABLE_731 var1398) (BOUND_VARIABLE_732 var2910)) void (as @void_0 void))
+(define-fun cast-from-var3290-to-var1398 ((BOUND_VARIABLE_735 var3290)) var1398 (as @var1398_0 var1398))
+(define-fun readLine/150542008 ((_arg_1 var2910)) String "A")
+(define-fun var459-init () var459 (as @var459_0 var459))
+(define-fun <init>/-1084991535 ((BOUND_VARIABLE_738 var459) (BOUND_VARIABLE_739 String)) void (as @void_0 void))
+(define-fun null-var3290 () var3290 (as @var3290_0 var3290))
+(define-fun null-var2910 () var2910 (as @var2910_0 var2910))
+(define-fun var1556 () var3290 (as @var3290_1 var3290))
+(define-fun var2102 () var2910 (as @var2910_1 var2910))
+(define-fun var1556!1 () var3290 (as @var3290_0 var3290))
+(define-fun var2102!1 () var2910 (as @var2910_2 var2910))
+(define-fun var3235!1 () var459 (as @var459_0 var459))
+(define-fun var3501 () String "")

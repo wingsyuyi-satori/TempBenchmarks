@@ -1,0 +1,6 @@
+(define-fun x () String "vvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLwwvvVVLLww")
+(define-fun y () String "")
+(define-fun rest_0_7947 () String "")
+(define-fun rest_0_1348 () String "")
+(define-fun rest_1_6302 () String "")
+(define-fun rest_2_4831 () String "")

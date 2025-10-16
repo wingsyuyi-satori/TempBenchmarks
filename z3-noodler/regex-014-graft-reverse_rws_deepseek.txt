@@ -1,0 +1,45 @@
+(define-fun log_level () String
+    "ERROR")
+  (define-fun timestamp () String
+    "\u{0}")
+  (define-fun hyphen () String
+    "-")
+  (define-fun message () String
+    "\u{0}")
+  (define-fun pipe () String
+    "|")
+  (define-fun colon () String
+    ":")
+  (define-fun space () String
+    " ")
+  (define-fun date_part () String
+    "")
+  (define-fun rbracket () String
+    "]")
+  (define-fun lbracket () String
+    "[")
+  (define-fun time_part () String
+    "")
+  (define-fun log_entry () String
+    "2023-01-15 14:30:45 WARN network: Connection timeout")
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    "\u{0}")
+  (define-fun str.indexof ((x!0 String) (x!1 String) (x!2 Int)) Int
+    3)
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "\u{0}")
+  (define-fun str.len ((x!0 String)) Int
+    (ite (= x!0 "ERROR") 3
+      0))
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "ERROR") (= x!1 "ERROR")) false
+    (ite (and (= x!0 "ERROR") (= x!1 "CRITICAL")) false
+      true)))
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")

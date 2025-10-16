@@ -1,0 +1,139 @@
+;; universe for var221:
+  ;;   var221!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var221!val!0 () var221)
+  ;; cardinality constraint:
+  (forall ((x var221)) (= x var221!val!0))
+  ;; -----------
+  ;; universe for var2903:
+  ;;   var2903!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2903!val!0 () var2903)
+  ;; cardinality constraint:
+  (forall ((x var2903)) (= x var2903!val!0))
+  ;; -----------
+  ;; universe for var2132:
+  ;;   var2132!val!0 var2132!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2132!val!0 () var2132)
+  (declare-fun var2132!val!1 () var2132)
+  ;; cardinality constraint:
+  (forall ((x var2132)) (or (= x var2132!val!0) (= x var2132!val!1)))
+  ;; -----------
+  ;; universe for var2247:
+  ;;   var2247!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2247!val!0 () var2247)
+  ;; cardinality constraint:
+  (forall ((x var2247)) (= x var2247!val!0))
+  ;; -----------
+  ;; universe for String:
+  ;;   String!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun String!val!0 () String)
+  ;; cardinality constraint:
+  (forall ((x String)) (= x String!val!0))
+  ;; -----------
+  (define-fun var3363 () String
+    (let ((a!1 (var3360_filterAsList/-1582513876
+             (cast-from-var2132-to-var2247
+               (var419_asList/1779083644
+                 (cast-from-__Array__Int__String__-to-__Array__Int__var2903__
+                   var1011)))
+             var1633_bootstrap$/-666929012)))
+  (cast-from-var2903-to-String (var2132_get/-1216255739 a!1 0))))
+  (define-fun var191 () String
+    "\u{0}")
+  (define-fun var744 () var2903
+    (let ((a!1 (var3360_filterAsList/-1582513876
+             (cast-from-var2132-to-var2247
+               (var419_asList/1779083644
+                 (cast-from-__Array__Int__String__-to-__Array__Int__var2903__
+                   var1011)))
+             var1633_bootstrap$/-666929012)))
+  (var2132_get/-1216255739 a!1 0)))
+  (define-fun var3967 () Int
+    (let ((a!1 (var3360_filterAsList/-1582513876
+             (cast-from-var2132-to-var2247
+               (var419_asList/1779083644
+                 (cast-from-__Array__Int__String__-to-__Array__Int__var2903__
+                   var1011)))
+             var1633_bootstrap$/-666929012)))
+  (var2132_size/-959786421 a!1)))
+  (define-fun var2002 () var2132
+    (var3360_filterAsList/-1582513876
+  (cast-from-var2132-to-var2247
+    (var419_asList/1779083644
+      (cast-from-__Array__Int__String__-to-__Array__Int__var2903__ var1011)))
+  var1633_bootstrap$/-666929012))
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var1011 () (Array Int String)
+    ((as const (Array Int String)) String!val!0))
+  (define-fun var2456 () Int
+    0)
+  (define-fun var1994 () var367
+    var367-init)
+  (define-fun var3956 () (Array Int (Array Int Float64))
+    arr-Float64-2-init)
+  (define-fun var3142 () String
+    (let ((a!1 (var3360_filterAsList/-1582513876
+             (cast-from-var2132-to-var2247
+               (var419_asList/1779083644
+                 (cast-from-__Array__Int__String__-to-__Array__Int__var2903__
+                   var1011)))
+             var1633_bootstrap$/-666929012)))
+  (trim-right (trim-left (cast-from-var2903-to-String
+                           (var2132_get/-1216255739 a!1 0))))))
+  (define-fun var2858 () var221
+    var1633_bootstrap$/-666929012)
+  (define-fun var43 () var2132
+    (var419_asList/1779083644
+  (cast-from-__Array__Int__String__-to-__Array__Int__var2903__ var1011)))
+  (define-fun var1633_bootstrap$/-666929012 () var221
+    var221!val!0)
+  (define-fun var2357 () Int
+    (let ((a!1 (var3360_filterAsList/-1582513876
+             (cast-from-var2132-to-var2247
+               (var419_asList/1779083644
+                 (cast-from-__Array__Int__String__-to-__Array__Int__var2903__
+                   var1011)))
+             var1633_bootstrap$/-666929012)))
+(let ((a!2 (trim-right (trim-left (cast-from-var2903-to-String
+                                    (var2132_get/-1216255739 a!1 0))))))
+  (ite (> (- 1) 0)
+       (ite (< (num_splits a!2 "\s+") (- 1)) (num_splits a!2 "\s+") (- 1))
+       (num_splits a!2 "\s+")))))
+  (define-fun arr-Float64-2-init () (Array Int (Array Int Float64))
+    ((as const (Array Int (Array Int Float64)))
+  ((as const (Array Int Float64)) (_ NaN 11 53))))
+  (define-fun var1994!1 () var367
+    var367!val!0)
+  (define-fun var367-init () var367
+    var367!val!0)
+  (define-fun var3956!1 () (Array Int (Array Int Float64))
+    ((as const (Array Int (Array Int Float64)))
+  ((as const (Array Int Float64)) (_ NaN 11 53))))
+  (define-fun cast-from-__Array__Int__String__-to-__Array__Int__var2903__ ((x!0
+    (Array Int String))) (Array Int var2903)
+    ((as const (Array Int var2903)) var2903!val!0))
+  (define-fun var2132_size/-959786421 ((x!0 var2132)) Int
+    0)
+  (define-fun var3360_filterAsList/-1582513876 ((x!0 var2247) (x!1 var221)) var2132
+    var2132!val!1)
+  (define-fun cast-from-var2132-to-var2247 ((x!0 var2132)) var2247
+    var2247!val!0)
+  (define-fun var419_asList/1779083644 ((x!0 (Array Int var2903))) var2132
+    var2132!val!0)
+  (define-fun cast-from-var2903-to-String ((x!0 var2903)) String
+    String!val!0)
+  (define-fun <init>/1181716069 ((x!0 var367)
+   (x!1 (Array Int (Array Int Float64)))) void
+    void!val!0)
+  (define-fun var2132_get/-1216255739 ((x!0 var2132) (x!1 Int)) var2903
+    var2903!val!0)

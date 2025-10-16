@@ -1,0 +1,8 @@
+(define-fun config_line1 () String "username=admin")
+(define-fun config_line2 () String "timeout:30")
+(define-fun config_section () String "[database]")
+(define-fun key1 () String "BAAAAAAA")
+(define-fun value1 () String "BAAAAAAA")
+(define-fun key2 () String "[")
+(define-fun value2 () String "BAAAAAAA")
+(define-fun section_name () String "AAAAAAAA")

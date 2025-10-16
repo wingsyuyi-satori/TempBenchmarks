@@ -1,0 +1,4 @@
+(define-fun T_1 () Bool true)
+(define-fun var_0xINPUT_193107 () String "Type")
+(define-fun type_split_0 () String "T")
+(define-fun type_split_1 () String "pe")

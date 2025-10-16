@@ -1,0 +1,22 @@
+(define-fun admin_email () String
+    "")
+  (define-fun user_email () String
+    "in")
+  (define-fun admin_tld () String
+    "in")
+  (define-fun user_tld () String
+    "in")
+  (define-fun admin_main_domain () String
+    "")
+  (define-fun user_main_domain () String
+    "")
+  (define-fun subdomain () String
+    "Ain")
+  (define-fun admin_domain () String
+    ".")
+  (define-fun admin_local () String
+    "admin")
+  (define-fun user_domain () String
+    "@")
+  (define-fun user_local () String
+    "B")

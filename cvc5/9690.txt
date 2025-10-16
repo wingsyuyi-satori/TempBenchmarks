@@ -1,0 +1,43 @@
+; cardinality of var3829 is 2
+; rep: (as @var3829_0 var3829)
+; rep: (as @var3829_1 var3829)
+; cardinality of var705 is 1
+; rep: (as @var705_0 var705)
+; cardinality of var1738 is 1
+; rep: (as @var1738_0 var1738)
+; cardinality of var1024 is 1
+; rep: (as @var1024_0 var1024)
+; cardinality of var3137 is 1
+; rep: (as @var3137_0 var3137)
+; cardinality of var1251 is 1
+; rep: (as @var1251_0 var1251)
+; cardinality of var2763 is 1
+; rep: (as @var2763_0 var2763)
+; cardinality of var3435 is 1
+; rep: (as @var3435_0 var3435)
+; cardinality of var3609 is 1
+; rep: (as @var3609_0 var3609)
+; cardinality of var3848 is 1
+; rep: (as @var3848_0 var3848)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun size/-1863229846 ((_arg_1 var3829)) Int 0)
+(define-fun var1024_stream/-1757820 ((BOUND_VARIABLE_933 (Array Int var3137))) var1738 (as @var1738_0 var1738))
+(define-fun cast-from-__Array__Int__String__-to-__Array__Int__var3137__ ((BOUND_VARIABLE_936 (Array Int String))) (Array Int var3137) ((as const (Array Int var3137)) (as @var3137_0 var3137)))
+(define-fun var2763_bootstrap$/1705390446 () var1251 (as @var1251_0 var1251))
+(define-fun var1738_map/130902797 ((BOUND_VARIABLE_941 var1738) (BOUND_VARIABLE_942 var1251)) var1738 (as @var1738_0 var1738))
+(define-fun var3609_toList/714215649 () var3435 (as @var3435_0 var3435))
+(define-fun var1738_collect/-2050842585 ((BOUND_VARIABLE_945 var1738) (BOUND_VARIABLE_946 var3435)) var3137 (as @var3137_0 var3137))
+(define-fun cast-from-var3137-to-var3848 ((BOUND_VARIABLE_949 var3137)) var3848 (as @var3848_0 var3848))
+(define-fun addAll/-313517534 ((BOUND_VARIABLE_952 var3829) (BOUND_VARIABLE_953 var3848)) Bool false)
+(define-fun null-var3829 () var3829 (as @var3829_0 var3829))
+(define-fun null-String () String "A")
+(define-fun var1655 () var3829 (as @var3829_1 var3829))
+(define-fun var2901 () String "")
+(define-fun var1833 () (Array Int String) ((as const (Array Int String)) ""))
+(define-fun var1655!1 () var3829 (as @var3829_0 var3829))
+(define-fun var817!1 () var3848 (as @var3848_0 var3848))

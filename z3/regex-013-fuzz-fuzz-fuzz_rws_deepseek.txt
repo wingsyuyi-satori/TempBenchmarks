@@ -1,0 +1,12 @@
+(define-fun at_delim () String
+    "@")
+  (define-fun dot_delim () String
+    ".")
+  (define-fun email () String
+    "_B")
+  (define-fun tld () String
+    "gov")
+  (define-fun domain () String
+    "")
+  (define-fun local () String
+    ".")

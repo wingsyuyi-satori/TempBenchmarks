@@ -1,0 +1,6 @@
+(define-fun s2 () String
+    "ABC")
+  (define-fun s3 () String
+    "ABC")
+  (define-fun s1 () String
+    "")

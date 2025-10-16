@@ -1,0 +1,55 @@
+(define-fun close_bracket () String
+    "]")
+  (define-fun colon () String
+    ":")
+  (define-fun newline () String
+    "\n")
+  (define-fun value () String
+    "\u{0}")
+  (define-fun only_delim () String
+    "=")
+  (define-fun long_value () String
+    "path=/usr/local/bin:/usr/bin:/bin")
+  (define-fun open_bracket () String
+    "[")
+  (define-fun empty_value () String
+    "cache_size=")
+  (define-fun ini_section () String
+    "[database]")
+  (define-fun alt_config () String
+    "port:8080")
+  (define-fun db_section () String
+    "[database]\nhost=localhost\nport=3306\nuser=root")
+  (define-fun key () String
+    "\u{0}")
+  (define-fun equals () String
+    "=")
+  (define-fun bad_section () String
+    "database]")
+  (define-fun config_line () String
+    "timeout=30")
+  (define-fun full_config () String
+    "[server]\nhost=localhost\nport=8080")
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "\u{0}") (= x!1 ":")) false
+    (ite (and (= x!0 "\u{0}") (= x!1 "\n")) false
+    (ite (and (= x!0 "\u{0}") (= x!1 "[")) false
+    (ite (and (= x!0 "database]") (= x!1 "[")) false
+      true)))))
+  (define-fun str.len ((x!0 String)) Int
+    (ite (= x!0 "[database]") 0
+      1))
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    "database")
+  (define-fun str.indexof ((x!0 String) (x!1 String) (x!2 Int)) Int
+    0)
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")

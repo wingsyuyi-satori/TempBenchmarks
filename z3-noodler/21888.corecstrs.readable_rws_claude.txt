@@ -1,0 +1,24 @@
+(define-fun jwt_header () String
+    "eyJ\u{0}\u{0}\u{0}\u{0}")
+  (define-fun base64_chars () String
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=")
+  (define-fun jwt_payload () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}expiat")
+  (define-fun valid_b64_pattern () String
+    "eyJ")
+  (define-fun api_key () String
+    "sk-1234567890abcdef:9876543210fedcba9876543210fedcba9876543210fedcba")
+  (define-fun key_prefix () String
+    "sk")
+  (define-fun jwt_signature () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}=")
+  (define-fun jwt_token () String
+    "eyJ\u{0}\u{0}\u{0}\u{0}.\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}expiat.\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}=")
+  (define-fun key_secret () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun key_id () String
+    "\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}\u{0}")
+  (define-fun timestamp_field () String
+    "")
+  (define-fun expiry_time () String
+    "")

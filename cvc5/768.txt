@@ -1,0 +1,36 @@
+; cardinality of var3293 is 2
+; rep: (as @var3293_0 var3293)
+; rep: (as @var3293_1 var3293)
+; cardinality of var3586 is 2
+; rep: (as @var3586_0 var3586)
+; rep: (as @var3586_1 var3586)
+; cardinality of var1110 is 1
+; rep: (as @var1110_0 var1110)
+; cardinality of var1444 is 1
+; rep: (as @var1444_0 var1444)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun getText/-791554220 ((_arg_1 var3293) (_arg_2 var3586)) String "A")
+(define-fun getBoundsOfNode/-1951447090 ((BOUND_VARIABLE_706 var3293) (BOUND_VARIABLE_707 var3586)) var1110 (as @var1110_0 var1110))
+(define-fun doc/-1930180878 ((BOUND_VARIABLE_710 var3293)) var1444 (as @var1444_0 var1444))
+(define-fun x/-707491510 ((BOUND_VARIABLE_713 var1110)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun y/-707491510 ((BOUND_VARIABLE_717 var1110)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun width/-707491510 ((BOUND_VARIABLE_720 var1110)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun height/-707491510 ((BOUND_VARIABLE_723 var1110)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun highlight/-1835093399 ((BOUND_VARIABLE_726 var1444) (BOUND_VARIABLE_727 (_ FloatingPoint 11 53)) (BOUND_VARIABLE_728 (_ FloatingPoint 11 53)) (BOUND_VARIABLE_729 (_ FloatingPoint 11 53)) (BOUND_VARIABLE_730 (_ FloatingPoint 11 53))) void (as @void_0 void))
+(define-fun nodeWidthPadding/-1930180878 ((BOUND_VARIABLE_733 var3293)) Int 0)
+(define-fun cast-from-Int-to-Float64 ((BOUND_VARIABLE_736 Int)) (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun nodeHeightPaddingBelow/-1930180878 ((BOUND_VARIABLE_739 var3293)) Int 0)
+(define-fun null-var3293 () var3293 (as @var3293_0 var3293))
+(define-fun null-var3586 () var3586 (as @var3586_0 var3586))
+(define-fun var1203 () var3293 (as @var3293_1 var3293))
+(define-fun var371 () var3586 (as @var3586_1 var3586))
+(define-fun var411!1 () var1444 (as @var1444_0 var1444))
+(define-fun var2167!1 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun var3462!1 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun var2596!1 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+(define-fun var2799!1 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))

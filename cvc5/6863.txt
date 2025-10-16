@@ -1,0 +1,36 @@
+; cardinality of var3902 is 2
+; rep: (as @var3902_0 var3902)
+; rep: (as @var3902_1 var3902)
+; cardinality of var989 is 2
+; rep: (as @var989_0 var989)
+; rep: (as @var989_1 var989)
+; cardinality of var3284 is 1
+; rep: (as @var3284_0 var3284)
+; cardinality of var160 is 1
+; rep: (as @var160_0 var160)
+; cardinality of var397 is 1
+; rep: (as @var397_0 var397)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var160-init () var160 (as @var160_0 var160))
+(define-fun <init>/358169345 ((BOUND_VARIABLE_833 var160)) void (as @void_0 void))
+(define-fun omitComments/-1276310728 ((_arg_1 var3902)) Bool true)
+(define-fun store/-1111572071 ((BOUND_VARIABLE_836 var397) (BOUND_VARIABLE_837 var989) (BOUND_VARIABLE_838 String)) void (as @void_0 void))
+(define-fun cast-from-var3902-to-var397 ((BOUND_VARIABLE_841 var3902)) var397 (as @var397_0 var397))
+(define-fun cast-from-var160-to-var989 ((BOUND_VARIABLE_844 var160)) var989 (as @var989_0 var989))
+(define-fun toString/138175384 ((_arg_1 var160)) String "B")
+(define-fun null-var3902 () var3902 (as @var3902_0 var3902))
+(define-fun null-var989 () var989 (as @var989_0 var989))
+(define-fun null-String () String "A")
+(define-fun var3902-EOL () String "")
+(define-fun var2844 () var3902 (as @var3902_1 var3902))
+(define-fun var3073 () var989 (as @var989_1 var989))
+(define-fun var1834 () String "")
+(define-fun var3816!1 () var160 (as @var160_0 var160))
+(define-fun var2844!1 () var3902 (as @var3902_0 var3902))
+(define-fun var3816!2 () var160 (as @var160_0 var160))
+(define-fun var2776!1 () String "")

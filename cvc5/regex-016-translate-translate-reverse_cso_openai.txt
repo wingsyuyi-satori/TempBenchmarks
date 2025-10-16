@@ -1,0 +1,7 @@
+(define-fun x () String "YX~MYX~M321")
+(define-fun y () String "YX~M")
+(define-fun seg_cnt () Int 2)
+(define-fun seg_first () String "YX~M")
+(define-fun seg_last () String "A")
+(define-fun seg_last_0 () String "")
+(define-fun seg_last_1 () String "YX~M")

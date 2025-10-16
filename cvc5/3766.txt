@@ -1,0 +1,42 @@
+; cardinality of var2379 is 2
+; rep: (as @var2379_0 var2379)
+; rep: (as @var2379_1 var2379)
+; cardinality of var71 is 1
+; rep: (as @var71_0 var71)
+; cardinality of var628 is 2
+; rep: (as @var628_0 var628)
+; rep: (as @var628_1 var628)
+; cardinality of var1894 is 1
+; rep: (as @var1894_0 var1894)
+; cardinality of var2567 is 1
+; rep: (as @var2567_0 var2567)
+; cardinality of var1214 is 1
+; rep: (as @var1214_0 var1214)
+; cardinality of var2251 is 1
+; rep: (as @var2251_0 var2251)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var1894_info/79011599 ((BOUND_VARIABLE_765 var1894) (BOUND_VARIABLE_766 String) (BOUND_VARIABLE_767 var2567)) void (as @void_0 void))
+(define-fun cast-from-var628-to-var2567 ((BOUND_VARIABLE_770 var628)) var2567 (as @var2567_0 var2567))
+(define-fun pageNumbers/1418557443 ((BOUND_VARIABLE_773 var2379)) var1214 (as @var1214_0 var1214))
+(define-fun Int_valueOf/-1371140006 ((BOUND_VARIABLE_776 Int)) Int 0)
+(define-fun var1214_put/1464166817 ((BOUND_VARIABLE_779 var1214) (BOUND_VARIABLE_780 var2251) (BOUND_VARIABLE_781 var2251)) var2251 (as @var2251_0 var2251))
+(define-fun cast-from-String-to-var2251 ((BOUND_VARIABLE_784 String)) var2251 (as @var2251_0 var2251))
+(define-fun cast-from-Int-to-var2251 ((BOUND_VARIABLE_787 Int)) var2251 (as @var2251_0 var2251))
+(define-fun null-var2379 () var2379 (as @var2379_0 var2379))
+(define-fun null-String () String "A")
+(define-fun null-var628 () var628 (as @var628_0 var628))
+(define-fun var2379-log () var1894 (as @var1894_0 var1894))
+(define-fun var1217 () var2379 (as @var2379_1 var2379))
+(define-fun var2418 () String "")
+(define-fun var2754 () var628 (as @var628_1 var628))
+(define-fun var2883!1 () var1894 (as @var1894_0 var1894))
+(define-fun var3471!1 () String "")
+(define-fun var2754!1 () var628 (as @var628_0 var628))
+(define-fun var1410!1 () var1214 (as @var1214_0 var1214))
+(define-fun var1927!1 () String "")
+(define-fun var3198!1 () Int 0)

@@ -1,0 +1,16 @@
+(define-fun var_0xINPUT_469239 () String
+    "")
+  (define-fun space_split_0 () String
+    "")
+  (define-fun T_1 () Bool
+    false)
+  (define-fun input_first () String
+    "")
+  (define-fun space_split_1 () String
+    "")
+  (define-fun T_2 () Bool
+    true)
+  (define-fun input_rest () String
+    "")
+  (define-fun input_second () String
+    "")

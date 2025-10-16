@@ -1,0 +1,27 @@
+; cardinality of var1154 is 2
+; rep: (as @var1154_0 var1154)
+; rep: (as @var1154_1 var1154)
+; cardinality of var3626 is 2
+; rep: (as @var3626_0 var3626)
+; rep: (as @var3626_1 var3626)
+; cardinality of var774 is 1
+; rep: (as @var774_0 var774)
+; cardinality of var3277 is 1
+; rep: (as @var3277_0 var3277)
+; cardinality of var782 is 1
+; rep: (as @var782_0 var782)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun isLoggable/-616065502 ((_arg_1 var3277) (_arg_2 var782)) Bool false)
+(define-fun null-var1154 () var1154 (as @var1154_0 var1154))
+(define-fun null-var3626 () var3626 (as @var3626_0 var3626))
+(define-fun null-String () String "A")
+(define-fun var1154-log () var3277 (as @var3277_0 var3277))
+(define-fun var782-FINEST () var782 (as @var782_0 var782))
+(define-fun var2478 () var1154 (as @var1154_1 var1154))
+(define-fun var3271 () var3626 (as @var3626_1 var3626))
+(define-fun var19 () String "")

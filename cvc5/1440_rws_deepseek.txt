@@ -1,0 +1,7 @@
+(define-fun data_row () String "")
+(define-fun delimiter () String ",")
+(define-fun field0 () String "0")
+(define-fun field1 () String "\u{5c}t")
+(define-fun field2 () String "active")
+(define-fun field3 () String "@")
+(define-fun field4 () String "")

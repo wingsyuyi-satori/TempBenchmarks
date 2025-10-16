@@ -1,0 +1,7 @@
+(define-fun x () String "bbaa")
+(define-fun y () String "bbaabbaa")
+(define-fun x_part0 () String "")
+(define-fun x_part1 () String "")
+(define-fun y_part0 () String "")
+(define-fun y_part1 () String "")
+(define-fun y_part2 () String "")

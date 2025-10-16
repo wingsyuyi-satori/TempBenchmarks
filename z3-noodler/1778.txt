@@ -1,0 +1,67 @@
+;; universe for var2976:
+  ;;   var2976!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var2976!val!0 () var2976)
+  ;; cardinality constraint:
+  (forall ((x var2976)) (= x var2976!val!0))
+  ;; -----------
+  ;; universe for var785:
+  ;;   var785!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var785!val!0 () var785)
+  ;; cardinality constraint:
+  (forall ((x var785)) (= x var785!val!0))
+  ;; -----------
+  ;; universe for var229:
+  ;;   var229!val!0 var229!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun var229!val!0 () var229)
+  (declare-fun var229!val!1 () var229)
+  ;; cardinality constraint:
+  (forall ((x var229)) (or (= x var229!val!0) (= x var229!val!1)))
+  ;; -----------
+  (define-fun var2154 () Bool
+    (find/1809080823 (matcher/468719934
+                   (var785_compile/2141929305
+                     "^\s*[a-zA-Z_]+[a-zA-Z0-9_-]*=([:]?[a-zA-Z]+[a-zA-Z0-9_-]*)(\s+|$)")
+                   var254)))
+  (define-fun null-var229 () var229
+    var229!val!1)
+  (define-fun var226 () String
+    (trim-right (trim-left var254)))
+  (define-fun var1225 () var229
+    var229!val!0)
+  (define-fun var254 () String
+    "!")
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var3636 () Bool
+    (let ((a!1 (>= (num_splits (trim-right (trim-left var254)) "\s+") (- 1))))
+(let ((a!2 (ite (and (> (- 1) 0) (= 0 (- (- 1) 1)) a!1)
+                (split_rest (trim-right (trim-left var254)) "\s+" (- (- 1) 1))
+                (split_at (trim-right (trim-left var254)) "\s+" 0))))
+  (matches/-643015890 a!2 "[:]?[a-zA-Z]+[a-zA-Z0-9_-]*"))))
+  (define-fun var3702 () var2976
+    (matcher/468719934
+  (var785_compile/2141929305
+    "^\s*[a-zA-Z_]+[a-zA-Z0-9_-]*=([:]?[a-zA-Z]+[a-zA-Z0-9_-]*)(\s+|$)")
+  var254))
+  (define-fun var2427 () String
+    (let ((a!1 (>= (num_splits (trim-right (trim-left var254)) "\s+") (- 1))))
+  (ite (and (> (- 1) 0) (= 0 (- (- 1) 1)) a!1)
+       (split_rest (trim-right (trim-left var254)) "\s+" (- (- 1) 1))
+       (split_at (trim-right (trim-left var254)) "\s+" 0))))
+  (define-fun var2540 () var785
+    (var785_compile/2141929305
+  "^\s*[a-zA-Z_]+[a-zA-Z0-9_-]*=([:]?[a-zA-Z]+[a-zA-Z0-9_-]*)(\s+|$)"))
+  (define-fun matcher/468719934 ((x!0 var785) (x!1 String)) var2976
+    var2976!val!0)
+  (define-fun matches/-643015890 ((x!0 String) (x!1 String)) Bool
+    true)
+  (define-fun find/1809080823 ((x!0 var2976)) Bool
+    false)
+  (define-fun var785_compile/2141929305 ((x!0 String)) var785
+    var785!val!0)

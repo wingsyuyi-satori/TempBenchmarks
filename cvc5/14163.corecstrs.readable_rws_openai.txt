@@ -1,0 +1,6 @@
+(define-fun input_email () String "@")
+(define-fun user_section () String "@")
+(define-fun host_section () String "")
+(define-fun domain_first_segment () String "@")
+(define-fun tld_segment () String "AAA")
+(define-fun num_domain_segments () Int 2)

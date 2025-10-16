@@ -1,0 +1,6 @@
+(define-fun url () String "http://.?:")
+(define-fun protocol () String "http")
+(define-fun host () String "http://.")
+(define-fun port () String "")
+(define-fun path () String "")
+(define-fun query () String "")

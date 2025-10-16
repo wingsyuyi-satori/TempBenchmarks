@@ -1,0 +1,4 @@
+(define-fun var0 () String
+    "000000000000008")
+  (define-fun part_0_7170 () String
+    "vg4ez3")

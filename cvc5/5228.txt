@@ -1,0 +1,34 @@
+; cardinality of var1618 is 2
+; rep: (as @var1618_0 var1618)
+; rep: (as @var1618_1 var1618)
+; cardinality of var3085 is 2
+; rep: (as @var3085_0 var3085)
+; rep: (as @var3085_1 var3085)
+; cardinality of var640 is 1
+; rep: (as @var640_0 var640)
+; cardinality of var937 is 1
+; rep: (as @var937_0 var937)
+; cardinality of var1374 is 1
+; rep: (as @var1374_0 var1374)
+; cardinality of var1071 is 1
+; rep: (as @var1071_0 var1071)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun conll/1476566127 ((_arg_1 var1618)) Bool true)
+(define-fun genres/1476566127 ((BOUND_VARIABLE_728 var1618)) var640 (as @var640_0 var640))
+(define-fun docInfo/-1745439537 ((BOUND_VARIABLE_731 var3085)) var640 (as @var640_0 var640))
+(define-fun var640_get/1088891777 ((BOUND_VARIABLE_734 var640) (BOUND_VARIABLE_735 var937)) var937 (as @var937_0 var937))
+(define-fun cast-from-String-to-var937 ((BOUND_VARIABLE_738 String)) var937 (as @var937_0 var937))
+(define-fun cast-from-var937-to-String ((BOUND_VARIABLE_741 var937)) String "")
+(define-fun cast-from-var937-to-Int ((BOUND_VARIABLE_744 var937)) Int 0)
+(define-fun intValue/-1815674922 ((BOUND_VARIABLE_747 Int)) Int 0)
+(define-fun var640_size/-1594421051 ((BOUND_VARIABLE_750 var640)) Int 0)
+(define-fun var1071_oneHot/961599073 ((BOUND_VARIABLE_753 Int) (BOUND_VARIABLE_754 Int)) var1374 (as @var1374_0 var1374))
+(define-fun null-var1618 () var1618 (as @var1618_0 var1618))
+(define-fun null-var3085 () var3085 (as @var3085_0 var3085))
+(define-fun var1823 () var1618 (as @var1618_1 var1618))
+(define-fun var3610 () var3085 (as @var3085_1 var3085))

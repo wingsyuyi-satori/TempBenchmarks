@@ -1,0 +1,15 @@
+; cardinality of var1508 is 1
+; rep: (as @var1508_0 var1508)
+; cardinality of var2214 is 1
+; rep: (as @var2214_0 var2214)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var2214-init () var2214 (as @var2214_0 var2214))
+(define-fun <init>/598147663 ((BOUND_VARIABLE_659 var2214)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun var2036 () String "")
+(define-fun var3374!1 () var2214 (as @var2214_0 var2214))

@@ -1,0 +1,6 @@
+(define-fun T_1 () Bool true)
+(define-fun T_2 () Bool true)
+(define-fun T_3 () Bool true)
+(define-fun var_0xINPUT_65884 () String "Example:")
+(define-fun s1 () String "Example")
+(define-fun s2 () String "")

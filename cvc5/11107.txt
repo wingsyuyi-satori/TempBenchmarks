@@ -1,0 +1,23 @@
+; cardinality of var3242 is 2
+; rep: (as @var3242_0 var3242)
+; rep: (as @var3242_1 var3242)
+; cardinality of var2858 is 2
+; rep: (as @var2858_0 var2858)
+; rep: (as @var2858_1 var2858)
+; cardinality of var751 is 1
+; rep: (as @var751_0 var751)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun readLine/150542008 ((_arg_1 var2858)) String "A")
+(define-fun var751-init () var751 (as @var751_0 var751))
+(define-fun <init>/-1084991535 ((BOUND_VARIABLE_722 var751) (BOUND_VARIABLE_723 String)) void (as @void_0 void))
+(define-fun null-var3242 () var3242 (as @var3242_0 var3242))
+(define-fun null-var2858 () var2858 (as @var2858_0 var2858))
+(define-fun var3799 () var3242 (as @var3242_1 var3242))
+(define-fun var3484 () var2858 (as @var2858_1 var2858))
+(define-fun var2345!1 () var751 (as @var751_0 var751))
+(define-fun var3520 () String "")

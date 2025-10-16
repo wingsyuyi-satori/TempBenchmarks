@@ -1,0 +1,29 @@
+; cardinality of var2722 is 1
+; rep: (as @var2722_0 var2722)
+; cardinality of var3102 is 1
+; rep: (as @var3102_0 var3102)
+; cardinality of var2263 is 1
+; rep: (as @var2263_0 var2263)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3102-init () var3102 (as @var3102_0 var3102))
+(define-fun <init>/598147663 ((BOUND_VARIABLE_1305 var3102)) void (as @void_0 void))
+(define-fun var2263-init () var2263 (as @var2263_0 var2263))
+(define-fun String-init () String "")
+(define-fun <init>/-1253962986 ((BOUND_VARIABLE_1308 var2263) (BOUND_VARIABLE_1309 String)) void (as @void_0 void))
+(define-fun null-String () String "A")
+(define-fun null-Bool () Bool true)
+(define-fun var3533 () String "")
+(define-fun var1852 () Bool false)
+(define-fun var3209!1 () var3102 (as @var3102_0 var3102))
+(define-fun var852!1 () String "")
+(define-fun var852!2 () String "ERROR: Invalid format token for serialized token (only ")
+(define-fun var946!1 () String "ERROR: Invalid format token for serialized token (only ")
+(define-fun var2691!1 () String "ERROR: Invalid format token for serialized token (only 0 tokens): ")
+(define-fun var2879!1 () String "ERROR: Invalid format token for serialized token (only 0 tokens): ")
+(define-fun var3995!1 () var2263 (as @var2263_0 var2263))
+(define-fun var916!1 () String "")

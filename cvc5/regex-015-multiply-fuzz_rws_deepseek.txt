@@ -1,0 +1,6 @@
+(define-fun user_email () String "0@A")
+(define-fun local () String ".")
+(define-fun domain () String ".")
+(define-fun domain_segments () Int 2)
+(define-fun seg1 () String "0@A")
+(define-fun seg2 () String "0@A")

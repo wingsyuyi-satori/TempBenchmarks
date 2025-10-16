@@ -1,0 +1,21 @@
+; cardinality of var1216 is 2
+; rep: (as @var1216_0 var1216)
+; rep: (as @var1216_1 var1216)
+; cardinality of var3700 is 1
+; rep: (as @var3700_0 var3700)
+; cardinality of var2810 is 1
+; rep: (as @var2810_0 var2810)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun null-var1216 () var1216 (as @var1216_0 var1216))
+(define-fun null-String () String "A")
+(define-fun var2810-SERVICE_NAME_SEPARATOR () String "")
+(define-fun var1413 () var1216 (as @var1216_1 var1216))
+(define-fun var170 () String "")
+(define-fun var3181 () String "")
+(define-fun var2986 () String "")
+(define-fun var3878 () String "")

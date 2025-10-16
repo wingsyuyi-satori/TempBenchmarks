@@ -1,0 +1,6 @@
+(define-fun data_line () String "")
+(define-fun delim () String ",")
+(define-fun f0 () String "A")
+(define-fun f1 () String "AAAAAAAAAAAAAAAAAAA")
+(define-fun f2 () String "0")
+(define-fun f3 () String "")

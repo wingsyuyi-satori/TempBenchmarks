@@ -1,0 +1,28 @@
+; cardinality of var1136 is 3
+; rep: (as @var1136_0 var1136)
+; rep: (as @var1136_1 var1136)
+; rep: (as @var1136_2 var1136)
+; cardinality of var3714 is 1
+; rep: (as @var3714_0 var3714)
+; cardinality of var757 is 1
+; rep: (as @var757_0 var757)
+; cardinality of var810 is 1
+; rep: (as @var810_0 var810)
+; cardinality of var3009 is 1
+; rep: (as @var3009_0 var3009)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun tlp/-1510366313 ((_arg_1 var810)) var757 (as @var757_0 var757))
+(define-fun cast-from-var1136-to-var810 ((_arg_1 var1136)) var810 (as @var810_0 var810))
+(define-fun var757_morphFeatureSpec/-1525671968 ((_arg_1 var757)) var3009 (as @var3009_0 var3009))
+(define-fun morphoSpec/1364860559 ((_arg_1 var1136)) var3009 (as @var3009_0 var3009))
+(define-fun toString/1418588163 ((BOUND_VARIABLE_732 var3009)) String "")
+(define-fun null-var1136 () var1136 (as @var1136_0 var1136))
+(define-fun null-String () String "A")
+(define-fun var3336 () var1136 (as @var1136_1 var1136))
+(define-fun var1836 () String "")
+(define-fun var3336!1 () var1136 (as @var1136_2 var1136))

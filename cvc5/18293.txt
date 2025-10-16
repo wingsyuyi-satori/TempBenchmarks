@@ -1,0 +1,31 @@
+; cardinality of var2617 is 2
+; rep: (as @var2617_0 var2617)
+; rep: (as @var2617_1 var2617)
+; cardinality of var3093 is 2
+; rep: (as @var3093_0 var3093)
+; rep: (as @var3093_1 var3093)
+; cardinality of var913 is 1
+; rep: (as @var913_0 var913)
+; cardinality of var3572 is 3
+; rep: (as @var3572_0 var3572)
+; rep: (as @var3572_1 var3572)
+; rep: (as @var3572_2 var3572)
+; cardinality of var2112 is 1
+; rep: (as @var2112_0 var2112)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun isActive/1224434730 ((_arg_1 var2112) (_arg_2 var3572)) Bool false)
+(define-fun cast-from-var2617-to-var2112 ((_arg_1 var2617)) var2112 (as @var2112_0 var2112))
+(define-fun null-var2617 () var2617 (as @var2617_0 var2617))
+(define-fun null-var3093 () var3093 (as @var3093_0 var3093))
+(define-fun null-String () String "A")
+(define-fun var3572-GEN () var3572 (as @var3572_0 var3572))
+(define-fun var3572-PER () var3572 (as @var3572_1 var3572))
+(define-fun var3572-NUM () var3572 (as @var3572_2 var3572))
+(define-fun var2829 () var2617 (as @var2617_1 var2617))
+(define-fun var114 () var3093 (as @var3093_1 var3093))
+(define-fun var425 () String "")

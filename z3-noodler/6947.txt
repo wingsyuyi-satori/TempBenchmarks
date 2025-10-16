@@ -1,0 +1,87 @@
+(define-fun var526 () Int
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 1 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 1))))
+  (var3512_fromSieveNameToIndex/-130439496 (trim-right (trim-left a!1)) var1598)))
+  (define-fun var2715 () String
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 1 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 1))))
+  (trim-right (trim-left a!1))))
+  (define-fun var1306 () String
+    "\u{0}")
+  (define-fun null-__Array__Int__String__ () (Array Int String)
+    ((as const (Array Int String)) ""))
+  (define-fun null-String () String
+    "\u{0}\u{0}")
+  (define-fun var2305 () Int
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 0 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 0))))
+  (Int_valueOf/-1371140006
+    (var3512_fromSieveNameToIndex/-130439496
+      (trim-right (trim-left a!1))
+      var1598))))
+  (define-fun var1598 () (Array Int String)
+    ((as const (Array Int String)) ""))
+  (define-fun var3862 () String
+    (ite (and (> (- 1) 0) (= 0 (- (- 1) 1)) (>= (num_splits var1306 "<") (- 1)))
+     (split_rest var1306 "<" (- (- 1) 1))
+     (split_at var1306 "<" 0)))
+  (define-fun var1206 () String
+    (ite (and (> (- 1) 0) (= 1 (- (- 1) 1)) (>= (num_splits var1306 "<") (- 1)))
+     (split_rest var1306 "<" (- (- 1) 1))
+     (split_at var1306 "<" 1)))
+  (define-fun var3196 () Int
+    (ite (> (- 1) 0)
+     (ite (< (num_splits var1306 "<") (- 1)) (num_splits var1306 "<") (- 1))
+     (num_splits var1306 "<")))
+  (define-fun var3375 () Int
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 0 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 0))))
+  (var3512_fromSieveNameToIndex/-130439496 (trim-right (trim-left a!1)) var1598)))
+  (define-fun var1215 () var498
+    var498-init)
+  (define-fun var1185 () String
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 0 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 0))))
+  (trim-right (trim-left a!1))))
+  (define-fun var3501 () Int
+    (let ((a!1 (ite (and (> (- 1) 0)
+                     (= 1 (- (- 1) 1))
+                     (>= (num_splits var1306 "<") (- 1)))
+                (split_rest var1306 "<" (- (- 1) 1))
+                (split_at var1306 "<" 1))))
+  (Int_valueOf/-1371140006
+    (var3512_fromSieveNameToIndex/-130439496
+      (trim-right (trim-left a!1))
+      var1598))))
+  (define-fun var498-init () var498
+    var498!val!0)
+  (define-fun var3501!1 () Int
+    0)
+  (define-fun var1215!1 () var498
+    var498!val!0)
+  (define-fun var2305!1 () Int
+    0)
+  (define-fun cast-from-Int-to-var49 ((x!0 Int)) var49
+    var49!val!0)
+  (define-fun <init>/-1233509352 ((x!0 var498) (x!1 var49) (x!2 var49)) void
+    void!val!0)
+  (define-fun var3512_fromSieveNameToIndex/-130439496 ((x!0 String)
+   (x!1 (Array Int String))) Int
+    0)
+  (define-fun Int_valueOf/-1371140006 ((x!0 Int)) Int
+    0)

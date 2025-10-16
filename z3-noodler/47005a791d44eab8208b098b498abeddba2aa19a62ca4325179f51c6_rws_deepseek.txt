@@ -1,0 +1,45 @@
+(define-fun timestamp () String
+    "")
+  (define-fun message () String
+    "")
+  (define-fun pipe () String
+    "|")
+  (define-fun colon () String
+    ":")
+  (define-fun log_level () String
+    " TRACE ")
+  (define-fun space () String
+    " ")
+  (define-fun rbracket () String
+    "]")
+  (define-fun lbracket () String
+    "[")
+  (define-fun dash () String
+    "-")
+  (define-fun log_entry () String
+    "[2023-01-15 14:30:45] INFO | System started successfully")
+  (define-fun str.len ((x!0 String)) Int
+    (ite (= x!0 "") 19
+      0))
+  (define-fun str.substr ((x!0 String) (x!1 Int) (x!2 Int)) String
+    (ite (and (= x!0 "") (= x!1 0) (= x!2 2)) "20"
+    (ite (and (= x!0 "") (= x!1 14) (= x!2 2)) "00000"
+      "")))
+  (define-fun str.at ((x!0 String) (x!1 Int)) String
+    (ite (and (= x!0 "") (= x!1 10)) " "
+    (ite (and (= x!0 "") (= x!1 13)) ":"
+    (ite (and (= x!0 "") (= x!1 16)) ":"
+      "-"))))
+  (define-fun str.contains ((x!0 String) (x!1 String)) Bool
+    (ite (and (= x!0 "") (= x!1 "|")) false
+      true))
+  (define-fun str.++ ((x!0 String) (x!1 String)) String
+    "")
+  (define-fun str.split_rest ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.indexof ((x!0 String) (x!1 String) (x!2 Int)) Int
+    0)
+  (define-fun str.split_at ((x!0 String) (x!1 String) (x!2 Int)) String
+    "")
+  (define-fun str.num_splits ((x!0 String) (x!1 String)) Int
+    0)

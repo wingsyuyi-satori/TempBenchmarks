@@ -1,0 +1,3 @@
+(define-fun var0 () String "0999bcdddeee")
+(define-fun part_1_4925 () String "bp8pble")
+(define-fun part_2_1541 () String "0999bcdddeee")

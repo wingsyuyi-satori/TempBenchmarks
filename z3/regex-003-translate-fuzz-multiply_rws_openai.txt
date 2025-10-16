@@ -1,0 +1,14 @@
+(define-fun line () String
+    "")
+  (define-fun delim () String
+    "\t")
+  (define-fun has_empty_field () Bool
+    true)
+  (define-fun address () String
+    "")
+  (define-fun email () String
+    "@")
+  (define-fun age () String
+    "8")
+  (define-fun user () String
+    "A")

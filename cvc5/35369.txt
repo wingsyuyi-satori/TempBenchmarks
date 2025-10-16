@@ -1,0 +1,47 @@
+; cardinality of var1234 is 1
+; rep: (as @var1234_0 var1234)
+; cardinality of var3044 is 1
+; rep: (as @var3044_0 var3044)
+; cardinality of var3119 is 1
+; rep: (as @var3119_0 var3119)
+; cardinality of var3839 is 1
+; rep: (as @var3839_0 var3839)
+; cardinality of var832 is 1
+; rep: (as @var832_0 var832)
+; cardinality of void is 1
+; rep: (as @void_0 void)
+; cardinality of Iterator is 1
+; rep: (as @Iterator_0 Iterator)
+; cardinality of ClassObject is 1
+; rep: (as @ClassObject_0 ClassObject)
+(define-fun var3119_newHashMap/701256970 () var3044 (as @var3044_0 var3044))
+(define-fun var3044_put/1464166817 ((BOUND_VARIABLE_1443 var3044) (BOUND_VARIABLE_1444 var3839) (BOUND_VARIABLE_1445 var3839)) var3839 (as @var3839_0 var3839))
+(define-fun cast-from-String-to-var3839 ((BOUND_VARIABLE_1448 String)) var3839 (as @var3839_0 var3839))
+(define-fun var832-init () var832 (as @var832_0 var832))
+(define-fun <init>/379364885 ((BOUND_VARIABLE_1451 var832)) void (as @void_0 void))
+(define-fun var3044_get/1088891777 ((BOUND_VARIABLE_1454 var3044) (BOUND_VARIABLE_1455 var3839)) var3839 (as @var3839_0 var3839))
+(define-fun cast-from-var3839-to-String ((BOUND_VARIABLE_1458 var3839)) String "")
+(define-fun setWord/1927702860 ((BOUND_VARIABLE_1461 var832) (BOUND_VARIABLE_1462 String)) void (as @void_0 void))
+(define-fun setLemma/-2044772538 ((BOUND_VARIABLE_1465 var832) (BOUND_VARIABLE_1466 String)) void (as @void_0 void))
+(define-fun setTag/-492450796 ((BOUND_VARIABLE_1469 var832) (BOUND_VARIABLE_1470 String)) void (as @void_0 void))
+(define-fun setValue/-1305364003 ((BOUND_VARIABLE_1473 var832) (BOUND_VARIABLE_1474 String)) void (as @void_0 void))
+(define-fun setOriginalText/-1052378824 ((BOUND_VARIABLE_1477 var832) (BOUND_VARIABLE_1478 String)) void (as @void_0 void))
+(define-fun null-String () String "")
+(define-fun var2632 () String "AA")
+(define-fun var2707!1 () var3044 (as @var3044_0 var3044))
+(define-fun var1469!1 () String "")
+(define-fun var368!1 () String "")
+(define-fun var2707!2 () var3044 (as @var3044_0 var3044))
+(define-fun var1469!3 () String "")
+(define-fun var368!3 () String "")
+(define-fun var3084!1 () var832 (as @var832_0 var832))
+(define-fun var3084!2 () var832 (as @var832_0 var832))
+(define-fun var3745!1 () String "")
+(define-fun var3084!3 () var832 (as @var832_0 var832))
+(define-fun var3258!1 () String "")
+(define-fun var3084!4 () var832 (as @var832_0 var832))
+(define-fun var2177!1 () String "")
+(define-fun var3084!5 () var832 (as @var832_0 var832))
+(define-fun var89!1 () String "")
+(define-fun var3084!6 () var832 (as @var832_0 var832))
+(define-fun var261!1 () String "")

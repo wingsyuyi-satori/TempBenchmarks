@@ -1,0 +1,1 @@
+(define-fun url () String "https://www.example.com:8080/products/view?id=123&ref=abc")

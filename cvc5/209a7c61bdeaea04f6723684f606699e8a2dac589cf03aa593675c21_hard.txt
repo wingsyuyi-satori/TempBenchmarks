@@ -1,0 +1,4 @@
+(define-fun s () String "AAAAAAAAAAA")
+(define-fun p () String "AAAAAAA")
+(define-fun part_0_2593 () String "a")
+(define-fun part_0_4424 () String "x")

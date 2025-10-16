@@ -1,0 +1,6 @@
+(define-fun email_addr () String "B@")
+(define-fun local () String "B@")
+(define-fun domain () String "")
+(define-fun subdomains () String "")
+(define-fun subdomain1 () String "A")
+(define-fun subdomain2 () String "B@")
