@@ -1,0 +1,82 @@
+
+(set-logic ALL)
+(set-option :produce-models true)
+
+; Declare string sort and functions
+(declare-fun str.++ (String String) String)
+(declare-fun str.len (String) Int)
+(declare-fun str.contains (String String) Bool)
+(declare-fun str.substr (String Int Int) String)
+(declare-fun str.at (String Int) String)
+(declare-fun str.is_base64 (String) Bool)
+(declare-fun str.split_at (String String Int) String)
+(declare-fun str.num_splits (String String) Int)
+(declare-fun str.split_rest (String String Int) String)
+
+; Constants for delimiters
+(declare-const dot String)
+(assert (= dot "."))
+(declare-const dash String)
+(assert (= dash "-"))
+(declare-const colon String)
+(assert (= colon ":"))
+
+; ; Example JWT token structure: header.payload.signature
+(declare-const jwt_token String)
+(assert (>= (str.len jwt_token) 10)) ; Minimum reasonable JWT length
+
+; JWT must have exactly 2 dots separating 3 segments
+(assert (= (str.num_splits jwt_token dot) 2))
+
+; ; Extract JWT segments
+(declare-const jwt_header String)
+(assert (= jwt_header (str.split_at jwt_token dot 0)))
+(declare-const jwt_payload String)
+(assert (= jwt_payload (str.split_at jwt_token dot 1)))
+(declare-const jwt_signature String)
+(assert (= jwt_signature (str.split_at jwt_token dot 2)))
+
+; Header and payload must be valid base64
+(assert (str.is_base64 jwt_header))
+(assert (str.is_base64 jwt_payload))
+
+; Signature must be at least 16 chars (minimum reasonable length)
+(assert (>= (str.len jwt_signature) 16))
+
+; API key validation (format: prefix-keyid-secret)
+(declare-const api_key String)
+(assert (>= (str.len api_key) 16)) ; Minimum reasonable API key length
+
+; API key must have exactly 2 dashes separating 3 segments
+(assert (= (str.num_splits api_key dash) 2))
+
+; ; Extract API key segments
+(declare-const api_prefix String)
+(assert (= api_prefix (str.split_at api_key dash 0)))
+(declare-const api_keyid String)
+(assert (= api_keyid (str.split_at api_key dash 1)))
+(declare-const api_secret String)
+(assert (= api_secret (str.split_at api_key dash 2)))
+
+; Prefix must be 3-5 chars
+(assert (>= (str.len api_prefix) 3))
+(assert (<= (str.len api_prefix) 5))
+
+; ; Key ID must be numeric (simplified check - first char is digit)
+(assert (str.contains "0123456789" (str.at api_keyid 0)))
+
+; Secret must be base64 and at least 12 chars
+(assert (str.is_base64 api_secret))
+(assert (>= (str.len api_secret) 12))
+
+; Combined constraints for unsatisfiable case
+(declare-const invalid_token String)
+(assert (= (str.num_splits invalid_token dot) 3)) ; Too many segments
+(assert (not (str.is_base64 (str.split_at invalid_token dot 1)))) ; Invalid payload
+
+; ; Check satisfiability of valid cases
+(check-sat)
+
+
+(exit)
+(get-model)
