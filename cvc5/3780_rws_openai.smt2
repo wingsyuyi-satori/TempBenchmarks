@@ -89,5 +89,4 @@
 ; (assert (= log_entry "[2024-06-13 14:23:55] | FATAL | Application crashed"))
 
 (check-sat)
-(exit)
 (get-model)

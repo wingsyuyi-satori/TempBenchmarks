@@ -32,5 +32,4 @@ Publications: "Scaling Up DPLL(T) String Solvers Using Context-Dependent Simplif
 (assert (and (>= (str.num_splits value2 "/") 2) (<= (str.num_splits value2 "/") 6)))
 (check-sat)
 
-(exit)
 (get-model)

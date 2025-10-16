@@ -151,5 +151,4 @@
 (assert (< (str.len api_suffix) 30))
 
 (check-sat)
-(exit)
 (get-model)

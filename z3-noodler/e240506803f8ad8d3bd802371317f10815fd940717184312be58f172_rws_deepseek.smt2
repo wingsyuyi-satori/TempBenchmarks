@@ -67,5 +67,4 @@
 
 
 
-(exit)
 (get-model)

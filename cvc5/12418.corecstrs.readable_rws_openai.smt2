@@ -50,5 +50,4 @@ Application: CSV/TSV/PSV field separation and validation
 (assert (= tsv_field1 tab_delim))
 
 (check-sat)
-(exit)
 (get-model)

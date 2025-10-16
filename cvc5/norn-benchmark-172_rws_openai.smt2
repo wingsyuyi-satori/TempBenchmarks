@@ -62,5 +62,4 @@
 (assert (not (= jwt_signature valid_signature)))
 
 (check-sat)
-(exit)
 (get-model)

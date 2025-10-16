@@ -55,5 +55,4 @@
 ))
 
 (check-sat)
-(exit)
 (get-model)

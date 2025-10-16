@@ -151,5 +151,4 @@
 (assert (not (str.prefixof "[" key3)))
 
 (check-sat)
-(exit)
 (get-model)

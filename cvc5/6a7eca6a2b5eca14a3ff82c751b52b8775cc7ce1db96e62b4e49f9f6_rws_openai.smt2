@@ -54,5 +54,4 @@ Target: String splitting and segment validation
 ))
 
 (check-sat)
-(exit)
 (get-model)

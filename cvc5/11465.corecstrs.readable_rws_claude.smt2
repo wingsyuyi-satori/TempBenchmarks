@@ -143,5 +143,4 @@
 (assert (str.contains url full_host_part))
 
 (check-sat)
-(exit)
 (get-model)

@@ -65,5 +65,4 @@
 
 ; ; Check satisfiability of both cases
 (check-sat)
-(exit)
 (get-model)

@@ -134,5 +134,4 @@
 (assert (>= section_parts 2))
 
 (check-sat)
-(exit)
 (get-model)

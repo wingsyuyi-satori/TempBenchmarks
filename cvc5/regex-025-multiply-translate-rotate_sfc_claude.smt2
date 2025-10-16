@@ -51,5 +51,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 
 (check-sat)
 
-(exit)
 (get-model)

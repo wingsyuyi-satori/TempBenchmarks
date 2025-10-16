@@ -25,5 +25,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.split_at y "0" 2) part_1_4260))
 (check-sat)
 
-(exit)
 (get-model)

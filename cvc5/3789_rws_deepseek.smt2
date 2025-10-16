@@ -80,5 +80,4 @@
 ;(assert (str.contains key1 " ")) ; Keys cannot contain spaces (conflicts with earlier digit constraint)
 
 (check-sat)
-(exit)
 (get-model)

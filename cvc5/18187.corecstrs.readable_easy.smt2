@@ -74,5 +74,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (= (str.split_at T3_2 "a" 0) "ohuok13"))
 (check-sat)
 
-(exit)
 (get-model)

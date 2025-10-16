@@ -45,5 +45,4 @@
 (assert (not (= signature computed_sig))) ; Makes problem unsat for correct sigs
 
 (check-sat)
-(exit)
 (get-model)

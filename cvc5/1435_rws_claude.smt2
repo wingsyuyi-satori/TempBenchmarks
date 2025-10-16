@@ -135,5 +135,4 @@
 (assert (str.prefixof "users" path))
 
 (check-sat)
-(exit)
 (get-model)

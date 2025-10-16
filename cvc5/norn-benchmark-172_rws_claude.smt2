@@ -132,5 +132,4 @@
 (assert (= (str.split_at "key=value" "=" 1) "value"))
 
 (check-sat)
-(exit)
 (get-model)

@@ -49,5 +49,4 @@ Target solver: CVC4, Z3, Z3str3
 )))
 
 (check-sat)
-(exit)
 (get-model)

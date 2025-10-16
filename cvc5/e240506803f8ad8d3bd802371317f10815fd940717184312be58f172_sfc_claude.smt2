@@ -36,5 +36,4 @@ Publications: "Scaling Up DPLL(T) String Solvers Using Context-Dependent Simplif
 
 (check-sat)
 
-(exit)
 (get-model)

@@ -47,5 +47,4 @@ Target: SMT solvers supporting string split extensions
 (assert (= user host))
 
 (check-sat)
-(exit)
 (get-model)

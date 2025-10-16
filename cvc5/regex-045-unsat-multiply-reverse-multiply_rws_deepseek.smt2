@@ -45,5 +45,4 @@
 (assert (not (= (str.len value2) 4))) ; port length not 4
 
 (check-sat)
-(exit)
 (get-model)

@@ -101,5 +101,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (<= pipe_count 8))
 
 (check-sat)
-(exit)
 (get-model)

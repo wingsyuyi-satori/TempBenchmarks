@@ -163,5 +163,4 @@
 (assert (str.contains path "users"))
 
 (check-sat)
-(exit)
 (get-model)

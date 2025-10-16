@@ -48,5 +48,4 @@ Different constraints and variable choices
 (assert (not (and (= user "") (= subdomain ""))))
 
 (check-sat)
-(exit)
 (get-model)

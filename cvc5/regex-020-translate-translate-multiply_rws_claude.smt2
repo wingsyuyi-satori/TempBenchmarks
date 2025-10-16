@@ -136,5 +136,4 @@
 (assert (not (str.contains api_timestamp "Z")))
 
 (check-sat)
-(exit)
 (get-model)

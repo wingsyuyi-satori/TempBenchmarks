@@ -59,5 +59,4 @@ Focus: Valid TLDs, minimum segment lengths
 ))
 
 (check-sat)
-(exit)
 (get-model)

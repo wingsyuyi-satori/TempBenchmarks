@@ -47,5 +47,4 @@ Email validation scenario using SMT-LIB2 with split operations.
 (assert (not (str.contains host " ")))
 
 (check-sat)
-(exit)
 (get-model)

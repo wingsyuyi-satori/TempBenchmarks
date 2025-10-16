@@ -125,5 +125,4 @@
 (assert (> (str.num_splits nested_section "[") 2))
 
 (check-sat)
-(exit)
 (get-model)

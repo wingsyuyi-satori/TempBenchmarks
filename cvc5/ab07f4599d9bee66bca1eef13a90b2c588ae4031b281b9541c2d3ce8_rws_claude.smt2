@@ -131,5 +131,4 @@
 (assert (str.contains api_key (str.++ api_prefix "-"))) ; Proper API key format
 
 (check-sat)
-(exit)
 (get-model)

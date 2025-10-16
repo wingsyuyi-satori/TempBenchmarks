@@ -148,5 +148,4 @@
 (assert (>= delimiter_consistency 12))
 
 (check-sat)
-(exit)
 (get-model)

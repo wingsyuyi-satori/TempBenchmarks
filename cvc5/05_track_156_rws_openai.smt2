@@ -50,5 +50,4 @@
 (assert (str.contains pipe_f0 "|"))
 
 (check-sat)
-(exit)
 (get-model)

@@ -53,5 +53,4 @@ Focus: Field validation and delimiter handling
 (assert (not (str.contains p_remaining "|")))
 
 (check-sat)
-(exit)
 (get-model)

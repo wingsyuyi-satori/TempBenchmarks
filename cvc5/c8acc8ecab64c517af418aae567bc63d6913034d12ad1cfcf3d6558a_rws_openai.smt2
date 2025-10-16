@@ -50,5 +50,4 @@ Unique constraint configuration.
 (assert (= email_addr ""))
 
 (check-sat)
-(exit)
 (get-model)

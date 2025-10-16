@@ -158,5 +158,4 @@
 (assert (= action_type "login"))
 
 (check-sat)
-(exit)
 (get-model)

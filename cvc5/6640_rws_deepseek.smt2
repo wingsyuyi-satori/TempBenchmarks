@@ -72,5 +72,4 @@
 (assert (str.contains auth_section "api_key"))
 
 (check-sat)
-(exit)
 (get-model)

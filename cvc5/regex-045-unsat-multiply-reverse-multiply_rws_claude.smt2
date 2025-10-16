@@ -132,5 +132,4 @@
  (str.contains url (str.++ protocol "://" host))))
 
 (check-sat)
-(exit)
 (get-model)

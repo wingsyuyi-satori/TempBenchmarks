@@ -30,5 +30,4 @@ Description: Enriches a system of 30 word equations by suitable linear constrain
 (assert (= (str.split_rest E "ce" 3) "ozc5fbawtegs44l"))
 (check-sat)
 
-(exit)
 (get-model)

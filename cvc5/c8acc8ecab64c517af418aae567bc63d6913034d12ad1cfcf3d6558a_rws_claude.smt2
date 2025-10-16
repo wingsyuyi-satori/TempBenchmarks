@@ -120,5 +120,4 @@
 (assert (= timestamp_token "20240315:143022"))
 
 (check-sat)
-(exit)
 (get-model)

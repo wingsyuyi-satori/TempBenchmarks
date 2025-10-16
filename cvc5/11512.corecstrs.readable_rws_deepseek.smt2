@@ -62,5 +62,4 @@
 (assert (str.contains (str.split_rest jwt dot 1) payload))
 
 (check-sat)
-(exit)
 (get-model)

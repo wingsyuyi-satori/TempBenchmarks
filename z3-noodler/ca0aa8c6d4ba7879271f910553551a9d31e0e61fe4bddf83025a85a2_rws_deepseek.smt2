@@ -67,5 +67,4 @@
 ; (assert (= log_level "CRITICAL")) ; Not a valid log level
 
 (check-sat)
-(exit)
 (get-model)

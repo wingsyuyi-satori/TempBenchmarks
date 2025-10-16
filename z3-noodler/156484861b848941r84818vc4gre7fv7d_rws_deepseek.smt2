@@ -155,5 +155,4 @@
         (ite (> (str.len fragment) 0) (str.++ fragment_delim fragment) ""))))
 
 (check-sat)
-(exit)
 (get-model)

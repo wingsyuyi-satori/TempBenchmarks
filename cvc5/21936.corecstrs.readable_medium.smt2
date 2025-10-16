@@ -96,5 +96,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (= (str.split_rest T1_5 "8" 0) "ovm2v"))
 (check-sat)
 
-(exit)
 (get-model)

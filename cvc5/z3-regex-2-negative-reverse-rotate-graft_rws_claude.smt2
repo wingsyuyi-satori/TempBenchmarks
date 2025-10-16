@@ -158,5 +158,4 @@
 (assert (not (= (str.split_at base_config "=" 1) (str.split_at override_config "=" 1))))
 
 (check-sat)
-(exit)
 (get-model)

@@ -27,5 +27,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Trau
 (assert (and (>= (str.num_splits p "4") 2) (<= (str.num_splits p "4") 4)))
 (check-sat)
 
-(exit)
 (get-model)

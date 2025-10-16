@@ -48,5 +48,4 @@
 ;(assert (str.contains message "CRITICAL")) ; Would make unsat since log_level can't be CRITICAL
 
 (check-sat)
-(exit)
 (get-model)

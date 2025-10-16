@@ -21,5 +21,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Trau
 (assert (= (str.split_at s "." 1) "t6kmfe69nv"))
 (check-sat)
 
-(exit)
 (get-model)

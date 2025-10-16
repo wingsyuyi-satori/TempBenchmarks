@@ -55,5 +55,4 @@ Target solver: CVC4, Z3, Z3str3
 (assert (not (str.contains mailbox "..")))
 
 (check-sat)
-(exit)
 (get-model)

@@ -99,5 +99,4 @@
 (assert (>= (str.len (str.split_at only_delim equals 1)) 1)) ; Requires non-empty value
 
 (check-sat)
-(exit)
 (get-model)

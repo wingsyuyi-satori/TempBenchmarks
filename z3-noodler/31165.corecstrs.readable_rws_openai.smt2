@@ -93,5 +93,4 @@
 
 
 
-(exit)
 (get-model)

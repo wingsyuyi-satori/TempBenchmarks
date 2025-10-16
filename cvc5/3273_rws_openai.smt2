@@ -39,5 +39,4 @@
 (assert (< (+ (str.len tsv_f0) (str.len tsv_f1) (str.len tsv_f2) (str.len tsv_f3) (str.len tsv_f4)) 3))
 
 (check-sat)
-(exit)
 (get-model)

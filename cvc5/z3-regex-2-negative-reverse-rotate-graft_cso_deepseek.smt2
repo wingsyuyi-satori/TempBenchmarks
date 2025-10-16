@@ -18,5 +18,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (not (str.in_re S (re.++ re.allchar (str.to_re "bbb")))))
 (check-sat)
 
-(exit)
 (get-model)

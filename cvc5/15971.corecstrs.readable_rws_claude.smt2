@@ -124,5 +124,4 @@
  (= url "https://api.service.com:443/v1/data?format=json")))
 
 (check-sat)
-(exit)
 (get-model)

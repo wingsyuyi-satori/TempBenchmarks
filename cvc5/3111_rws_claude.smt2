@@ -54,5 +54,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 ; Extension must be valid length
 (assert (and (>= (str.len user_ext) 3) (<= (str.len user_ext) 4)))
 (check-sat)
-(exit)
 (get-model)

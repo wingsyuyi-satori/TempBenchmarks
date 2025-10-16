@@ -21,5 +21,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (not (= x "321YX~MYX~M")))
 (check-sat)
 
-(exit)
 (get-model)

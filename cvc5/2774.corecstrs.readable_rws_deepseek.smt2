@@ -72,5 +72,4 @@
 (assert (str.contains jwt_payload api_timestamp))
 
 (check-sat)
-(exit)
 (get-model)

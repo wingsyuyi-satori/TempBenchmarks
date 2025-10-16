@@ -45,5 +45,4 @@ Focus: Field validation with multiple delimiters
 ))
 
 (check-sat)
-(exit)
 (get-model)

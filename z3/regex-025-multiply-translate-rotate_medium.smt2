@@ -31,5 +31,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.split_rest y ";" 0) "l5csupuvks1met6"))
 (check-sat)
 
-(exit)
 (get-model)

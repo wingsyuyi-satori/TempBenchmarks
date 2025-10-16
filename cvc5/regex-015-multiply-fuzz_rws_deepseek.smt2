@@ -57,5 +57,4 @@ Target solver: CVC4, Z3, Z3str3
 (assert (not (= user_email "a@b.c")))
 
 (check-sat)
-(exit)
 (get-model)

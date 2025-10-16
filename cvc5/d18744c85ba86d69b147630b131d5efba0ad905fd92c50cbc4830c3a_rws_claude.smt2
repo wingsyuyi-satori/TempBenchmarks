@@ -160,5 +160,4 @@
 (assert (not (str.contains nested_section "]")))
 
 (check-sat)
-(exit)
 (get-model)

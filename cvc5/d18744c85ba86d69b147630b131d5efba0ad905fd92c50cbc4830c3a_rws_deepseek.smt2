@@ -60,5 +60,4 @@
 
 ; ; Check for consistency
 (check-sat)
-(exit)
 (get-model)

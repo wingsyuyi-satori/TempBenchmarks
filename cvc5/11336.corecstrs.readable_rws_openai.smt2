@@ -78,5 +78,4 @@
 (assert (not (= (str.num_splits api_key delim_dash) 3)))
 
 (check-sat)
-(exit)
 (get-model)

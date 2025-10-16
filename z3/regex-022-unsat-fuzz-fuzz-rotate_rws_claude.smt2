@@ -67,5 +67,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (<= (str.len user_email) 254))
 
 (check-sat)
-(exit)
 (get-model)

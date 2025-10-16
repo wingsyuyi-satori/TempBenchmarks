@@ -75,5 +75,4 @@
 (assert (not (= key "password")))
 
 (check-sat)
-(exit)
 (get-model)

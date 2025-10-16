@@ -55,5 +55,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert has_empty_field)
 
 (check-sat)
-(exit)
 (get-model)

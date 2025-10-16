@@ -27,5 +27,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (not (str.in_re PCTEMP_LHS_2 (str.to_re "%"))))
 (check-sat)
 
-(exit)
 (get-model)

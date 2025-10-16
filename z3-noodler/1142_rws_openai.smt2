@@ -80,5 +80,4 @@
 (assert (not (= num_jwt_segments 2)))
 
 (check-sat)
-(exit)
 (get-model)

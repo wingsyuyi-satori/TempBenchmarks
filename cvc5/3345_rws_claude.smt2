@@ -85,5 +85,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (not (str.suffixof "." admin_domain)))
 
 (check-sat)
-(exit)
 (get-model)

@@ -54,5 +54,4 @@
  (str.prefixof "" csv_field1)))
 
 (check-sat)
-(exit)
 (get-model)

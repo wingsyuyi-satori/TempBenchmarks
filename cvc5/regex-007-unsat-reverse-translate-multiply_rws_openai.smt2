@@ -102,5 +102,4 @@
 
 
 
-(exit)
 (get-model)

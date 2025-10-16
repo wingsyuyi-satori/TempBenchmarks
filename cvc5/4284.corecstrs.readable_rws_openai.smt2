@@ -53,5 +53,4 @@
 (assert (not (and (= tsv_field1 "") (= tsv_field2 ""))))
 
 (check-sat)
-(exit)
 (get-model)

@@ -71,5 +71,4 @@
 
 ; ; Check satisfiability of constraints
 (check-sat)
-(exit)
 (get-model)

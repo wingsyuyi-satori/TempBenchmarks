@@ -65,5 +65,4 @@
 ; (assert (str.prefixof "https://" url))
 
 (check-sat)
-(exit)
 (get-model)

@@ -67,5 +67,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (> (str.num_splits user_domain ".") (str.num_splits backup_domain ".")))
 
 (check-sat)
-(exit)
 (get-model)

@@ -22,5 +22,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.len x) 14))
 (check-sat)
 
-(exit)
 (get-model)

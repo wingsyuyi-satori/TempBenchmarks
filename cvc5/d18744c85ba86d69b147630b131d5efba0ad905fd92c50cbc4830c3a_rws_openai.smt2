@@ -117,5 +117,4 @@
 (assert (< (str.len api_short_sig) 8))
 
 (check-sat)
-(exit)
 (get-model)

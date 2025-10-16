@@ -45,5 +45,4 @@ Focus: Field validation with multiple delimiters
 (assert (str.suffixof "_OK" (str.split_at tsv_line "\t" 2))) ; Last field ends with _OK
 
 (check-sat)
-(exit)
 (get-model)

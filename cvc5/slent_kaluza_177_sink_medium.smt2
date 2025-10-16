@@ -63,5 +63,4 @@ A symbolic model checking approach to the analysis of string and length constrai
 (assert (= (str.split_rest T4_187 "|" 2) rest_0_8169))
 (assert (= (str.split_rest T4_187 "|" 2) rest_1_5278))
 (check-sat)
-(exit)
 (get-model)

@@ -138,5 +138,4 @@
 (assert (str.prefixof "api-key:" api_key))
 
 (check-sat)
-(exit)
 (get-model)

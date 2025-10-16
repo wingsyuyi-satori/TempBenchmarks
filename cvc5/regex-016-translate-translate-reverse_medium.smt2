@@ -27,5 +27,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.split_rest x "." 2) "xd28tf85sd3no"))
 (check-sat)
 
-(exit)
 (get-model)

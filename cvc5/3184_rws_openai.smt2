@@ -51,5 +51,4 @@ SMT-LIB2: Email validation scenario with string split reasoning.
 (assert (= USERNAME DOMAIN))
 
 (check-sat)
-(exit)
 (get-model)

@@ -47,5 +47,4 @@ Scenario: Email validation with split operations and different constraints
 (assert (not (= domain "com")))
 
 (check-sat)
-(exit)
 (get-model)

@@ -45,5 +45,4 @@
 (assert (str.prefixof "\t" tsv_rest))
 
 (check-sat)
-(exit)
 (get-model)

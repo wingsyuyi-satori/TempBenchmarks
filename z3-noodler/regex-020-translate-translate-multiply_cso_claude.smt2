@@ -22,5 +22,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (not (= x "[[[[zz")))
 (check-sat)
 
-(exit)
 (get-model)

@@ -146,5 +146,4 @@
 ; but the original string has invalid format
 
 (check-sat)
-(exit)
 (get-model)

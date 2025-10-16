@@ -58,5 +58,4 @@ Target solvers: Z3str3, CVC4, Z3-Noodler
 (assert (< (str.num_splits multi_line ";") (str.num_splits multi_line ",")))
 
 (check-sat)
-(exit)
 (get-model)

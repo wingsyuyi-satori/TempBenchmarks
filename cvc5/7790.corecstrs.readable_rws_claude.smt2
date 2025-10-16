@@ -110,5 +110,4 @@
 (assert (str.contains (str.split_rest api_key ":" 0) api_version))
 
 (check-sat)
-(exit)
 (get-model)

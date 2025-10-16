@@ -93,5 +93,4 @@
 (assert (not (= (str.split_at bad_api_key "-" 0) "api")))
 
 (check-sat)
-(exit)
 (get-model)

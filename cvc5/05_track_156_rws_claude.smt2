@@ -111,5 +111,4 @@
  (>= (str.len jwt_signature) 40)))
 
 (check-sat)
-(exit)
 (get-model)

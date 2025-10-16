@@ -41,5 +41,4 @@ Application: CSV/TSV field separation and validation (alternate constraints)
 (assert (not (and (= (str.num_splits input_line "\t") 1) (= (str.num_splits input_line "\t") 5))))
 
 (check-sat)
-(exit)
 (get-model)

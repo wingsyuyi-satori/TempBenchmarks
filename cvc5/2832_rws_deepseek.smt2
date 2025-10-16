@@ -83,5 +83,4 @@
 ;(assert (= protocol "ftp")) ; Uncomment to make unsatisfiable
 
 (check-sat)
-(exit)
 (get-model)

@@ -95,5 +95,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (= (str.len tsv_name) (str.len psv_id)))
 
 (check-sat)
-(exit)
 (get-model)

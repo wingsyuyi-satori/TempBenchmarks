@@ -27,5 +27,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (>= num_0_6442 2))
 (check-sat)
 
-(exit)
 (get-model)

@@ -65,5 +65,4 @@
 (assert (not (= jwt_signature apikey_signature)))
 
 (check-sat)
-(exit)
 (get-model)

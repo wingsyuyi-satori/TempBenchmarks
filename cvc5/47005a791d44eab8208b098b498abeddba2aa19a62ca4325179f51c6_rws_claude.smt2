@@ -153,5 +153,4 @@
 (assert (str.contains config_remainder "ssl=true"))
 
 (check-sat)
-(exit)
 (get-model)

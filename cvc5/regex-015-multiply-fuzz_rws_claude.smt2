@@ -91,5 +91,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (= csv_extras (str.split_rest csv_record "," 4)))
 
 (check-sat)
-(exit)
 (get-model)

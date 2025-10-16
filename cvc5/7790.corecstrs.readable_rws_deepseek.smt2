@@ -83,5 +83,4 @@
 (assert (str.contains rest_config "[logging]")) ; Contains next section
 
 (check-sat)
-(exit)
 (get-model)

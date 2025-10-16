@@ -109,5 +109,4 @@
  (> (str.len path) 0)))
 
 (check-sat)
-(exit)
 (get-model)

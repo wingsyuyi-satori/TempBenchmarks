@@ -57,5 +57,4 @@
 (assert (not (= (str.split_at csv_line3 ";" 3) "")))
 
 (check-sat)
-(exit)
 (get-model)

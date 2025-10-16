@@ -59,5 +59,4 @@
 ; (assert (= log_entry "[2024-06-08 13:45:12] | INFO | User login successful"))
 
 (check-sat)
-(exit)
 (get-model)

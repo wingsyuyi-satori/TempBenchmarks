@@ -41,5 +41,4 @@
 (assert (> (str.len (str.split_at pipe_line "|" 1)) 0))
 
 (check-sat)
-(exit)
 (get-model)

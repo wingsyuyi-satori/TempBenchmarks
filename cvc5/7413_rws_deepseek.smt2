@@ -58,5 +58,4 @@ Target solver: CVC4, Z3, Z3str3
 (assert (not (str.contains domain "..")))
 
 (check-sat)
-(exit)
 (get-model)

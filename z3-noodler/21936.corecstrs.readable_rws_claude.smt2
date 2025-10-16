@@ -129,5 +129,4 @@
 (assert (not (str.contains path ">")))
 
 (check-sat)
-(exit)
 (get-model)

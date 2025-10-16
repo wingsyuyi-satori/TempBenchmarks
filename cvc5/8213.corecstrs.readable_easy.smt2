@@ -27,5 +27,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (= (str.split_at var_0xINPUT_89339 "." 1) "4c98zrgc"))
 (check-sat)
 
-(exit)
 (get-model)

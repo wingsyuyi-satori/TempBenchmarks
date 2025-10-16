@@ -60,5 +60,4 @@
 (assert (not (= log_level "TRACE")))
 
 (check-sat)
-(exit)
 (get-model)

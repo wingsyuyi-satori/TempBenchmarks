@@ -68,5 +68,4 @@
 (assert (not (= api_time "")))
 
 (check-sat)
-(exit)
 (get-model)

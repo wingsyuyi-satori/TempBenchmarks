@@ -47,5 +47,4 @@
 (assert (= tsv_f3 (str.++ tsv_f0 ";" tsv_f1)))
 
 (check-sat)
-(exit)
 (get-model)

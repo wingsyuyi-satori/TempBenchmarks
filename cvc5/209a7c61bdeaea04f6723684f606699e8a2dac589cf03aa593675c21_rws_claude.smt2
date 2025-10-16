@@ -68,5 +68,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (and (>= (str.len user_tld) 2) (<= (str.len user_tld) 6)))
 
 (check-sat)
-(exit)
 (get-model)

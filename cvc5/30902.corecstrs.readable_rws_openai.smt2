@@ -67,5 +67,4 @@ Target: SMT solvers supporting string split extensions
 (assert (= USER DOMAIN))
 
 (check-sat)
-(exit)
 (get-model)

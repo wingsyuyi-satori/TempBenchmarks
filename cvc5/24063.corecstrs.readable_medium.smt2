@@ -48,5 +48,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (= (str.split_rest T3_5 "," 2) "42x5e9pt"))
 (check-sat)
 
-(exit)
 (get-model)

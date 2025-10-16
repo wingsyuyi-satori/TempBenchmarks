@@ -123,5 +123,4 @@
  (str.suffixof "]" section_header)))
 
 (check-sat)
-(exit)
 (get-model)

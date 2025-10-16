@@ -43,5 +43,4 @@
 (assert (str.contains email_addr " "))
 
 (check-sat)
-(exit)
 (get-model)

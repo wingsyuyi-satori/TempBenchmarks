@@ -33,5 +33,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Trau
 (assert (>= num_0_4894 3))
 (check-sat)
 
-(exit)
 (get-model)

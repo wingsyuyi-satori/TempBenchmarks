@@ -57,5 +57,4 @@ A symbolic model checking approach to the analysis of string and length constrai
 (assert (= I0_187 (str.len T4_187))) ; len 1
 (assert T_SELECT_12)
 (check-sat)
-(exit)
 (get-model)

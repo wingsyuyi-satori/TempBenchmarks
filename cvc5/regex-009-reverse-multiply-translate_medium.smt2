@@ -31,5 +31,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.split_rest x "##" 1) rest_2_4831))
 (check-sat)
 
-(exit)
 (get-model)

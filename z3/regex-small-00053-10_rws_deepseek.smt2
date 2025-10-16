@@ -64,5 +64,4 @@
 ;(assert (= log_entry "[2023-01-15 14:30:45] CUSTOM | ")) ; Invalid log level
 
 (check-sat)
-(exit)
 (get-model)

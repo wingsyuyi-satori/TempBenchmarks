@@ -115,5 +115,4 @@
 (assert (> (str.len message) 0))
 
 (check-sat)
-(exit)
 (get-model)

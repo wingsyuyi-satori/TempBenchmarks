@@ -83,5 +83,4 @@
 (assert (= (str.num_splits (str.split_rest good_api_key "-" 1) ":") 2))
 
 (check-sat)
-(exit)
 (get-model)

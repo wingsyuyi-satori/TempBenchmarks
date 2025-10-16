@@ -53,5 +53,4 @@ Delimiters: '@' and '.'
 (assert (not (= tld_segment "com")))
 
 (check-sat)
-(exit)
 (get-model)

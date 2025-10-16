@@ -140,5 +140,4 @@
  (str.++ dash_delimiter api_key_secret))))))
 
 (check-sat)
-(exit)
 (get-model)

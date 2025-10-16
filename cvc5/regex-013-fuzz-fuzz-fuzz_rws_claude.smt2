@@ -97,5 +97,4 @@
 ; (assert (= protocol "ftp")) ; This would make the constraint unsatisfiable
 
 (check-sat)
-(exit)
 (get-model)

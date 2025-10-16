@@ -46,5 +46,4 @@
 (assert (= domain "com"))
 
 (check-sat)
-(exit)
 (get-model)

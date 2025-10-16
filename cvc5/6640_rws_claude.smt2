@@ -125,5 +125,4 @@
 (assert (not (str.suffixof " " clean_section_name)))
 
 (check-sat)
-(exit)
 (get-model)

@@ -58,5 +58,4 @@ Focus: Valid TLDs, local-part character restrictions
 (assert (not (str.contains local " "))) ; No spaces in local part
 
 (check-sat)
-(exit)
 (get-model)

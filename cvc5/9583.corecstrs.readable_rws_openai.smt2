@@ -61,5 +61,4 @@
 (assert (str.contains invalid_api_signature ":")) ; forbidden: signature contains delimiter
 
 (check-sat)
-(exit)
 (get-model)

@@ -25,5 +25,4 @@ Description: Enriches a system of 30 word equations by suitable linear constrain
 (assert (<=(* (str.len F) 9) 1539))
 (check-sat)
 
-(exit)
 (get-model)

@@ -51,5 +51,4 @@
 (assert (not (str.contains f3 delim)))
 
 (check-sat)
-(exit)
 (get-model)

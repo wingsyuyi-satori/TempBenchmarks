@@ -47,5 +47,4 @@ Target: SMT solvers supporting extended string splits
 (assert (not (str.contains dp " ")))
 
 (check-sat)
-(exit)
 (get-model)

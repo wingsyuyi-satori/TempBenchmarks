@@ -89,5 +89,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (>= (str.len format_consistency_check) 5))
 
 (check-sat)
-(exit)
 (get-model)

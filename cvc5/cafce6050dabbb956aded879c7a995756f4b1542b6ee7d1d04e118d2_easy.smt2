@@ -21,5 +21,4 @@ Publications: "Scaling Up DPLL(T) String Solvers Using Context-Dependent Simplif
 (assert (= (str.split_at key1 "G" 0) key1))
 (check-sat)
 
-(exit)
 (get-model)

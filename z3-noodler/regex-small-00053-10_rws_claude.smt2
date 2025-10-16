@@ -123,5 +123,4 @@
 (assert (= reconstructed_1 log_entry_1))
 
 (check-sat)
-(exit)
 (get-model)

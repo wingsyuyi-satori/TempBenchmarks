@@ -34,5 +34,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (< num_1_2312 4))
 (check-sat)
 
-(exit)
 (get-model)

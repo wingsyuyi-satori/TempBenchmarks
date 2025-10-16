@@ -52,5 +52,4 @@ Focus: field count, tab/semicolon/pipe delimiters, empty fields, field value con
 (assert (= tsv_field3 ""))
 
 (check-sat)
-(exit)
 (get-model)

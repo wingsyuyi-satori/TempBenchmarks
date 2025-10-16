@@ -51,5 +51,4 @@ Focus: Valid TLDs, minimum segment lengths
 (assert (str.prefixof "user" local)) ; Local part starts with "user"
 
 (check-sat)
-(exit)
 (get-model)

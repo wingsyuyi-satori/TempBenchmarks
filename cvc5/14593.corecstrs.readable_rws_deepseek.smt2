@@ -49,5 +49,4 @@
 (assert (str.contains csv_rest "active"))
 
 (check-sat)
-(exit)
 (get-model)

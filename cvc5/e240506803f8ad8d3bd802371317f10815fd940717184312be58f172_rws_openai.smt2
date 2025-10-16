@@ -76,5 +76,4 @@
 (assert (= (str.len empty_sec_name) 0))
 
 (check-sat)
-(exit)
 (get-model)

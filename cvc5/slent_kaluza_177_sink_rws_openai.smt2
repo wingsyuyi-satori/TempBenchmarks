@@ -95,5 +95,4 @@
 (assert (str.contains bad_key_eq "["))
 
 (check-sat)
-(exit)
 (get-model)

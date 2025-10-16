@@ -158,5 +158,4 @@
 (assert (=> (= segment2_1 "v1") (= segment2_2 "data")))
 
 (check-sat)
-(exit)
 (get-model)

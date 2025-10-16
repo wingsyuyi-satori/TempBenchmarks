@@ -85,5 +85,4 @@
 (assert (not (str.contains config_content (str.++ close_bracket close_bracket))))
 
 (check-sat)
-(exit)
 (get-model)

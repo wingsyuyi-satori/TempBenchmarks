@@ -114,5 +114,4 @@
 (assert (> (str.len api_key) 25))
 
 (check-sat)
-(exit)
 (get-model)

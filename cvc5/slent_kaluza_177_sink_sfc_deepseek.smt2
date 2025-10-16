@@ -78,5 +78,4 @@ A symbolic model checking approach to the analysis of string and length constrai
 ; --- End LLM Generated Constraints ---
 
 (check-sat)
-(exit)
 (get-model)

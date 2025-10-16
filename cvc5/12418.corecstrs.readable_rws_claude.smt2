@@ -112,5 +112,4 @@
 (assert (= timestamp_field "12:34:56"))
 
 (check-sat)
-(exit)
 (get-model)

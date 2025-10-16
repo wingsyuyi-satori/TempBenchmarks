@@ -70,5 +70,4 @@
 (assert (not (str.prefixof "/admin" path)))
 
 (check-sat)
-(exit)
 (get-model)

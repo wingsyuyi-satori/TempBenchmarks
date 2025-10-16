@@ -112,5 +112,4 @@
 (assert (not (str.prefixof colon_delim extracted_value)))
 
 (check-sat)
-(exit)
 (get-model)

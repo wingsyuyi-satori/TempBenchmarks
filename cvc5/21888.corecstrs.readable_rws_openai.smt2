@@ -63,5 +63,4 @@
 (assert (< (str.num_splits (str.split_at (str.split_rest bad_url3 "://" 1) "/" 1) "/") 2))
 
 (check-sat)
-(exit)
 (get-model)

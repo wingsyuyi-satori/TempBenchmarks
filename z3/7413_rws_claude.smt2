@@ -130,5 +130,4 @@
  (>= (str.len auth_string) 10)))
 
 (check-sat)
-(exit)
 (get-model)

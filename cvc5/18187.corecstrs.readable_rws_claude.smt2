@@ -72,5 +72,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (= (str.num_splits last_fields delimiter) 2))
 
 (check-sat)
-(exit)
 (get-model)

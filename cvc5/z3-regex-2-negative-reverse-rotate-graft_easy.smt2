@@ -24,5 +24,4 @@ Description: transformed by StringFuzz, a modular string and regex fuzzer, from 
 (assert (= (str.split_at S "4" 0) "1x9uzpus1"))
 (check-sat)
 
-(exit)
 (get-model)

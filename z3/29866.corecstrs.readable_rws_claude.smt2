@@ -146,5 +146,4 @@
 (assert (str.contains remaining_sections "db]"))
 
 (check-sat)
-(exit)
 (get-model)

@@ -25,5 +25,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Trau
 (assert (= (str.split_at s1 "/" 2) "0x5iff6s"))
 (check-sat)
 
-(exit)
 (get-model)

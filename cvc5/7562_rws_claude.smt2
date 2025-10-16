@@ -156,5 +156,4 @@
 (assert (= (str.num_splits first_line " ") 3))
 
 (check-sat)
-(exit)
 (get-model)

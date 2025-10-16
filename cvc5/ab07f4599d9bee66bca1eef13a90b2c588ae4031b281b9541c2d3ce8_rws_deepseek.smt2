@@ -55,5 +55,4 @@ Focus: Field count, empty fields, and delimiter handling
 (assert (not (str.contains date_field delimiter))) 
 
 (check-sat) 
-(exit)
 (get-model)

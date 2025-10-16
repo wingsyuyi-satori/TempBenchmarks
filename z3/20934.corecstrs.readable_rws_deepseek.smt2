@@ -74,5 +74,4 @@
 (assert (str.contains after_db "[Auth]"))
 
 (check-sat)
-(exit)
 (get-model)

@@ -55,5 +55,4 @@ CSV validation with multiple delimiters and field constraints
 (assert (not (str.contains field4 delimiter)))
 
 (check-sat)
-(exit)
 (get-model)

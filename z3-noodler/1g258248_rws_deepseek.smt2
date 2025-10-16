@@ -72,5 +72,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (str.contains (str.split_rest post_at "." 1) "."))
 
 (check-sat)
-(exit)
 (get-model)

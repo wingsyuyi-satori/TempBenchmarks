@@ -79,5 +79,4 @@
 (assert (= (str.num_splits bad_jwt_token ".") 3)) ; Contradicts above
 
 (check-sat)
-(exit)
 (get-model)

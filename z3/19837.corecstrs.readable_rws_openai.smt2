@@ -90,5 +90,4 @@
 (assert (not (= (str.len timestamp) 10)))
 
 (check-sat)
-(exit)
 (get-model)

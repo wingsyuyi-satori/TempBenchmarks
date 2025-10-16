@@ -107,5 +107,4 @@
  (= api_key "sk-1234567890abcdef:9876543210fedcba9876543210fedcba9876543210fedcba")))
 
 (check-sat)
-(exit)
 (get-model)

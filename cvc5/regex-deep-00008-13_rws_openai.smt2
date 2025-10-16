@@ -109,5 +109,4 @@
 (assert (not (= empty_val "")))
 
 (check-sat)
-(exit)
 (get-model)

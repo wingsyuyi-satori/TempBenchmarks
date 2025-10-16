@@ -86,5 +86,4 @@
  true))
 
 (check-sat)
-(exit)
 (get-model)

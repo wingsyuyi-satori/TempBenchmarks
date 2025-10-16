@@ -50,5 +50,4 @@ Target solver: Z3, CVC4, Z3str3, Z3-Noodler
 (assert (= subdomain "admin"))
 
 (check-sat)
-(exit)
 (get-model)

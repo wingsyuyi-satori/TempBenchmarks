@@ -66,5 +66,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Noodler
 (assert (= total_segments 4))
 
 (check-sat)
-(exit)
 (get-model)

@@ -28,5 +28,4 @@ Publications: "A symbolic execution framework for JavaScript" by P. Saxena, D. A
 (assert (and (>= (str.num_splits var_0xINPUT_469239 "-") 1) (<= (str.num_splits var_0xINPUT_469239 "-") 5)))
 (check-sat)
 
-(exit)
 (get-model)

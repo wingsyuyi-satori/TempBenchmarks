@@ -72,5 +72,4 @@
 (assert (= log_level "ERROR"))
 
 (check-sat)
-(exit)
 (get-model)

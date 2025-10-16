@@ -27,5 +27,4 @@ Description: Enriches a system of 30 word equations by suitable linear constrain
 (assert (= (str.split_at H "4" 1) H))
 (check-sat)
 
-(exit)
 (get-model)

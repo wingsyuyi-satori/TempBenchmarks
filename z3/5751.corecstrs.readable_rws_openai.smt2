@@ -58,5 +58,4 @@
 (assert (not (= value1 "admin")))
 
 (check-sat)
-(exit)
 (get-model)

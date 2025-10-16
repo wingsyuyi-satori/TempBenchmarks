@@ -28,5 +28,4 @@ Target solver: CVC4, Z3, Z3str3, Z3-Trau
 (assert (= (str.split_rest s "_" 2) rest_2_7338))
 (check-sat)
 
-(exit)
 (get-model)

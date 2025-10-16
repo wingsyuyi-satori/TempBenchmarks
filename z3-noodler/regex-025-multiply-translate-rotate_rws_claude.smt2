@@ -127,5 +127,4 @@
 (assert (<= (str.len url) 2048))
 
 (check-sat)
-(exit)
 (get-model)

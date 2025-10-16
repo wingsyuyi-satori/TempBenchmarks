@@ -157,5 +157,4 @@
 (assert (str.contains api_key ":"))
 
 (check-sat)
-(exit)
 (get-model)

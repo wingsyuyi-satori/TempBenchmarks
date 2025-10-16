@@ -45,5 +45,4 @@ Focus: Domain structure and local-part format
 (assert (not (str.contains email ".."))) 
 
 (check-sat) 
-(exit)
 (get-model)

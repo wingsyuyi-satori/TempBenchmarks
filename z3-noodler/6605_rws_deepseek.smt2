@@ -46,5 +46,4 @@
 (assert (<= (str.to_int (str.split_at timestamp ":" 1)) 59))
 
 (check-sat)
-(exit)
 (get-model)

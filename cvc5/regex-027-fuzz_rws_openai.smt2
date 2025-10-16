@@ -70,5 +70,4 @@
 (assert (= (str.split_rest config_line2 ":" 1) ":30"))
 
 (check-sat)
-(exit)
 (get-model)

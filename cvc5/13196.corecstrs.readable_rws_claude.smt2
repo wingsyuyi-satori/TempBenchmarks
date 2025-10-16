@@ -143,5 +143,4 @@
 (assert (>= (str.len path) 1))
 
 (check-sat)
-(exit)
 (get-model)

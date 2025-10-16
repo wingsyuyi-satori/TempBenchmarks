@@ -55,5 +55,4 @@ Description: Enriches a system of 30 word equations by suitable linear constrain
 
 (check-sat)
 
-(exit)
 (get-model)

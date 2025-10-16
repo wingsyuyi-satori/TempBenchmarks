@@ -128,5 +128,4 @@
 (assert (= ini_rest "name=alice\nrole=admin"))
 
 (check-sat)
-(exit)
 (get-model)
